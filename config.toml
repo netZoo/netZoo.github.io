@@ -2,3 +2,16 @@ baseURL = "https://netZoo.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+relativeURLs = true
+preserveTaxonomyNames = true
+enableemoji = true
+
+pygmentsCodefences = true
+pygmentsStyle = "friendly"
+
+[params]
+    mdlversion = "1.3.0"
+    mdltheme = "teal-indigo"
+
+[taxonomies]
+    tag = "tags"
