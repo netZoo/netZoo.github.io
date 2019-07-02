@@ -22,26 +22,26 @@ paginatePath = "page"
 # Enable Disqus integration
 disqusShortname = "enten"
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
+#[permalinks]
+#    post = "/:year/:month/:day/:slug/"
+#    code = "/:slug/"
 
 [taxonomies]
     tag = "tags"
     topic = "topics"
 
-[author]
-    name = "yourname"
-    email = "yourname@example.com"
+#[author]
+    #name = "yourname"
+    #email = "yourname@example.com"
 
 #
 # All parameters below here are optional and can be mixed and matched.
 #
 [params]
     # You can use markdown here.
-    brand = "foobar"
-    topline = "few words about your site"
-    footline = "code with <i class='fa fa-heart'></i>"
+    brand = "netZoo"
+    topline = "Network biology methods repository."
+    #footline = "code with <i class='fa fa-heart'></i>"
 
     # Sidebar position
     # false, true, "left", "right"
