@@ -30,7 +30,7 @@ Each language repository has a master and a devel branch. The master branch cont
       <description>Network biology PANDA: paper (netZooR, netZooPy, netZooM, netZooC)
 LIONESS: paper (netZooR, netZooPy, netZooM)
 CONDOR: paper (netZooR)
-MONSTER: paper
+MONSTER: paper (netZooR)
 ALPACA: paper (netZooR)
 PUMA: (netZooPy, netZooM, netZooC)
 SPIDER: In preparation. (netZooM)
