@@ -9,23 +9,23 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>How to contribute :: The network zoo</title>
+    <title>List :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1562183247" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1562183247" rel="stylesheet">
-    <link href="/css/hybrid.css?1562183247" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1562183247" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1562183247" rel="stylesheet">
-    <link href="/css/auto-complete.css?1562183247" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1562183247" rel="stylesheet">
-    <link href="/css/theme.css?1562183247" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1562183247" rel="stylesheet">
+    <link href="/css/nucleus.css?1562188291" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1562188291" rel="stylesheet">
+    <link href="/css/hybrid.css?1562188291" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1562188291" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1562188291" rel="stylesheet">
+    <link href="/css/auto-complete.css?1562188291" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1562188291" rel="stylesheet">
+    <link href="/css/theme.css?1562188291" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1562188291" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1562183247" rel="stylesheet">
+      <link href="/css/theme-red.css?1562188291" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1562183247"></script>
+    <script src="/js/jquery-3.3.1.min.js?1562188291"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -106,14 +106,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1562183247"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1562183247"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1562188291"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1562188291"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1562183247"></script>
+<script type="text/javascript" src="/js/search.js?1562188291"></script>
 
     
   </div>
@@ -275,9 +275,9 @@
  
   
     
-      <li data-nav-id="/papers/papers/" title="How to contribute" class="dd-item active">
+      <li data-nav-id="/papers/papers/" title="List" class="dd-item active">
         <a href="/papers/papers/">
-        How to contribute
+        List
         
         </a>
     </li>
@@ -416,7 +416,7 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/papers/'>Papers</a> > How to contribute
+            <a href='/'>The network zoo</a> > <a href='/papers/'>Papers</a> > List
           
          
           
@@ -433,7 +433,7 @@
 <ul>
 <li>
 <ul>
-<li><a href="#contribution-guide">Contribution guide</a></li>
+<li><a href="#publications">Publications</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -452,7 +452,7 @@
           
             <h1>
               
-              How to contribute
+              List
             </h1>
           
 
@@ -462,73 +462,13 @@
 
 
 
-<h2 id="contribution-guide">Contribution guide</h2>
+<h2 id="publications">Publications</h2>
 
-<p>The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance
-improvment, and 3) new functions.</p>
+<blockquote>
+<p>Glass, Kimberly, et al. &ldquo;Passing messages between biological networks to refine predicted interactions.&rdquo; PloS one 8.5 (2013): e64832.</p>
 
-<p>Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features
-that gets periodically merged into the master branch. New contributions of type 1) and 2) have to go through automatic tests before being integrated into the package. Contributions of
-type 3) have to be submitted with unit tests.</p>
-
-<p>The contribution model follows the standard fork-branch model on the devel branch. Contributions are submitted as pull requets (PRs).</p>
-
-<ol>
-<li><p>fork the netZoo repo to your github</p></li>
-
-<li><p>clone the forked repo to your computer</p></li>
-
-<li><p>add a new remote typically called &lsquo;upstream&rsquo; that points to the source of netZoo</p>
-
-<p><code>git remote add upstream https://github.com/netZoo/netZoo{R,Py,M,C}.git</code></p></li>
-
-<li><p>switch to the devel branch, because your PR will target the devel branch</p>
-
-<p><code>git checkout devel</code></p></li>
-
-<li><p>create a new branch called new-feature off of the devel branch</p>
-
-<p><code>git checkout -b new-feature</code></p></li>
-
-<li><p>make the changes/additions to netZoo</p></li>
-
-<li><p>add your changess</p>
-
-<p><code>git add .</code></p></li>
-
-<li><p>commit your changes</p>
-
-<p><code>git commit -m 'commit message'</code></p></li>
-
-<li><p>push your PR</p>
-
-<p><code>git push origin new-feature</code></p></li>
-
-<li><p>go the netZoo website <a href="https://github.com/netZoo/netZoo{R">https://github.com/netZoo/netZoo{R</a>, Py, M, C}</p></li>
-
-<li><p>create a pull request through the pop-up</p></li>
-
-<li><p>make sure to change the target to devel branch not the master branch</p></li>
-
-<li><p>the PR will go through automatic tests and it will be accepted by the moderators if it passes the tests</p></li>
-
-<li><p>if the PR does not pass the test, further changes need to be made (step 7-9)</p></li>
-
-<li><p>once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through</p>
-
-<p><code>git checkout devel</code></p>
-
-<p><code>git fetch upstream</code></p>
-
-<p><code>git merge usptream/devel</code></p></li>
-
-<li><p>you can do the same for the master branch to update it .</p></li>
-</ol>
-
-
-<div class="notices tip" ><p>Delete the merged feature branch both locally and remotely.</p>
-</div>
-
+<p>Glass, Kimberly, John Quackenbush, and Jeremy Kepner. &ldquo;High performance computing of gene regulatory networks using a message-passing model.&rdquo; 2015 IEEE High Performance Extreme Computing Conference (HPEC). IEEE, 2015.</p>
+</blockquote>
 
 
 <footer class=" footline" >
@@ -701,20 +641,20 @@ type 3) have to be submitted with unit tests.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1562183247"></script>
-    <script src="/js/perfect-scrollbar.min.js?1562183247"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1562183247"></script>
-    <script src="/js/jquery.sticky.js?1562183247"></script>
-    <script src="/js/featherlight.min.js?1562183247"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1562183247"></script>
-    <script src="/js/highlight.pack.js?1562183247"></script>
+    <script src="/js/clipboard.min.js?1562188291"></script>
+    <script src="/js/perfect-scrollbar.min.js?1562188291"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1562188291"></script>
+    <script src="/js/jquery.sticky.js?1562188291"></script>
+    <script src="/js/featherlight.min.js?1562188291"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1562188291"></script>
+    <script src="/js/highlight.pack.js?1562188291"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1562183247"></script>
-    <script src="/js/learn.js?1562183247"></script>
-    <script src="/js/hugo-learn.js?1562183247"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1562188291"></script>
+    <script src="/js/learn.js?1562188291"></script>
+    <script src="/js/hugo-learn.js?1562188291"></script>
 
-    <link href="/mermaid/mermaid.css?1562183247" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1562183247"></script>
+    <link href="/mermaid/mermaid.css?1562188291" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1562188291"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
