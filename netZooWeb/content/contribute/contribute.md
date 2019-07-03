@@ -1,3 +1,9 @@
+---
+title: "How to contribute"
+date: 2019-07-02T08:50:52-04:00
+draft: false
+---
+
 ## Contribution guide
 
 The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance 
