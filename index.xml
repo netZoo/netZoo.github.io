@@ -22,6 +22,16 @@ Each language repository has a master and a devel branch. The master branch cont
     </item>
     
     <item>
+      <title>How to contribute</title>
+      <link>https://netZoo.github.io/papers/papers/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/papers/papers/</guid>
+      <description>Contribution guide The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance improvment, and 3) new functions.
+Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features that gets periodically merged into the master branch.</description>
+    </item>
+    
+    <item>
       <title>List</title>
       <link>https://netZoo.github.io/zooanimals/animals/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
