@@ -6,9 +6,28 @@
     <description>Recent content in Zoo animals on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
+      <description>Network biology PANDA: paper
+LIONESS: paper
+CONDOR: paper
+MONSTER: paper
+ALPACA: paper
+PUMA
+SPIDER: In preparation.
+RNA processing YARN: paper
+SAMBAR: paper
+FENRIR: In preparation</description>
+    </item>
     
   </channel>
 </rss>

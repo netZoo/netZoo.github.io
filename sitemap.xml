@@ -4,10 +4,32 @@
   
   <url>
     <loc>https://netZoo.github.io/contribute/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://netZoo.github.io/zooanimals/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/contribute/contribute/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/animals/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/contribute/issues/</loc>
+    <lastmod>2019-07-01T08:50:52-04:00</lastmod>
   </url>
   
   <url>
@@ -18,10 +40,6 @@
   <url>
     <loc>https://netZoo.github.io/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://netZoo.github.io/</loc>
   </url>
   
 </urlset>

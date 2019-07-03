@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>The network zoo :: The network zoo</title>
+    <title>How to contribute :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1562171104" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/contribute/contribute/">
     <nav id="sidebar" class="">
 
 
@@ -128,7 +128,7 @@
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item 
-        
+        parent
         
         
         ">
@@ -152,7 +152,7 @@
  
   
     
-      <li data-nav-id="/contribute/contribute/" title="How to contribute" class="dd-item ">
+      <li data-nav-id="/contribute/contribute/" title="How to contribute" class="dd-item active">
         <a href="/contribute/contribute/">
         How to contribute
         
@@ -287,53 +287,148 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to contribute
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#contribution-guide">Contribution guide</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              How to contribute
+            </h1>
+          
 
         
 
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
-
- 
 
 
-<h1 id="the-network-zoo">The network zoo</h1>
 
-<p>netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.</p>
+<h2 id="contribution-guide">Contribution guide</h2>
 
-<h3 id="packages">Packages</h3>
+<p>The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance
+improvment, and 3) new functions.</p>
 
-<p>R: <a href="https://github.com/netZoo/netZooR">netZooR</a></p>
+<p>Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features
+that gets periodically merged into the master branch. New contributions of type 1) and 2) have to go through automatic tests before being integrated into the package. Contributions of
+type 3) have to be submitted with unit tests.</p>
 
-<p>Python: <a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
+<p>The contribution model follows the standard fork-branch model on the devel branch. Contributions are submitted as pull requets (PRs).</p>
 
-<p>MATLAB: <a href="https://github.com/netZoo/netZooM">netZooM</a></p>
+<ol>
+<li><p>fork the netZoo repo to your github</p></li>
 
-<p>C: <a href="https://github.com/netZoo/netZooC">netZooC</a></p>
+<li><p>clone the forked repo to your computer</p></li>
+
+<li><p>add a new remote typically called &lsquo;upstream&rsquo; that points to the source of netZoo</p>
+
+<p><code>git remote add upstream https://github.com/netZoo/netZoo{R,Py,M,C}.git</code></p></li>
+
+<li><p>switch to the devel branch, because your PR will target the devel branch</p>
+
+<p><code>git checkout devel</code></p></li>
+
+<li><p>create a new branch called new-feature off of the devel branch</p>
+
+<p><code>git checkout -b new-feature</code></p></li>
+
+<li><p>make the changes/additions to netZoo</p></li>
+
+<li><p>add your changess</p>
+
+<p><code>git add .</code></p></li>
+
+<li><p>commit your changes</p>
+
+<p><code>git commit -m 'commit message'</code></p></li>
+
+<li><p>push your PR</p>
+
+<p><code>git push origin new-feature</code></p></li>
+
+<li><p>go the netZoo website <a href="https://github.com/netZoo/netZoo{R">https://github.com/netZoo/netZoo{R</a>, Py, M, C}</p></li>
+
+<li><p>create a pull request through the pop-up</p></li>
+
+<li><p>make sure to change the target to devel branch not the master branch</p></li>
+
+<li><p>the PR will go through automatic tests and it will be accepted by the moderators if it passes the tests</p></li>
+
+<li><p>if the PR does not pass the test, further changes need to be made (step 7-9)</p></li>
+
+<li><p>once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through</p>
+
+<p><code>git checkout devel</code></p>
+
+<p><code>git fetch upstream</code></p>
+
+<p><code>git merge usptream/devel</code></p></li>
+
+<li><p>you can do the same for the master branch to update it .</p></li>
+</ol>
 
 
-<div class="notices info" ><p>netZoo{R,Py,M,C} is a community maintained package licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a>.</p>
-</div>
-
-
-<h3 id="live-status">Live status</h3>
-
-<p>R - Under construction</p>
-
-<p>Python - Under construction</p>
-
-<p>MATLAB - <a href="https://travis-ci.com/netZoo/netZooM">build status</a> (<a href="https://travis-ci.com/netZoo/netZooM/jobs/212762427">Ubuntu</a>, <a href="https://travis-ci.com/netZoo/netZooM/jobs/212762428">Macos</a>) - <a href="https://codecov.io/gh/netZoo/netZooM">coverage</a></p>
-
-<p>C - <a href="https://travis-ci.org/netZoo/netZooC">build status</a> (<a href="https://travis-ci.org/netZoo/netZooC/jobs/553452530">Ubuntu</a>, <a href="https://travis-ci.org/netZoo/netZooC/jobs/553452531">Macos</a>) - <a href="https://codecov.io/gh/netZoo/netZooC">coverage</a></p>
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -365,8 +460,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -380,6 +473,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -396,6 +490,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -452,8 +549,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/contribute/" title="Contribution guide"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/contribute/" title="Contribution guide" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/contribute/issues/" title="Getting help" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

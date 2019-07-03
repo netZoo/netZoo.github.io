@@ -14,6 +14,34 @@
 	"content": " Zoo animals A link to the zoo animals and their papers. "
 },
 {
+	"uri": "https://netZoo.github.io/contribute/contribute/",
+	"title": "How to contribute",
+	"tags": [],
+	"description": "",
+	"content": " Contribution guide The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance improvment, and 3) new functions.\nEach language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features that gets periodically merged into the master branch. New contributions of type 1) and 2) have to go through automatic tests before being integrated into the package. Contributions of type 3) have to be submitted with unit tests.\nThe contribution model follows the standard fork-branch model on the devel branch. Contributions are submitted as pull requets (PRs).\n fork the netZoo repo to your github\n clone the forked repo to your computer\n add a new remote typically called \u0026lsquo;upstream\u0026rsquo; that points to the source of netZoo\ngit remote add upstream https://github.com/netZoo/netZoo{R,Py,M,C}.git\n switch to the devel branch, because your PR will target the devel branch\ngit checkout devel\n create a new branch called new-feature off of the devel branch\ngit checkout -b new-feature\n make the changes/additions to netZoo\n add your changess\ngit add .\n commit your changes\ngit commit -m 'commit message'\n push your PR\ngit push origin new-feature\n go the netZoo website https://github.com/netZoo/netZoo{R, Py, M, C}\n create a pull request through the pop-up\n make sure to change the target to devel branch not the master branch\n the PR will go through automatic tests and it will be accepted by the moderators if it passes the tests\n if the PR does not pass the test, further changes need to be made (step 7-9)\n once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through\ngit checkout devel\ngit fetch upstream\ngit merge usptream/devel\n you can do the same for the master branch to update it .\n  "
+},
+{
+	"uri": "https://netZoo.github.io/zooanimals/animals/",
+	"title": "List",
+	"tags": [],
+	"description": "",
+	"content": " Network biology PANDA: paper\nLIONESS: paper\nCONDOR: paper\nMONSTER: paper\nALPACA: paper\nPUMA\nSPIDER: In preparation.\nRNA processing YARN: paper\nSAMBAR: paper\nFENRIR: In preparation\n"
+},
+{
+	"uri": "https://netZoo.github.io/",
+	"title": "The network zoo",
+	"tags": [],
+	"description": "",
+	"content": " The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R: netZooR\nPython: netZooPy\nMATLAB: netZooM\nC: netZooC\nnetZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n Live status R - Under construction\nPython - Under construction\nMATLAB - build status (Ubuntu, Macos) - coverage\nC - build status (Ubuntu, Macos) - coverage\n"
+},
+{
+	"uri": "https://netZoo.github.io/contribute/issues/",
+	"title": "Getting help",
+	"tags": [],
+	"description": "",
+	"content": " Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.\nTutorials Check the tutorials in the github repo for a basic application of the network tools.\n"
+},
+{
 	"uri": "https://netZoo.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
@@ -26,11 +54,4 @@
 	"tags": [],
 	"description": "",
 	"content": ""
-},
-{
-	"uri": "https://netZoo.github.io/",
-	"title": "The network zoo",
-	"tags": [],
-	"description": "",
-	"content": " The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R: netZooR\nPython: netZooPy\nMATLAB: netZooM\nC: netZooC\nnetZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n Live status R - Under construction\nPython - Under construction\nMATLAB - build status (Ubuntu, Macos) - coverage\nC - build status (Ubuntu, Macos) - coverage\n"
 }]
