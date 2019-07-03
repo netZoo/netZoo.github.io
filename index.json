@@ -1,0 +1,36 @@
+[
+{
+	"uri": "https://netZoo.github.io/contribute/",
+	"title": "Contribution guide",
+	"tags": [],
+	"description": "",
+	"content": " Contribution guide Contribute to the netZoo through the fork-branch model. "
+},
+{
+	"uri": "https://netZoo.github.io/zooanimals/",
+	"title": "Zoo animals",
+	"tags": [],
+	"description": "",
+	"content": " Zoo animals A link to the zoo animals and their papers. "
+},
+{
+	"uri": "https://netZoo.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://netZoo.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://netZoo.github.io/",
+	"title": "The network zoo",
+	"tags": [],
+	"description": "",
+	"content": " The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R: netZooR\nPython: netZooPy\nMATLAB: netZooM\nC: netZooC\nnetZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n Live status R - Under construction\nPython - Under construction\nMATLAB - build status (Ubuntu, Macos) - coverage\nC - build status (Ubuntu, Macos) - coverage\n"
+}]
