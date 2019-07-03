@@ -32,7 +32,7 @@ LIONESS: paper (netZooR, netZooPy, netZooM)
 CONDOR: paper (netZooR)
 MONSTER: paper
 ALPACA: paper (netZooR)
-PUMA (netZooPy, netZooM, netZooC)
+PUMA: (netZooPy, netZooM, netZooC)
 SPIDER: In preparation. (netZooM)
 RNA processing YARN: paper
 SAMBAR: paper
