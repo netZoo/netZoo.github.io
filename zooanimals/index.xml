@@ -17,13 +17,13 @@
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/animals/</guid>
-      <description>Network biology PANDA: paper
-LIONESS: paper
-CONDOR: paper
+      <description>Network biology PANDA: paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS: paper (netZooR, netZooPy, netZooM)
+CONDOR: paper (netZooR)
 MONSTER: paper
-ALPACA: paper
-PUMA
-SPIDER: In preparation.
+ALPACA: paper (netZooR)
+PUMA (netZooPy, netZooM, netZooC)
+SPIDER: In preparation. (netZooM)
 RNA processing YARN: paper
 SAMBAR: paper
 FENRIR: In preparation</description>
