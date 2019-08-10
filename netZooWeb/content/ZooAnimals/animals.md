@@ -6,24 +6,24 @@ draft: false
 
 ### Network biology 
 
-PANDA:   [paper](https://www.ncbi.nlm.nih.gov/pubmed/23741402)      (netZooR, netZooPy, netZooM, netZooC)
+PANDA: &nbsp; &nbsp; &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/23741402)      (netZooR, netZooPy, netZooM, netZooC)
 
-LIONESS: [paper](https://www.ncbi.nlm.nih.gov/pubmed/30981959)      (netZooR, netZooPy, netZooM)
+LIONESS: &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/30981959)      (netZooR, netZooPy, netZooM)
 
-CONDOR:  [paper](https://www.ncbi.nlm.nih.gov/pubmed/27618581)      (netZooR)
+CONDOR: &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/27618581)      (netZooR)
 
-MONSTER: [paper](https://www.ncbi.nlm.nih.gov/pubmed/29237467) 
+MONSTER: [paper](https://www.ncbi.nlm.nih.gov/pubmed/29237467)      (netZooR)
 
-ALPACA:  [paper](https://www.nature.com/articles/s41540-018-0052-5) (netZooR)
+ALPACA: &nbsp; &nbsp; [paper](https://www.nature.com/articles/s41540-018-0052-5) (netZooR)
 
-PUMA:                                                               (netZooPy, netZooM, netZooC)
+PUMA: &nbsp; &nbsp; &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/28506242) (netZooPy, netZooM, netZooC)
 
 SPIDER: In preparation.                                             (netZooM)
 
 ### RNA processing
 
-YARN: [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/)
+YARN: &nbsp; &nbsp; &nbsp;[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/)
 
 SAMBAR: [paper](https://www.nature.com/articles/s41416-018-0109-7)
 
-FENRIR: In preparation
+FENRIR: &nbsp; In preparation

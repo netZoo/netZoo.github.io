@@ -64,3 +64,7 @@ The contribution model follows the standard fork-branch model on the devel branc
 	`git merge usptream/devel`
 
 16. you can do the same for the master branch to update it .
+
+{{% notice tip %}}
+Delete the merged feature branch both locally and remotely.
+{{% /notice %}}

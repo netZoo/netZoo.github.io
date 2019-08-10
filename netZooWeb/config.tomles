@@ -33,4 +33,4 @@ weight = 13
 
 [params]
 	description= "Network biology packages"
-	themeVariant = "red"
+	themeVariant = "white"
