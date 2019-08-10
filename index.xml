@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The network zoo</title>
+    <link>https://netZoo.github.io/</link>
+    <description>Recent content on The network zoo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
+    
+	<atom:link href="https://netZoo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to contribute</title>
+      <link>https://netZoo.github.io/contribute/contribute/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/contribute/contribute/</guid>
+      <description>Contribution guide The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance improvment, and 3) new functions.
+Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features that gets periodically merged into the master branch.</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
+      <description>Network biology PANDA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS: &amp;nbsp; paper (netZooR, netZooPy, netZooM)
+CONDOR: &amp;nbsp; paper (netZooR)
+MONSTER: paper (netZooR)
+ALPACA: &amp;nbsp; &amp;nbsp; paper (netZooR)
+PUMA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
+SPIDER: In preparation. (netZooM)
+RNA processing YARN: &amp;nbsp; &amp;nbsp; &amp;nbsp;paper
+SAMBAR: paper
+FENRIR: &amp;nbsp; In preparation</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/papers/papers/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/papers/papers/</guid>
+      <description>Publications  Biomarker development in the precision medicine era: lung cancer as a case study. AJ Vargas and CC Harris.
+ https://www.nature.com/nrc/journal/v16/n8/abs/nrc.2016.56.html.
+ Gene co-expression analysis for functional classification and gene–disease predictions. S van Dam and U Vosa and A van der Graaf….
+ https://academic.oup.com/bib/article-abstract/19/4/575/2888441.
+ Understanding tissue-specific gene regulation. AR Sonawane and J Platig and M Fagny and CY Chen….
+ https://www.sciencedirect.com/science/article/pii/S2211124717314183.
+ A network model for angiogenesis in ovarian cancer.</description>
+    </item>
+    
+    <item>
+      <title>Getting help</title>
+      <link>https://netZoo.github.io/contribute/issues/</link>
+      <pubDate>Mon, 01 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/contribute/issues/</guid>
+      <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
+Tutorials Check the tutorials in the github repo for a basic application of the network tools.
+Contact Drop us an email if you have any other inquiry.</description>
+    </item>
+    
+  </channel>
+</rss>
