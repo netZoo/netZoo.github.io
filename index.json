@@ -21,6 +21,13 @@
 	"content": " Papers A list of publications that develop/reference the netZoo "
 },
 {
+	"uri": "https://netZoo.github.io/docs/",
+	"title": "Docs",
+	"tags": [],
+	"description": "",
+	"content": " Documentation The full documentation and function definitions of the netZoo packages "
+},
+{
 	"uri": "https://netZoo.github.io/contribute/contribute/",
 	"title": "How to contribute",
 	"tags": [],
@@ -33,6 +40,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Network biology PANDA: \u0026nbsp; \u0026nbsp; \u0026nbsp; paper (netZooR, netZooPy, netZooM, netZooC)\nLIONESS: \u0026nbsp; paper (netZooR, netZooPy, netZooM)\nCONDOR: \u0026nbsp; paper (netZooR)\nMONSTER: paper (netZooR)\nALPACA: \u0026nbsp; \u0026nbsp; paper (netZooR)\nPUMA: \u0026nbsp; \u0026nbsp; \u0026nbsp; paper (netZooPy, netZooM, netZooC)\nSAMBAR: \u0026nbsp; \u0026nbsp; paper (netZooR)\nSPIDER: In preparation. (netZooM)\nRNA processing YARN: \u0026nbsp; \u0026nbsp; \u0026nbsp;paper\nFENRIR: \u0026nbsp; In preparation\n"
+},
+{
+	"uri": "https://netZoo.github.io/docs/docs/",
+	"title": "List",
+	"tags": [],
+	"description": "",
+	"content": "netZooR: Under construction.\nnetZooPy: Under construction.\nnetZooM: Under construction.\nnetZooC: Link to the dedicated documentation website.\n"
 },
 {
 	"uri": "https://netZoo.github.io/papers/papers/",
