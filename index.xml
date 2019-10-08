@@ -27,16 +27,26 @@ Each language repository has a master and a devel branch. The master branch cont
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/animals/</guid>
-      <description>Network biology PANDA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
-LIONESS: &amp;nbsp; paper (netZooR, netZooPy, netZooM)
-CONDOR: &amp;nbsp; paper (netZooR)
-MONSTER: paper (netZooR)
-ALPACA: &amp;nbsp; &amp;nbsp; paper (netZooR)
-PUMA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
-SAMBAR: &amp;nbsp; &amp;nbsp; paper (netZooR)
-SPIDER: In preparation. (netZooM)
-RNA processing YARN: &amp;nbsp; &amp;nbsp; &amp;nbsp;paper
-FENRIR: &amp;nbsp; In preparation</description>
+      <description>Network biology PANDA:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM)
+CONDOR:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+MONSTER:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+ALPACA:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+PUMA:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
+SAMBAR:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+SPIDER:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation. (netZooM)
+RNA processing YARN:
+&amp;nbsp; &amp;nbsp; &amp;nbsp;paper
+FENRIR:
+&amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation.</description>
     </item>
     
     <item>
