@@ -57,6 +57,10 @@ https://www.sciencedirect.com/science/article/pii/S2589004219300872.
  
 https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbx167/4758623. 
  
+>Network-based approaches to explore complex biological systems towards network medicine. G Fiscon and F Conte and L Farina and P Paci. 
+ 
+https://www.mdpi.com/2073-4425/9/9/437. 
+ 
 >Integrated genomic and network-based analyses of complex diseases and human disease network. O Al-Harazi and S Al Insaif and MA Al-Ajlan and N Kaya…. 
  
 https://www.sciencedirect.com/science/article/pii/S1673852715002118. 
@@ -117,10 +121,6 @@ https://link.springer.com/chapter/10.1007/978-3-642-45218-5_1.
  
 https://www.sciencedirect.com/science/article/pii/S002228281730370X. 
  
->Network-based approaches to explore complex biological systems towards network medicine. G Fiscon and F Conte and L Farina and P Paci. 
- 
-https://www.mdpi.com/2073-4425/9/9/437. 
- 
 >Diet-induced weight loss leads to a switch in gene regulatory network control in the rectal mucosa. AJ Vargas and J Quackenbush and K Glass. 
  
 https://www.sciencedirect.com/science/article/pii/S0888754316300842. 
@@ -157,6 +157,10 @@ https://link.springer.com/article/10.1007/s12539-016-0185-4.
  
 https://www.biorxiv.org/content/10.1101/142281v1.abstract. 
  
+>Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting. PT Campbell and CB Ambrosone and R Nishihara…. 
+ 
+https://link.springer.com/article/10.1007/s10552-019-01177-z. 
+ 
 >Network Medicine in the age of biomedical big data. AR Sonawane and ST Weiss and K Glass…. 
  
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6470635/. 
@@ -181,10 +185,6 @@ https://dash.harvard.edu/handle/1/33789915.
  
 https://www.biorxiv.org/content/10.1101/584177v1.abstract. 
  
->Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting. PT Campbell and CB Ambrosone and R Nishihara…. 
- 
-https://link.springer.com/article/10.1007/s10552-019-01177-z. 
- 
 >The axis of progression of disease. AM Tartakoff and D Wu. 
  
 https://journals.sagepub.com/doi/abs/10.4137/CIN.S17683. 
@@ -192,10 +192,6 @@ https://journals.sagepub.com/doi/abs/10.4137/CIN.S17683.
 >Prior knowledge driven joint NMF algorithm for ceRNA co-module identification. J Deng and W Kong and S Wang and X Mou…. 
  
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6231218/. 
- 
->The influence of the inclusion of biological knowledge in statistical methods to integrate multi-omics data. C Priami and G Tini and MP Scott-Boyer. 
- 
-https://www.unitn.it/alfresco/download/workspace/SpacesStore/2350c9ba-7ece-4362-be6d-0907fd6184c0/thesis_Giulia_Tini.pdf. 
  
 >Estimating Sample-Specific Regulatory Networks. M Tung. 
  
@@ -209,6 +205,10 @@ https://pubs.rsc.org/en/content/articlehtml/2019/me/c9me00029a.
  
 https://core.ac.uk/download/pdf/28952235.pdf. 
  
+>Leveraging Gene Co-expression Patterns to Infer Trait-Relevant Tissues in Genome-wide Association Studies. L Shang and JA Smith and X Zhou. 
+ 
+https://www.biorxiv.org/content/10.1101/705129v1.abstract. 
+ 
 >POSTDOCTORAL TRAINING. KR Glass. 
  
 http://challenge.21cbt.org/wp-content/uploads/2013/10/CV-Kimberly-Glass.pdf. 
@@ -220,6 +220,10 @@ https://livrepository.liverpool.ac.uk/3006075/1/200780343_Feb2017.pdf.
 >Gene regulatory network construction identified NFYA as a diffuse subtype-specific prognostic factor in gastric cancer. B Cao and Y Zhao and Z Zhang and H Li…. 
  
 https://www.spandidos-publications.com/ijo/53/5/1857. 
+ 
+>A paradigm shift in medicine: A comprehensive review of network-based approaches. F Conte and G Fiscon and V Licursi and D Bizzarri and T D'Antò…. 
+ 
+https://www.sciencedirect.com/science/article/pii/S1874939919302500. 
  
 >Inferring Genetic Regulatory Networks Using Cost-based Abduction and Its Relation to Bayesian Inference. EAT Andrews. 
  
@@ -239,7 +243,7 @@ https://digital-library.theiet.org/content/journals/10.1049/iet-syb.2017.0013.
  
 >Transcriptomics and Network Medicine. J Quackenbush and K Glass. 
  
-https://books.google.com/books?hl=en&lr=&id=UQOHDwAAQBAJ&oi=fnd&pg=PA177&ots=UTk5qNTeLy&sig=TliSoqttnzw0qnnAgsypykfrBxw. 
+https://books.google.com/books?hl=en&lr=&id=UQOHDwAAQBAJ&oi=fnd&pg=PA177&ots=UTl2pRXdJw&sig=kHbcTVtQdVMDz8jdC766IvBBvQg. 
  
 >Personalized characterization of diseases using sample-specific networks. X Liu and Y Wang and H Ji and K Aihara and L Chen. 
  
@@ -273,6 +277,10 @@ https://www.sciencedirect.com/science/article/pii/S1044579X17302365.
  
 https://academic.oup.com/bioinformatics/article-abstract/34/13/i178/5045771. 
  
+>EndNote: Feature-based classification of networks. I Barnett and N Malik and ML Kuijjer and PJ Mucha…. 
+ 
+https://www.cambridge.org/core/journals/network-science/article/endnote-featurebased-classification-of-networks/FF4E5E377864EF56DF470F0DE117DDFB. 
+ 
 >Active modules identification in multilayer intracellular networks. D Li. 
  
 http://etheses.bham.ac.uk/id/eprint/8036/. 
@@ -281,17 +289,21 @@ http://etheses.bham.ac.uk/id/eprint/8036/.
  
 https://www.biorxiv.org/content/10.1101/582098v1.abstract. 
  
+>Microbiome-Transcriptome Interactions Related to Severity of Respiratory Syncytial Virus Infection. AR Sonawane and L Tian and CY Chu and X Qiu and L Wang…. 
+ 
+https://www.nature.com/articles/s41598-019-50217-w. 
+ 
 >Exploring regulation in tissues with eQTL networks. M Fagny and JN Paulson and ML Kuijjer…. 
  
 https://www.pnas.org/content/114/37/E7841.short. 
  
->The genome sequence and transcriptome of Potentilla micrantha and their comparison to Fragaria vesca (the woodland strawberry). M Buti and M Moretto and E Barghini and F Mascagni…. 
- 
-https://academic.oup.com/gigascience/article-abstract/7/4/giy010/4860432. 
- 
 >Bipartite graphs in systems biology and medicine: a survey of methods and applications. GA Pavlopoulos and PI Kontou and A Pavlopoulou…. 
  
 https://academic.oup.com/gigascience/article-abstract/7/4/giy014/4875933. 
+ 
+>The genome sequence and transcriptome of Potentilla micrantha and their comparison to Fragaria vesca (the woodland strawberry). M Buti and M Moretto and E Barghini and F Mascagni…. 
+ 
+https://academic.oup.com/gigascience/article-abstract/7/4/giy010/4860432. 
  
 >The continuous configuration model: A null for community detection on weighted networks. J Palowitch and S Bhamidi…. 
  
@@ -317,6 +329,10 @@ https://www.nature.com/articles/s41540-018-0052-5.
  
 https://www.biorxiv.org/content/10.1101/142281v1.abstract. 
  
+>Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting. PT Campbell and CB Ambrosone and R Nishihara…. 
+ 
+https://link.springer.com/article/10.1007/s10552-019-01177-z. 
+ 
 >Network science in clinical trials: A patient-centered approach. VSK Manem and R Salgado and P Aftimos and C Sotiriou…. 
  
 https://www.sciencedirect.com/science/article/pii/S1044579X17302365. 
@@ -341,10 +357,6 @@ https://www.biorxiv.org/content/10.1101/651950v1.abstract.
  
 https://www.biorxiv.org/content/10.1101/584177v1.abstract. 
  
->Proceedings of the fourth international molecular pathological epidemiology (MPE) meeting. PT Campbell and CB Ambrosone and R Nishihara…. 
- 
-https://link.springer.com/article/10.1007/s10552-019-01177-z. 
- 
 >An Integrative Systems Bioinformatics Approach of the Environmental, Genetic and Molecular Factors Regulating Sleep. M Jan. 
  
 https://serval.unil.ch/resource/serval:BIB_F83443750AF0.P001/REF.pdf. 
@@ -357,6 +369,10 @@ https://www.biorxiv.org/content/10.1101/507236v1.abstract.
  
 http://search.proquest.com/openview/c720b4780cfb57057d75bb421eda3967/1?pq-origsite=gscholar&cbl=18750&diss=y. 
  
+>Bipartite Network Community Detection: Algorithms and Applications. PG Pesántez Cabrera. 
+ 
+https://research.wsulibs.wsu.edu/xmlui/handle/2376/16377. 
+ 
 >Testing-Based Community Detection Methods for Complex Networks. JJ Palowitch. 
  
 http://search.proquest.com/openview/dfaffccfcb23652458e2bfd18552a837/1?pq-origsite=gscholar&cbl=18750&diss=y. 
@@ -364,6 +380,10 @@ http://search.proquest.com/openview/dfaffccfcb23652458e2bfd18552a837/1?pq-origsi
 >Connectivity of variants in eQTL networks dictates reproducibility and functionality. S Gaynor and M Fagny and X Lin and J Platig and J Quackenbush. 
  
 https://www.biorxiv.org/content/10.1101/515551v1.abstract. 
+ 
+>A paradigm shift in medicine: A comprehensive review of network-based approaches. F Conte and G Fiscon and V Licursi and D Bizzarri and T D'Antò…. 
+ 
+https://www.sciencedirect.com/science/article/pii/S1874939919302500. 
  
 >Towards Reliable Gene Regulatory Network Inference. D Morgan. 
  

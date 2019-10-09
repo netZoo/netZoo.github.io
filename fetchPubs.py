@@ -23,7 +23,11 @@ print(pub)
 pubs = "--- \ntitle: \"List\" \ndate: 2019-07-02T08:50:52-04:00 \ndraft: false \n--- \n## Publications \n \n"
 
 for citation in pub.get_citedby():
-	pubs = pubs + '>'+citation.bib['title']+'. '+citation.bib['author']+'. \n \n'+citation.bib['url'] + '. \n \n'
+        print(citation.bib['title'])
+        try:
+                pubs = pubs + '>'+citation.bib['title']+'. '+citation.bib['author']+'. \n \n'+citation.bib['url'] + '. \n \n'
+        except:
+                print("Paper has no url")
 
 time.sleep(30)
 ## 2. LIONESS

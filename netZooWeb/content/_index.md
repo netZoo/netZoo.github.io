@@ -24,7 +24,7 @@ netZoo{R,Py,M,C} is a community maintained package licensed under [GPL-3.0](http
 
 R &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](https://travis-ci.com/netZoo/netZooR) ([Ubuntu](https://travis-ci.com/netZoo/netZooR/jobs/217012123), [Macos](https://travis-ci.com/netZoo/netZooR/jobs/217012122)) - [coverage](https://codecov.io/gh/netZoo/netZooR)
 
-Python &nbsp; - Under construction
+Python &nbsp; - [build status](https://travis-ci.com/netZoo/netZooPy) ([Ubuntu](https://travis-ci.com/netZoo/netZooPy/jobs/243634874)) - [coverage](https://codecov.io/gh/netZoo/netZooPy)
 
 MATLAB - [build status](https://travis-ci.com/netZoo/netZooM) ([Ubuntu](https://travis-ci.com/netZoo/netZooM/jobs/212762427), [Macos](https://travis-ci.com/netZoo/netZooM/jobs/212762428)) - [coverage](https://codecov.io/gh/netZoo/netZooM)
 
