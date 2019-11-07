@@ -29,6 +29,9 @@ Each language repository has a master and a devel branch. The master branch cont
       <guid>https://netZoo.github.io/contribute/issues/</guid>
       <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
 Tutorials Check the tutorials in the github repo for a basic application of the network tools.
+netZooPy: Jupyter Notebook Tutorials.
+netZooM: LiveScript Tutorials.
+netZooR: R markdown Tutorials.
 Contact Drop us an email if you have any other inquiry.</description>
     </item>
     
