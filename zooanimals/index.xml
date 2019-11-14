@@ -22,7 +22,7 @@
 LIONESS:
 &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM)
 CONDOR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
 MONSTER:
 &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
 ALPACA:
@@ -30,13 +30,12 @@ ALPACA:
 PUMA:
 &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
 SAMBAR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
 SPIDER:
 &amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation. (netZooM)
 RNA processing YARN:
 &amp;nbsp; &amp;nbsp; &amp;nbsp;paper - repo
-FENRIR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation - repo</description>
+FENRIR:</description>
     </item>
     
   </channel>
