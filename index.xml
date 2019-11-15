@@ -22,6 +22,18 @@ Each language repository has a master and a devel branch. The master branch cont
     </item>
     
     <item>
+      <title>How to install</title>
+      <link>https://netZoo.github.io/contribute/install/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/contribute/install/</guid>
+      <description>Installation guide To install netZoo, all you have to do is git clone https://github.com/netZoo/netZoo{R,Py,M,C}.git then to get the latest changes in your repository you need to git pull origin master.
+You can work on the devel branch by git checkout devel. To update the devel branch type git pull origin devel.
+Please refer to the specific installation guide for each package.
+Quick developer guide If you are a developer, you will need to clone to your own fork to be able to create pull requests to netZoo.</description>
+    </item>
+    
+    <item>
       <title>List</title>
       <link>https://netZoo.github.io/zooanimals/animals/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>

@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Categories :: The network zoo</title>
+    <title>How to install :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1573837073" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/categories/">
+  <body class="" data-url="/contribute/install/">
     <nav id="sidebar" class="">
 
 
@@ -9989,7 +9989,7 @@
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item 
-        
+        parent
         
         
         ">
@@ -10032,7 +10032,7 @@
  
   
     
-      <li data-nav-id="/contribute/install/" title="How to install" class="dd-item ">
+      <li data-nav-id="/contribute/install/" title="How to install" class="dd-item active">
         <a href="/contribute/install/">
         How to install
         
@@ -10337,7 +10337,19 @@
                     
           
           
-            Categories
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to install
+          
+         
+          
+         
           
         
                  
@@ -10346,7 +10358,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#installation-guide">Installation guide</a></li>
+<li><a href="#quick-developer-guide">Quick developer guide</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -10362,7 +10385,7 @@
           
             <h1>
               
-              Categories
+              How to install
             </h1>
           
 
@@ -10372,15 +10395,32 @@
 
 
 
+<h3 id="installation-guide">Installation guide</h3>
 
-<ul>
-	
-</ul>
+<p>To install netZoo, all you have to do is <code>git clone https://github.com/netZoo/netZoo{R,Py,M,C}.git</code> then to get the latest changes in your repository you need to <code>git pull origin master</code>.</p>
+
+<p>You can work on the devel branch by <code>git checkout devel</code>. To update the devel branch type <code>git pull origin devel</code>.</p>
+
+<p>Please refer to the specific installation guide for each package.</p>
+
+<h3 id="quick-developer-guide">Quick developer guide</h3>
+
+<p>If you are a developer, you will need to clone to your own fork to be able to create pull requests to netZoo. please refer to the <a href="contribution guide">contribute.md</a>.</p>
+
+<p>Make sure to have the latest changes in your local repo through <code>git fetch upstream</code> then <code>git merge upstream/master</code>.</p>
+
+<p>To update the devel branch <code>git checkout devel</code> and <code>git fetch upstream</code> and <code>git merge upstream/devel</code>.</p>
+
+
+<div class="notices tip" ><p>Make sure to update your repository before creating a pull request or creating an issue.</p>
+</div>
+
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -10413,8 +10453,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -10428,6 +10466,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -10445,6 +10486,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -10460,6 +10502,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -10580,8 +10625,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/contribute/contribute/" title="How to contribute"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/contribute/" title="Contribution guide" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/contribute/issues/" title="Getting help" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10612,3 +10659,4 @@
 
   </body>
 </html>
+
