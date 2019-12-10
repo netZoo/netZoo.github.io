@@ -67,7 +67,7 @@
 	"title": "The network zoo",
 	"tags": [],
 	"description": "",
-	"content": " The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R: \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;  netZooR  Python: \u0026nbsp; \u0026nbsp;  netZooPy  MATLAB: \u0026nbsp;  netZooM  C: \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;  netZooC  netZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n Live status R \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; - Macos) - coverage\nPython \u0026nbsp; - build status (Ubuntu) - coverage\nMATLAB - build status (Ubuntu, Macos) - coverage\nC \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; - build status (Ubuntu, Macos) - coverage\n"
+	"content": " The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R: \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;  netZooR  Python: \u0026nbsp; \u0026nbsp;  netZooPy  MATLAB: \u0026nbsp;  netZooM  C: \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;  netZooC  netZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n Live status R \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; - build status (Macos) - coverage\nPython \u0026nbsp; - build status (Ubuntu) - coverage\nMATLAB - build status (Ubuntu, Macos) - coverage\nC \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; - build status (Ubuntu, Macos) - coverage\n"
 },
 {
 	"uri": "https://netZoo.github.io/contribute/issues/",
