@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The network zoo</title>
@@ -34,45 +34,18 @@ In Python, an additional step is required to install netZooPy through pip3 insta
     
     <item>
       <title>List</title>
-      <link>https://netZoo.github.io/zooanimals/animals/</link>
-      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
-      <description>Network biology PANDA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
-LIONESS:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM)
-CONDOR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
-MONSTER:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
-ALPACA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
-PUMA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
-SAMBAR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
-SPIDER:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation. (netZooM)
-Sequence analysis YARN:
-&amp;nbsp; &amp;nbsp; &amp;nbsp;paper - repo
-FENRIR:</description>
-    </item>
-    
-    <item>
-      <title>List</title>
       <link>https://netZoo.github.io/docs/docs/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/docs/docs/</guid>
       <description>netZooR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooPy:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooM:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooC:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.</description>
+ Link to the dedicated documentation website.</description>
     </item>
     
     <item>
@@ -88,6 +61,34 @@ netZooC:
  Understanding tissue-specific gene regulation. AR Sonawane and J Platig and M Fagny and CY Chen….
  https://www.sciencedirect.com/science/article/pii/S2211124717314183.
  A network model for angiogenesis in ovarian cancer.</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
+      <description>Network biology PANDA:
+ paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS:
+ paper (netZooR, netZooPy, netZooM)
+CONDOR:
+ paper (netZooR, netZooPy)
+MONSTER:
+ paper (netZooR)
+ALPACA:
+ paper (netZooR)
+PUMA:
+ paper (netZooPy, netZooM, netZooC)
+SAMBAR:
+ paper (netZooR, netZooPy)
+SPIDER:
+ In preparation. (netZooM)
+Sequence analysis YARN:
+ paper - repo
+FENRIR:
+ In preparation - repo</description>
     </item>
     
     <item>

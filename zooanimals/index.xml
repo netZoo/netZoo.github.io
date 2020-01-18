@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zoo animals on The network zoo</title>
@@ -18,24 +18,25 @@
       
       <guid>https://netZoo.github.io/zooanimals/animals/</guid>
       <description>Network biology PANDA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
+ paper (netZooR, netZooPy, netZooM, netZooC)
 LIONESS:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM)
+ paper (netZooR, netZooPy, netZooM)
 CONDOR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
+ paper (netZooR, netZooPy)
 MONSTER:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+ paper (netZooR)
 ALPACA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR)
+ paper (netZooR)
 PUMA:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
+ paper (netZooPy, netZooM, netZooC)
 SAMBAR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy)
+ paper (netZooR, netZooPy)
 SPIDER:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; In preparation. (netZooM)
+ In preparation. (netZooM)
 Sequence analysis YARN:
-&amp;nbsp; &amp;nbsp; &amp;nbsp;paper - repo
-FENRIR:</description>
+ paper - repo
+FENRIR:
+ In preparation - repo</description>
     </item>
     
   </channel>

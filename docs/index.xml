@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on The network zoo</title>
@@ -18,13 +18,13 @@
       
       <guid>https://netZoo.github.io/docs/docs/</guid>
       <description>netZooR:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooPy:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooM:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.
+ Link to the dedicated documentation website.
 netZooC:
-&amp;nbsp; &amp;nbsp; &amp;nbsp; Link to the dedicated documentation website.</description>
+ Link to the dedicated documentation website.</description>
     </item>
     
   </channel>
