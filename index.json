@@ -60,7 +60,7 @@
 	"title": "List",
 	"tags": [],
 	"description": "",
-	"content": "Network biology PANDA:\n paper (netZooR, netZooPy, netZooM, netZooC)\nLIONESS:\n paper (netZooR, netZooPy, netZooM)\nCONDOR:\n paper (netZooR, netZooPy)\nMONSTER:\n paper (netZooR)\nALPACA:\n paper (netZooR)\nPUMA:\n paper (netZooPy, netZooM, netZooC)\nSAMBAR:\n paper (netZooR, netZooPy)\nSPIDER:\n In preparation. (netZooM)\nSequence analysis YARN:\n paper - repo\nFENRIR:\n In preparation - repo\n"
+	"content": "Network biology PANDA:\n paper (netZooR, netZooPy, netZooM, netZooC)\nLIONESS:\n paper (netZooR, netZooPy, netZooM)\nCONDOR:\n paper (netZooR, netZooPy)\nMONSTER:\n paper (netZooR)\nALPACA:\n paper (netZooR)\nPUMA:\n paper (netZooPy, netZooM, netZooC)\nSAMBAR:\n paper (netZooR, netZooPy)\nSPIDER:\n In preparation. (netZooM)\nOTTER:\n In preparation. (netZooR, netZooPy, netZooM)\nSequence analysis YARN:\n paper - repo\nFENRIR:\n In preparation - repo\n"
 },
 {
 	"uri": "https://netZoo.github.io/",
