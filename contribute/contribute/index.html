@@ -12,20 +12,20 @@
     <title>How to contribute :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1593214111" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1593214111" rel="stylesheet">
-    <link href="/css/hybrid.css?1593214111" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1593214111" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1593214111" rel="stylesheet">
-    <link href="/css/auto-complete.css?1593214111" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1593214111" rel="stylesheet">
-    <link href="/css/theme.css?1593214111" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1593214111" rel="stylesheet">
+    <link href="/css/nucleus.css?1593278823" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1593278823" rel="stylesheet">
+    <link href="/css/hybrid.css?1593278823" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1593278823" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1593278823" rel="stylesheet">
+    <link href="/css/auto-complete.css?1593278823" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1593278823" rel="stylesheet">
+    <link href="/css/theme.css?1593278823" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1593278823" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1593214111" rel="stylesheet">
+      <link href="/css/theme-red.css?1593278823" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1593214111"></script>
+    <script src="/js/jquery-3.3.1.min.js?1593278823"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -9965,14 +9965,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1593214111"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1593214111"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1593278823"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1593278823"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1593214111"></script>
+<script type="text/javascript" src="/js/search.js?1593278823"></script>
 
     
   </div>
@@ -10360,7 +10360,12 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#contribution-guide">Contribution guide</a></li>
+    <li><a href="#contribution-guide">Contribution guide</a>
+      <ul>
+        <li><a href="#preparing-the-contribution">Preparing the contribution</a></li>
+        <li><a href="#pull-requests-to-netzoo">Pull requests to netZoo</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -10392,6 +10397,25 @@ improvment, and 3) new functions.</p>
 <p>Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features
 that gets periodically merged into the master branch. New contributions of type 1) and 2) have to go through automatic tests before being integrated into the package. Contributions of
 type 3) have to be submitted with unit tests and tutorials to explain how the new function works.</p>
+<h3 id="preparing-the-contribution">Preparing the contribution</h3>
+<p>To increase the chances of including a contribution to netZoo, please follow the instructions below.</p>
+<h4 id="new-functions">New functions</h4>
+<p>New functions have to include a header that will server as documentation. Headers include a general description, description of inputs, ouputs, any notes, the authors list, the date, and
+a reference to the publication. Please follow this <a href="https://github.com/netZoo/netZooM/blob/master/netZooM/panda/panda_run.m">example</a>.</p>
+<p>To add a unit test, please include all the edge cases and the expected behavior of the function and ground truth dataset to test against. The tests should run ideally on several small examples to test several edge cases in a limited
+runtime. If a function is submitted in more than one language or if the function is a new implementation of a function that already exists in another language, there should be only one ground truth
+dataset across platform. This will ensure that the behavior of the function is the same across platforms. For example, if you're contirbuting a MATLAB implementation of PANDA, and there is an R implementation
+of PANDA, you should use the ground truth from netZooR for your test. Please check the <a href="https://github.com/netZoo/netZooPy/tree/master/tests">tests</a> folder of each repo for examples.</p>
+
+<div class="notices tip" ><p>Please update your repo and make sure the tests pass locally before creating a PR. In R, please refer to the netZooR <a href="https://github.com/netZoo/netZooR#contribution-and-development">contribution guide</a>.
+In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, you can run the tests in the <a href="https://github.com/netZoo/netZooM/tree/master/tests">tests</a> folder manually.</p>
+</div>
+
+<h4 id="bug-fixes">Bug fixes</h4>
+<p>To fix a bug in a function, please create a new pull request with a description of the fix, and a new ground truth dataset if this relevant for the unit test.</p>
+<h4 id="performance-imporvment">Performance imporvment</h4>
+<p>To improve the speed/memory usage of a function, please create a new pull request with a description of the addition and its impact on memory/speed.</p>
+<h3 id="pull-requests-to-netzoo">Pull requests to netZoo</h3>
 <p>The contribution model follows the standard fork-branch model on the devel branch. Contributions are submitted as pull requests (PRs).</p>
 <ol>
 <li>
@@ -10680,20 +10704,20 @@ type 3) have to be submitted with unit tests and tutorials to explain how the ne
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1593214111"></script>
-    <script src="/js/perfect-scrollbar.min.js?1593214111"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1593214111"></script>
-    <script src="/js/jquery.sticky.js?1593214111"></script>
-    <script src="/js/featherlight.min.js?1593214111"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1593214111"></script>
-    <script src="/js/highlight.pack.js?1593214111"></script>
+    <script src="/js/clipboard.min.js?1593278823"></script>
+    <script src="/js/perfect-scrollbar.min.js?1593278823"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1593278823"></script>
+    <script src="/js/jquery.sticky.js?1593278823"></script>
+    <script src="/js/featherlight.min.js?1593278823"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1593278823"></script>
+    <script src="/js/highlight.pack.js?1593278823"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1593214111"></script>
-    <script src="/js/learn.js?1593214111"></script>
-    <script src="/js/hugo-learn.js?1593214111"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1593278823"></script>
+    <script src="/js/learn.js?1593278823"></script>
+    <script src="/js/hugo-learn.js?1593278823"></script>
 
-    <link href="/mermaid/mermaid.css?1593214111" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1593214111"></script>
+    <link href="/mermaid/mermaid.css?1593278823" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1593278823"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
