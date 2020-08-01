@@ -6,10 +6,20 @@
     <description>Recent content on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/lioness/</link>
+      <pubDate>Fri, 02 Aug 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
+      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
+Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
+    </item>
     
     <item>
       <title>How to contribute</title>
@@ -30,16 +40,6 @@ Each language repository has a master and a devel branch. The master branch cont
       <description>Installation guide To install netZoo{Py, M, C}, all you have to do is git clone https://github.com/netZoo/netZoo{Py,M,C}.git then to get the latest changes in your repository you need to git pull origin master.
 You can work on the devel branch by git checkout devel. To update the devel branch type git pull origin devel.
 In Python, an additional step is required to install netZooPy through pip3 install -e . in the either the root of devel or master branch and after each change to the source code.</description>
-    </item>
-    
-    <item>
-      <title>LIONESS</title>
-      <link>https://netZoo.github.io/zooanimals/lioness/</link>
-      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
-      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
-Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
     </item>
     
     <item>
