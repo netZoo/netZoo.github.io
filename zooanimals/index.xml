@@ -118,7 +118,7 @@ Abstract Conventional methods to analyze genomic data do not make use of the int
       
       <guid>https://netZoo.github.io/zooanimals/otter/</guid>
       <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching. link.
- Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
+Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
     </item>
     
   </channel>
