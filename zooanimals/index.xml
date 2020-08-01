@@ -6,20 +6,10 @@
     <description>Recent content in Zoo animals on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Aug 2019 08:50:52 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>LIONESS</title>
-      <link>https://netZoo.github.io/zooanimals/lioness/</link>
-      <pubDate>Fri, 02 Aug 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
-      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
-Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
-    </item>
     
     <item>
       <title>List</title>
@@ -59,6 +49,16 @@ FENRIR:
       <guid>https://netZoo.github.io/zooanimals/panda/</guid>
       <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions. link.
 Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/lioness/</link>
+      <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
+      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
+Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
     </item>
     
   </channel>

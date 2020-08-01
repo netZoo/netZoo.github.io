@@ -28,20 +28,6 @@
 	"content": "Documentation The full documentation and function definitions of the netZoo packages "
 },
 {
-	"uri": "https://netZoo.github.io/zooanimals/lioness/",
-	"title": "LIONESS",
-	"tags": [],
-	"description": "",
-	"content": "Reference Estimating Sample-Specific Regulatory Networks. link.\nAbstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks. We demonstrate our approach in several contexts, including simulated, yeast microarray, and human lymphoblastoid cell line RNA sequencing data. We use these sample-specific networks to study changes in network topology across time and to characterize shifts in gene regulation that were not apparent in the expression data. We believe that generating sample-specific networks will greatly facilitate the application of network methods to large, complex, and heterogeneous multi-omic datasets, supporting the emerging field of precision network medicine.\nImplementation netZooR, netZooPy, netZooM\n"
-},
-{
-	"uri": "https://netZoo.github.io/",
-	"title": "The network zoo",
-	"tags": [],
-	"description": "",
-	"content": "The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R:  netZooR  Python:  netZooPy  MATLAB:  netZooM  C:  netZooC  Following the update of python-igraph package from 0.7.1.post6 to newer versions, the assignemnt of communities in condor as implemented in netZooPy has changed. netZooPy \u0026gt;= 0.7.2 imports newer versions of python-igraph \u0026gt; 0.7.1.post6, therefore the results of condor in netZooPy \u0026lt; 0.7.2 and netZooPy \u0026gt;= 0.7.2 could be different.\n Starting from netZooM 0.4.1, netZooPy 0.5.1, and netZooR 0.6.1 (which includes pandaR 1.19.4), the default data processing step in PANDA has changed. Data processing was modified in all platforms to give the same output as PANDA in netZooC, which adds rows of zeros if a gene/TF is missing in at least one prior (expression, motif, ppi). The previous behavior can be accessed through the \u0026lsquo;legacy\u0026rsquo; option in the variable mode. The option \u0026lsquo;intersection\u0026rsquo; of the variable mode removes missing TFs/genes if they are absent from at least one prior.\n Live status Continuous integration is enabled for netZoo using Travis and ZooKeeper.\nR - build status (Ubuntu) - coverage\nPython - build status (Ubuntu, Macos) - coverage\nMATLAB - build status (Ubuntu, Macos) - coverage\nC - build status (Ubuntu, Macos) - coverage\nnetZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n "
-},
-{
 	"uri": "https://netZoo.github.io/contribute/contribute/",
 	"title": "How to contribute",
 	"tags": [],
@@ -84,11 +70,25 @@
 	"content": "Reference Passing Messages between Biological Networks to Refine Predicted Interactions. link.\nAbstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model. The resulting networks were not only more accurate than those produced using individual data sets and other existing methods, but they also captured information regarding specific biological mechanisms and pathways that were missed using other methodologies. PANDA is scalable to higher eukaryotes, applicable to specific tissue or cell type data and conceptually generalizable to include a variety of regulatory, interaction, expression, and other genome-scale data. An implementation of the PANDA algorithm is available at www.sourceforge.net/projects/panda-net.\nImplementation netZooR, netZooPy, netZooM, netZooC\n"
 },
 {
+	"uri": "https://netZoo.github.io/",
+	"title": "The network zoo",
+	"tags": [],
+	"description": "",
+	"content": "The network zoo netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.\nPackages R:  netZooR  Python:  netZooPy  MATLAB:  netZooM  C:  netZooC  Following the update of python-igraph package from 0.7.1.post6 to newer versions, the assignemnt of communities in condor as implemented in netZooPy has changed. netZooPy \u0026gt;= 0.7.2 imports newer versions of python-igraph \u0026gt; 0.7.1.post6, therefore the results of condor in netZooPy \u0026lt; 0.7.2 and netZooPy \u0026gt;= 0.7.2 could be different.\n Starting from netZooM 0.4.1, netZooPy 0.5.1, and netZooR 0.6.1 (which includes pandaR 1.19.4), the default data processing step in PANDA has changed. Data processing was modified in all platforms to give the same output as PANDA in netZooC, which adds rows of zeros if a gene/TF is missing in at least one prior (expression, motif, ppi). The previous behavior can be accessed through the \u0026lsquo;legacy\u0026rsquo; option in the variable mode. The option \u0026lsquo;intersection\u0026rsquo; of the variable mode removes missing TFs/genes if they are absent from at least one prior.\n Live status Continuous integration is enabled for netZoo using Travis and ZooKeeper.\nR - build status (Ubuntu) - coverage\nPython - build status (Ubuntu, Macos) - coverage\nMATLAB - build status (Ubuntu, Macos) - coverage\nC - build status (Ubuntu, Macos) - coverage\nnetZoo{R,Py,M,C} is a community maintained package licensed under GPL-3.0.\n "
+},
+{
 	"uri": "https://netZoo.github.io/contribute/issues/",
 	"title": "Getting help",
 	"tags": [],
 	"description": "",
 	"content": "Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.\nTutorials Check the tutorials in the github repo for a basic application of the network tools.\nnetZooPy: Jupyter Notebook Tutorials.\nnetZooM: LiveScript Tutorials.\nnetZooR: R markdown Tutorials.\nContact Drop us an email if you have any other inquiry.\n"
+},
+{
+	"uri": "https://netZoo.github.io/zooanimals/lioness/",
+	"title": "LIONESS",
+	"tags": [],
+	"description": "",
+	"content": "Reference Estimating Sample-Specific Regulatory Networks. link.\nAbstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks. We demonstrate our approach in several contexts, including simulated, yeast microarray, and human lymphoblastoid cell line RNA sequencing data. We use these sample-specific networks to study changes in network topology across time and to characterize shifts in gene regulation that were not apparent in the expression data. We believe that generating sample-specific networks will greatly facilitate the application of network methods to large, complex, and heterogeneous multi-omic datasets, supporting the emerging field of precision network medicine.\nImplementation netZooR, netZooPy, netZooM\n"
 },
 {
 	"uri": "https://netZoo.github.io/categories/",
