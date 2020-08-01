@@ -127,5 +127,65 @@ Contact Drop us an email if you have any other inquiry.</description>
 Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
     </item>
     
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/condor/</link>
+      <pubDate>Thu, 02 May 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/condor/</guid>
+      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
+Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states. Here we present CONDOR, a method that represents both cis- and trans-acting SNPs and the genes with which they are associated as a bipartite graph and then uses the modular structure of that graph to place SNPs into a functional context.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/monster/</link>
+      <pubDate>Tue, 02 Apr 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/monster/</guid>
+      <description>Reference Estimating drivers of cell state transitions using gene regulatory network models. link.
+Abstract Background: Specific cellular states are often associated with distinct gene expression patterns. These states are plastic, changing during development, or in the transition from health to disease. One relatively simple extension of this concept is to recognize that we can classify different cell-types by their active gene regulatory networks and that, consequently, transitions between cellular states can be modeled by changes in these underlying regulatory networks.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/alpaca/</link>
+      <pubDate>Sat, 02 Mar 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/alpaca/</guid>
+      <description>Reference Detecting phenotype-driven transitions in regulatory network structure. link.
+Abstract Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/puma/</link>
+      <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/puma/</guid>
+      <description>Reference PUMA: PANDA Using MicroRNA Associations. link.
+Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/sambar/</link>
+      <pubDate>Wed, 02 Jan 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
+      <description>Reference Cancer subtype identification using somatic mutation data. link.
+Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/otter/</link>
+      <pubDate>Fri, 02 Nov 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/otter/</guid>
+      <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching. link.
+Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
+    </item>
+    
   </channel>
 </rss>
