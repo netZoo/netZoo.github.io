@@ -63,6 +63,13 @@
 	"content": "Network biology PANDA:\n paper (netZooR, netZooPy, netZooM, netZooC)\nLIONESS:\n paper (netZooR, netZooPy, netZooM)\nCONDOR:\n paper (netZooR, netZooPy)\nMONSTER:\n paper (netZooR)\nALPACA:\n paper (netZooR)\nPUMA:\n paper (netZooPy, netZooM, netZooC)\nSAMBAR:\n paper (netZooR, netZooPy)\nSPIDER:\n In preparation. (netZooM)\nOTTER:\n paper (netZooR, netZooPy, netZooM)\nSequence analysis YARN:\n paper - repo\nFENRIR:\n In preparation - repo\n"
 },
 {
+	"uri": "https://netZoo.github.io/zooanimals/panda/",
+	"title": "PANDA",
+	"tags": [],
+	"description": "",
+	"content": "Reference Passing Messages between Biological Networks to Refine Predicted Interactions. paper\nAbstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model. The resulting networks were not only more accurate than those produced using individual data sets and other existing methods, but they also captured information regarding specific biological mechanisms and pathways that were missed using other methodologies. PANDA is scalable to higher eukaryotes, applicable to specific tissue or cell type data and conceptually generalizable to include a variety of regulatory, interaction, expression, and other genome-scale data. An implementation of the PANDA algorithm is available at www.sourceforge.net/projects/panda-net.\nImplementation netZooR, netZooPy, netZooM, netZooC\n"
+},
+{
 	"uri": "https://netZoo.github.io/",
 	"title": "The network zoo",
 	"tags": [],

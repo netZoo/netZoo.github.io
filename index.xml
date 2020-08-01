@@ -94,6 +94,16 @@ FENRIR:
     </item>
     
     <item>
+      <title>PANDA</title>
+      <link>https://netZoo.github.io/zooanimals/panda/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/panda/</guid>
+      <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions. paper
+Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
+    </item>
+    
+    <item>
       <title>Getting help</title>
       <link>https://netZoo.github.io/contribute/issues/</link>
       <pubDate>Mon, 01 Jul 2019 08:50:52 -0400</pubDate>
