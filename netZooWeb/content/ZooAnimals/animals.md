@@ -16,7 +16,7 @@ LIONESS:
 
 CONDOR: 
 
-&nbsp; &nbsp; &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/27618581)      (netZooR)
+&nbsp; &nbsp; &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/27618581)      (netZooR, netZooPy)
 
 MONSTER: 
 
@@ -28,22 +28,30 @@ ALPACA:
 
 PUMA: 
 
-&nbsp; &nbsp; &nbsp; [paper](https://www.ncbi.nlm.nih.gov/pubmed/28506242) (netZooPy, netZooM, netZooC)
+&nbsp; &nbsp; &nbsp; [paper](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977) (netZooPy, netZooM, netZooC)
 
 SAMBAR: 
 
-&nbsp; &nbsp; &nbsp; [paper](https://www.nature.com/articles/s41416-018-0109-7) (netZooR)
+&nbsp; &nbsp; &nbsp; [paper](https://www.nature.com/articles/s41416-018-0109-7) (netZooR, netZooPy)
 
 SPIDER: 
 
 &nbsp; &nbsp; &nbsp; In preparation.                                             (netZooM)
 
-### RNA processing
+OTTER:
+
+&nbsp; &nbsp; &nbsp; [paper](https://www.biorxiv.org/content/10.1101/2020.06.23.167999v2) (netZooR, netZooPy, netZooM)
+
+CRANE:
+
+&nbsp; &nbsp; &nbsp; [paper](https://www.biorxiv.org/content/10.1101/2020.07.12.198747v1) (netZooR)
+
+### Sequence analysis
 
 YARN: 
 
-&nbsp; &nbsp; &nbsp;[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/)
+&nbsp; &nbsp; &nbsp;[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/) - [repo](https://github.com/QuackenbushLab/yarn)
 
 FENRIR: 
 
-&nbsp; &nbsp; &nbsp; In preparation.
+&nbsp; &nbsp; &nbsp; In preparation - [repo](https://github.com/QuackenbushLab/FENRIR)

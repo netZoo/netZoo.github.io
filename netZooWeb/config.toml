@@ -16,21 +16,27 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-cloud'></i> Travis-ci"
 identifier = "db"
-url = "https://travis-ci.org/netZoo"
+url = "https://travis-ci.com/netZoo"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Codecov"
+name = "<i class='fas fa-fw fa-cloud'></i> ZooKeeper"
 identifier = "dc"
-url = "https://codecov.io/gh/netZoo"
+url = "http://zookeeper.networkmedicine.org/"
 weight = 12
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-envelope-square'></i> Contact"
+name = "<i class='fas fa-fw fa-bookmark'></i> Codecov"
 identifier = "dd"
-url = "mailto:twang@hsph.harvard.edu"
+url = "https://codecov.io/gh/netZoo"
 weight = 13
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-envelope-square'></i> Contact"
+identifier = "de"
+url = "mailto:twang@hsph.harvard.edu"
+weight = 14
 
 [params]
 	description= "Network biology packages"
-	themeVariant = "red"
+	themeVariant = "purple"
