@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contribution guide on The network zoo</title>
@@ -22,6 +22,17 @@ Each language repository has a master and a devel branch. The master branch cont
     </item>
     
     <item>
+      <title>How to install</title>
+      <link>https://netZoo.github.io/contribute/install/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/contribute/install/</guid>
+      <description>Installation guide To install netZoo{Py, M, C}, all you have to do is git clone https://github.com/netZoo/netZoo{Py,M,C}.git then to get the latest changes in your repository you need to git pull origin master.
+You can work on the devel branch by git checkout devel. To update the devel branch type git pull origin devel.
+In Python, an additional step is required to install netZooPy through pip3 install -e . in the either the root of devel or master branch and after each change to the source code.</description>
+    </item>
+    
+    <item>
       <title>Getting help</title>
       <link>https://netZoo.github.io/contribute/issues/</link>
       <pubDate>Mon, 01 Jul 2019 08:50:52 -0400</pubDate>
@@ -29,6 +40,9 @@ Each language repository has a master and a devel branch. The master branch cont
       <guid>https://netZoo.github.io/contribute/issues/</guid>
       <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
 Tutorials Check the tutorials in the github repo for a basic application of the network tools.
+netZooPy: Jupyter Notebook Tutorials.
+netZooM: LiveScript Tutorials.
+netZooR: R markdown Tutorials.
 Contact Drop us an email if you have any other inquiry.</description>
     </item>
     

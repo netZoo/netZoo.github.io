@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papers on The network zoo</title>
@@ -17,10 +17,10 @@
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/papers/papers/</guid>
-      <description>Publications  Biomarker development in the precision medicine era: lung cancer as a case study. AJ Vargas and CC Harris.
- https://www.nature.com/nrc/journal/v16/n8/abs/nrc.2016.56.html.
- Gene co-expression analysis for functional classification and gene–disease predictions. S van Dam and U Vosa and A van der Graaf….
+      <description>Publications PANDA  Gene co-expression analysis for functional classification and gene–disease predictions. S van Dam and U Vosa and A van der Graaf….
  https://academic.oup.com/bib/article-abstract/19/4/575/2888441.
+ Biomarker development in the precision medicine era: lung cancer as a case study. AJ Vargas and CC Harris.
+ https://www.nature.com/articles/nrc.2016.56.pdf?origin=ppub.
  Understanding tissue-specific gene regulation. AR Sonawane and J Platig and M Fagny and CY Chen….
  https://www.sciencedirect.com/science/article/pii/S2211124717314183.
  A network model for angiogenesis in ovarian cancer.</description>

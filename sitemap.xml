@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -18,7 +18,27 @@
   </url>
   
   <url>
+    <loc>https://netZoo.github.io/docs/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://netZoo.github.io/contribute/contribute/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/contribute/install/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/docs/docs/</loc>
+    <lastmod>2019-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/papers/papers/</loc>
     <lastmod>2019-07-02T08:50:52-04:00</lastmod>
   </url>
   
@@ -28,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/papers/papers/</loc>
+    <loc>https://netZoo.github.io/zooanimals/panda/</loc>
     <lastmod>2019-07-02T08:50:52-04:00</lastmod>
   </url>
   
@@ -43,13 +63,46 @@
   </url>
   
   <url>
+    <loc>https://netZoo.github.io/zooanimals/lioness/</loc>
+    <lastmod>2019-06-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/condor/</loc>
+    <lastmod>2019-05-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/monster/</loc>
+    <lastmod>2019-04-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/alpaca/</loc>
+    <lastmod>2019-03-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/puma/</loc>
+    <lastmod>2019-02-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/sambar/</loc>
+    <lastmod>2019-01-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/otter/</loc>
+    <lastmod>2018-11-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://netZoo.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://netZoo.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

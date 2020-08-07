@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The network zoo</title>
@@ -22,21 +22,30 @@ Each language repository has a master and a devel branch. The master branch cont
     </item>
     
     <item>
-      <title>List</title>
-      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <title>How to install</title>
+      <link>https://netZoo.github.io/contribute/install/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
-      <description>Network biology PANDA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooR, netZooPy, netZooM, netZooC)
-LIONESS: &amp;nbsp; paper (netZooR, netZooPy, netZooM)
-CONDOR: &amp;nbsp; paper (netZooR)
-MONSTER: paper (netZooR)
-ALPACA: &amp;nbsp; &amp;nbsp; paper (netZooR)
-PUMA: &amp;nbsp; &amp;nbsp; &amp;nbsp; paper (netZooPy, netZooM, netZooC)
-SPIDER: In preparation. (netZooM)
-RNA processing YARN: &amp;nbsp; &amp;nbsp; &amp;nbsp;paper
-SAMBAR: paper
-FENRIR: &amp;nbsp; In preparation</description>
+      <guid>https://netZoo.github.io/contribute/install/</guid>
+      <description>Installation guide To install netZoo{Py, M, C}, all you have to do is git clone https://github.com/netZoo/netZoo{Py,M,C}.git then to get the latest changes in your repository you need to git pull origin master.
+You can work on the devel branch by git checkout devel. To update the devel branch type git pull origin devel.
+In Python, an additional step is required to install netZooPy through pip3 install -e . in the either the root of devel or master branch and after each change to the source code.</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/docs/docs/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/docs/docs/</guid>
+      <description>netZooR:
+ Link to the dedicated documentation website.
+netZooPy:
+ Link to the dedicated documentation website.
+netZooM:
+ Link to the dedicated documentation website.
+netZooC:
+ Link to the dedicated documentation website.</description>
     </item>
     
     <item>
@@ -45,13 +54,55 @@ FENRIR: &amp;nbsp; In preparation</description>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/papers/papers/</guid>
-      <description>Publications  Biomarker development in the precision medicine era: lung cancer as a case study. AJ Vargas and CC Harris.
- https://www.nature.com/nrc/journal/v16/n8/abs/nrc.2016.56.html.
- Gene co-expression analysis for functional classification and gene–disease predictions. S van Dam and U Vosa and A van der Graaf….
+      <description>Publications PANDA  Gene co-expression analysis for functional classification and gene–disease predictions. S van Dam and U Vosa and A van der Graaf….
  https://academic.oup.com/bib/article-abstract/19/4/575/2888441.
+ Biomarker development in the precision medicine era: lung cancer as a case study. AJ Vargas and CC Harris.
+ https://www.nature.com/articles/nrc.2016.56.pdf?origin=ppub.
  Understanding tissue-specific gene regulation. AR Sonawane and J Platig and M Fagny and CY Chen….
  https://www.sciencedirect.com/science/article/pii/S2211124717314183.
  A network model for angiogenesis in ovarian cancer.</description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
+      <description>Network biology PANDA:
+ paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS:
+ paper (netZooR, netZooPy, netZooM)
+CONDOR:
+ paper (netZooR, netZooPy)
+MONSTER:
+ paper (netZooR)
+ALPACA:
+ paper (netZooR)
+PUMA:
+ paper (netZooPy, netZooM, netZooC)
+SAMBAR:
+ paper (netZooR, netZooPy)
+SPIDER:
+ In preparation. (netZooM)
+OTTER:
+ paper (netZooR, netZooPy, netZooM)
+CRANE:
+ paper (netZooR)
+Sequence analysis YARN:
+ paper - repo
+FENRIR:
+ In preparation - repo</description>
+    </item>
+    
+    <item>
+      <title>PANDA</title>
+      <link>https://netZoo.github.io/zooanimals/panda/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/panda/</guid>
+      <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions. link.
+Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
     </item>
     
     <item>
@@ -62,7 +113,80 @@ FENRIR: &amp;nbsp; In preparation</description>
       <guid>https://netZoo.github.io/contribute/issues/</guid>
       <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
 Tutorials Check the tutorials in the github repo for a basic application of the network tools.
+netZooPy: Jupyter Notebook Tutorials.
+netZooM: LiveScript Tutorials.
+netZooR: R markdown Tutorials.
 Contact Drop us an email if you have any other inquiry.</description>
+    </item>
+    
+    <item>
+      <title>LIONESS</title>
+      <link>https://netZoo.github.io/zooanimals/lioness/</link>
+      <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
+      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
+Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
+    </item>
+    
+    <item>
+      <title>CONDOR</title>
+      <link>https://netZoo.github.io/zooanimals/condor/</link>
+      <pubDate>Thu, 02 May 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/condor/</guid>
+      <description>Reference Bipartite Community Structure of eQTLs. link.
+Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states.</description>
+    </item>
+    
+    <item>
+      <title>MONSTER</title>
+      <link>https://netZoo.github.io/zooanimals/monster/</link>
+      <pubDate>Tue, 02 Apr 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/monster/</guid>
+      <description>Reference Estimating drivers of cell state transitions using gene regulatory network models. link.
+Abstract Background: Specific cellular states are often associated with distinct gene expression patterns. These states are plastic, changing during development, or in the transition from health to disease. One relatively simple extension of this concept is to recognize that we can classify different cell-types by their active gene regulatory networks and that, consequently, transitions between cellular states can be modeled by changes in these underlying regulatory networks.</description>
+    </item>
+    
+    <item>
+      <title>ALPACA</title>
+      <link>https://netZoo.github.io/zooanimals/alpaca/</link>
+      <pubDate>Sat, 02 Mar 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/alpaca/</guid>
+      <description>Reference Detecting phenotype-driven transitions in regulatory network structure. link.
+Abstract Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease.</description>
+    </item>
+    
+    <item>
+      <title>PUMA</title>
+      <link>https://netZoo.github.io/zooanimals/puma/</link>
+      <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/puma/</guid>
+      <description>Reference PUMA: PANDA Using MicroRNA Associations. link.
+Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
+    </item>
+    
+    <item>
+      <title>SAMBAR</title>
+      <link>https://netZoo.github.io/zooanimals/sambar/</link>
+      <pubDate>Wed, 02 Jan 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
+      <description>Reference Cancer subtype identification using somatic mutation data. link.
+Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
+    </item>
+    
+    <item>
+      <title>OTTER</title>
+      <link>https://netZoo.github.io/zooanimals/otter/</link>
+      <pubDate>Fri, 02 Nov 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/otter/</guid>
+      <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching. link.
+Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
     </item>
     
   </channel>

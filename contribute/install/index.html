@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Zoo animals :: The network zoo</title>
+    <title>How to install :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1596831119" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/zooanimals/">
+  <body class="" data-url="/contribute/install/">
     <nav id="sidebar" class="">
 
 
@@ -9989,7 +9989,7 @@
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item 
-        
+        parent
         
         
         ">
@@ -10032,7 +10032,7 @@
  
   
     
-      <li data-nav-id="/contribute/install/" title="How to install" class="dd-item ">
+      <li data-nav-id="/contribute/install/" title="How to install" class="dd-item active">
         <a href="/contribute/install/">
         How to install
         
@@ -10078,8 +10078,8 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/zooanimals/">
@@ -10485,6 +10485,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -10495,7 +10497,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > Zoo animals
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to install
+          
+         
           
          
           
@@ -10504,6 +10512,22 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#installation-guide">Installation guide</a></li>
+        <li><a href="#quick-developer-guide">Quick developer guide</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -10511,20 +10535,31 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              How to install
+            </h1>
           
 
         
 
 
 
+<h3 id="installation-guide">Installation guide</h3>
+<p>To install netZoo{Py, M, C}, all you have to do is <code>git clone https://github.com/netZoo/netZoo{Py,M,C}.git</code> then to get the latest changes in your repository you need to <code>git pull origin master</code>.</p>
+<p>You can work on the devel branch by <code>git checkout devel</code>. To update the devel branch type <code>git pull origin devel</code>.</p>
+<p>In Python, an additional step is required to install netZooPy through <code>pip3 install -e .</code> in the either the root of devel or master branch and after each change to the source code.</p>
+<p>In R, the installation does not require <code>git clone</code>, the <code>devtools</code> library allow to install netZooR directly from github and from either devel or master.</p>
+<p>Please refer to the specific installation guide for each package for more details.</p>
+<h3 id="quick-developer-guide">Quick developer guide</h3>
+<p>If you are a developer, you will need to clone to your own fork to be able to create pull requests to netZoo. Please refer to the <a href="https://netzoo.github.io/contribute/contribute/">contribution guide</a>.</p>
+<p>Make sure to have the latest changes in your local repo through <code>git fetch upstream</code> then <code>git merge upstream/master</code>.</p>
+<p>To update the devel branch <code>git checkout devel</code> and <code>git fetch upstream</code> and <code>git merge upstream/devel</code>.</p>
 
-	<h1 id="zoo-animals">Zoo animals</h1>
-<h3 id="a-link-to-the-zoo-animals-and-their-papers">A link to the zoo animals and their papers.</h3>
-
-
+<div class="notices tip" ><p>Make sure to update your repository before creating a pull request or creating an issue.</p>
+</div>
 
 
 
@@ -10532,8 +10567,7 @@
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -10565,8 +10599,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -10581,37 +10613,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
                     
                 
                 
@@ -10620,9 +10623,6 @@
                     
                     
 
-                    
-            
-        
                     
             
         
@@ -10641,6 +10641,9 @@
                     
 
                     
+            
+        
+                    
                         
             
             
@@ -10648,6 +10651,38 @@
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -10864,10 +10899,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/contribute/issues/" title="Getting help"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/contribute/contribute/" title="How to contribute"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/animals/" title="List" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/contribute/issues/" title="Getting help" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10898,3 +10933,4 @@
 
   </body>
 </html>
+
