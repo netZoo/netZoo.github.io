@@ -176,7 +176,7 @@ Abstract Conventional methods to analyze genomic data do not make use of the int
       
       <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
       <description>Reference Cancer subtype identification using somatic mutation data. link.
-Abstract Background With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis. Classification of patients with similar mutation profiles may help identifying subgroups of patients who might benefit from specific types of treatment.</description>
+Abstract Background: With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis. Classification of patients with similar mutation profiles may help identifying subgroups of patients who might benefit from specific types of treatment.</description>
     </item>
     
     <item>
