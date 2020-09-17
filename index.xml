@@ -176,7 +176,7 @@ Abstract Conventional methods to analyze genomic data do not make use of the int
       
       <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
       <description>Reference Cancer subtype identification using somatic mutation data. link.
-Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
+Abstract Background With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis. Classification of patients with similar mutation profiles may help identifying subgroups of patients who might benefit from specific types of treatment.</description>
     </item>
     
     <item>
