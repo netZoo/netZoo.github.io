@@ -6,20 +6,10 @@
     <description>Recent content in Zoo animals on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2020 08:50:52 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CRANE</title>
-      <link>https://netZoo.github.io/zooanimals/crane/</link>
-      <pubDate>Fri, 16 Oct 2020 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/crane/</guid>
-      <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules. link.
-Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes. Changes in community structure can be detected by maximizing a modularity-based score, but because biological systems and network inference algorithms are inherently noisy, it remains a challenge to determine whether these changes represent real cellular responses or whether they appeared by random chance.</description>
-    </item>
     
     <item>
       <title>List</title>
@@ -131,6 +121,16 @@ Abstract Background: With the onset of next-generation sequencing technologies, 
       <guid>https://netZoo.github.io/zooanimals/otter/</guid>
       <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching. link.
 Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
+    </item>
+    
+    <item>
+      <title>CRANE</title>
+      <link>https://netZoo.github.io/zooanimals/crane/</link>
+      <pubDate>Tue, 02 Oct 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/crane/</guid>
+      <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules. link.
+Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes. Changes in community structure can be detected by maximizing a modularity-based score, but because biological systems and network inference algorithms are inherently noisy, it remains a challenge to determine whether these changes represent real cellular responses or whether they appeared by random chance.</description>
     </item>
     
   </channel>
