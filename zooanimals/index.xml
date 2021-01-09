@@ -135,5 +135,15 @@ Abstract Gene regulatory network inference is instrumental to the discovery of g
 Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes. Changes in community structure can be detected by maximizing a modularity-based score, but because biological systems and network inference algorithms are inherently noisy, it remains a challenge to determine whether these changes represent real cellular responses or whether they appeared by random chance.</description>
     </item>
     
+    <item>
+      <title>CRANE</title>
+      <link>https://netZoo.github.io/zooanimals/gpuzoo/</link>
+      <pubDate>Sun, 02 Sep 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
+      <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
+Abstract Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden.</description>
+    </item>
+    
   </channel>
 </rss>

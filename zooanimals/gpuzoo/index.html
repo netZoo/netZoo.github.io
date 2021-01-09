@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>PUMA :: The network zoo</title>
+    <title>CRANE :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1610152643" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/puma/">
+  <body class="" data-url="/zooanimals/gpuzoo/">
     <nav id="sidebar" class="">
 
 
@@ -8848,7 +8848,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/puma/" title="PUMA" class="dd-item active">
+      <li data-nav-id="/zooanimals/puma/" title="PUMA" class="dd-item ">
         <a href="/zooanimals/puma/">
         PUMA
         
@@ -8924,7 +8924,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/gpuzoo/" title="CRANE" class="dd-item ">
+      <li data-nav-id="/zooanimals/gpuzoo/" title="CRANE" class="dd-item active">
         <a href="/zooanimals/gpuzoo/">
         CRANE
         
@@ -9175,7 +9175,7 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > PUMA
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > CRANE
           
          
           
@@ -9194,6 +9194,7 @@ if (!doNotTrack) {
       <ul>
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#supplementary-data">Supplementary data</a></li>
         <li><a href="#implementation">Implementation</a></li>
       </ul>
     </li>
@@ -9214,7 +9215,7 @@ if (!doNotTrack) {
           
             <h1>
               
-              PUMA
+              CRANE
             </h1>
           
 
@@ -9222,22 +9223,62 @@ if (!doNotTrack) {
 
 
 
-<p>
+
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
-
-
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/bioinformatics/btaa571" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-</p>
 <h3 id="reference">Reference</h3>
-<p>PUMA: PANDA Using MicroRNA Associations. <a href="https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977">link</a>.</p>
+<p>gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs. We applied PUMA to 38 tissues from the Genotype-Tissue Expression (GTEx) project, integrating RNA-Seq data with two different miRNA target predictions priors, built on predictions from TargetScan and miRanda, respectively. We found that while target predictions obtained from these two different resources are considerably different, PUMA captures similar tissue-specific miRNA-target regulatory interactions in the different network models. Furthermore, the tissue-specific functions of miRNAs we identified based on regulatory profiles (available at: <a href="https://kuijjer.shinyapps.io/puma_gtex/">https://kuijjer.shinyapps.io/puma_gtex/</a>) are highly similar between networks modeled on the two target prediction resources. This indicates that PUMA consistently captures important tissue-specific miRNA regulatory processes. In addition, using PUMA we identified miRNAs regulating important tissue-specific processes that, when mutated, may result in disease development in the same tissue. PUMA is available in C ++, MATLAB, and Python on GitHub (<a href="https://github.com/kuijjerlab">https://github.com/kuijjerlab</a> and <a href="https://netzoo.github.io/)">https://netzoo.github.io/)</a>.</p>
+<p>Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden. To address this limitation, we developed gpuZoo, a GPU-accelerated implementation of PANDA, PUMA, SPIDER, and LIONESS. The runtime of the gpuZoo implementation in MATLAB and Python is up to 35 times faster and 20 times less expensive than multi-core CPU implementations of the same method. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements. Taken together, gpuZoo allows gene regulatory network inference in large-scale genomic studies with cost-effective performance.
+gpuZoo is available in MATLAB through the netZooM package <a href="https://github.com/netZoo/netZooM">https://github.com/netZoo/netZooM</a> and in Python through the netZooPy package <a href="https://github.com/netZoo/netZooPy">https://github.com/netZoo/netZooPy</a>.</p>
+<h3 id="supplementary-data">Supplementary data</h3>
+<p>This is the data used for the benchmarks of gpuZoo. To reproduce the benchmarks, check the <a href="https://github.com/QuackenbushLab/gpuzoo">github repository gpuZoo</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Motif</th>
+<th>PPI</th>
+<th>Expression</th>
+<th>Mode</th>
+<th>TFs</th>
+<th>Genes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small network</td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/Hugo_motifCellLine_reduced.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
+<td>Intersection</td>
+<td>652</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Protein-coding genes network</td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/motifs/Hugo_motifCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
+<td>Union</td>
+<td>652</td>
+<td>27149</td>
+</tr>
+<tr>
+<td>Transcript network</td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/motif_complete_reduced.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/ppi/ppi_complete.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/THP-1.tsv">download</a></td>
+<td>Union</td>
+<td>1603</td>
+<td>43698</td>
+</tr>
+</tbody>
+</table>
 <h3 id="implementation">Implementation</h3>
-<p>netZooPy, netZooM, netZooC</p>
+<p>netZooPy, netZooM</p>
 
 
 <footer class=" footline" >
@@ -9456,26 +9497,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -9535,6 +9556,23 @@ if (!doNotTrack) {
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -9542,6 +9580,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9611,10 +9652,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/alpaca/" title="ALPACA"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/crane/" title="CRANE"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/sambar/" title="SAMBAR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/papers/" title="Papers" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
