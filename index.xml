@@ -103,7 +103,10 @@ FENRIR:
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/panda/</guid>
-      <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions. link.
+      <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions.
+Kimberly Glass,Curtis Huttenhower,John Quackenbush,Guo-Cheng Yuan.
+Plos One
+doi.org/10.1371/journal.pone.0064832.
 Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
     </item>
     
@@ -127,8 +130,11 @@ Contact Drop us an email if you have any other inquiry.</description>
       <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
-      <description>Reference Estimating Sample-Specific Regulatory Networks. link.
-Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks.</description>
+      <description>Reference Estimating Sample-Specific Regulatory Networks.
+Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.
+iScience
+doi.org/10.1016/j.isci.2019.03.021.
+Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network.</description>
     </item>
     
     <item>
@@ -137,7 +143,10 @@ Abstract Biological systems are driven by intricate interactions among molecules
       <pubDate>Thu, 02 May 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/condor/</guid>
-      <description>Reference Bipartite Community Structure of eQTLs. link.
+      <description>Reference Bipartite Community Structure of eQTLs.
+John Platig ,Peter J. Castaldi,Dawn DeMeo,John Quackenbush.
+Plos computational biology
+doi.org/10.1371/journal.pcbi.1005033.
 Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states.</description>
     </item>
     
@@ -147,7 +156,10 @@ Abstract Genome Wide Association Studies (GWAS) and expression quantitative trai
       <pubDate>Tue, 02 Apr 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/monster/</guid>
-      <description>Reference Estimating drivers of cell state transitions using gene regulatory network models. link.
+      <description>Reference Estimating drivers of cell state transitions using gene regulatory network models.
+Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush.
+BMC Systems Biology
+doi.org/10.1186/s12918-017-0517-y.
 Abstract Background: Specific cellular states are often associated with distinct gene expression patterns. These states are plastic, changing during development, or in the transition from health to disease. One relatively simple extension of this concept is to recognize that we can classify different cell-types by their active gene regulatory networks and that, consequently, transitions between cellular states can be modeled by changes in these underlying regulatory networks.</description>
     </item>
     
@@ -157,7 +169,10 @@ Abstract Background: Specific cellular states are often associated with distinct
       <pubDate>Sat, 02 Mar 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/alpaca/</guid>
-      <description>Reference Detecting phenotype-driven transitions in regulatory network structure. link.
+      <description>Reference Detecting phenotype-driven transitions in regulatory network structure.
+Megha Padi and John Quackenbush.
+npj Systems biology and applications
+doi:10.1038/s41540-018-0052-5.
 Abstract Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease.</description>
     </item>
     
@@ -167,7 +182,10 @@ Abstract Complex traits and diseases like human height or cancer are often not c
       <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/puma/</guid>
-      <description>Reference PUMA: PANDA Using MicroRNA Associations. link.
+      <description>Reference PUMA: PANDA Using MicroRNA Associations.
+Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
+OUP Bioinformatics
+doi.org/10.1093/bioinformatics/btaa571.
 Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
     </item>
     
@@ -177,8 +195,11 @@ Abstract Conventional methods to analyze genomic data do not make use of the int
       <pubDate>Wed, 02 Jan 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
-      <description>Reference Cancer subtype identification using somatic mutation data. link.
-Abstract Background: With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis. Classification of patients with similar mutation profiles may help identifying subgroups of patients who might benefit from specific types of treatment.</description>
+      <description>Reference Cancer subtype identification using somatic mutation data.
+Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush.
+British Journal of Cancer
+doi.org/10.1038/s41416-018-0109-7.
+Abstract Background: With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis.</description>
     </item>
     
     <item>
@@ -187,7 +208,10 @@ Abstract Background: With the onset of next-generation sequencing technologies, 
       <pubDate>Fri, 02 Nov 2018 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/otter/</guid>
-      <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching. link.
+      <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching.
+Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz.
+bioRxiv
+doi.org/10.1101/2020.06.23.167999.
 Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
     </item>
     
@@ -197,8 +221,11 @@ Abstract Gene regulatory network inference is instrumental to the discovery of g
       <pubDate>Tue, 02 Oct 2018 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/crane/</guid>
-      <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules. link.
-Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes. Changes in community structure can be detected by maximizing a modularity-based score, but because biological systems and network inference algorithms are inherently noisy, it remains a challenge to determine whether these changes represent real cellular responses or whether they appeared by random chance.</description>
+      <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules.
+James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
+bioRxiv
+doi.org/10.1101/2020.07.12.198747.
+Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes.</description>
     </item>
     
     <item>
