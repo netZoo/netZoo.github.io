@@ -52,7 +52,7 @@ FENRIR:
       
       <guid>https://netZoo.github.io/zooanimals/panda/</guid>
       <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions.
-Kimberly Glass,Curtis Huttenhower,John Quackenbush,Guo-Cheng Yuan.
+Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
 Plos One
 doi.org/10.1371/journal.pone.0064832.
 Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
@@ -78,7 +78,7 @@ Abstract Biological systems are driven by intricate interactions among molecules
       
       <guid>https://netZoo.github.io/zooanimals/condor/</guid>
       <description>Reference Bipartite Community Structure of eQTLs.
-John Platig ,Peter J. Castaldi,Dawn DeMeo,John Quackenbush.
+John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
 Plos computational biology
 doi.org/10.1371/journal.pcbi.1005033.
 Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states.</description>
