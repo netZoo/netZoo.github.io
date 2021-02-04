@@ -116,7 +116,8 @@ Abstract Regulatory network reconstruction is a fundamental problem in computati
       <pubDate>Mon, 01 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/contribute/issues/</guid>
-      <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
+      <description>Issues If you need help or if you have any question about netZoo, please check discussions.
+If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
 Tutorials Check the tutorials in the github repo for a basic application of the network tools.
 netZooPy: Jupyter Notebook Tutorials.
 netZooM: LiveScript Tutorials.
