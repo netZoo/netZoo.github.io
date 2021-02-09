@@ -90,7 +90,7 @@ OTTER:
 CRANE:
  paper (netZooR)
 EGRET:
- In preparation. (netZooR)
+ paper (netZooR)
 Sequence analysis YARN:
  paper - repo
 FENRIR:
@@ -237,6 +237,19 @@ Abstract The use of biological networks such as protein-protein interaction and 
       <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
       <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
 Abstract Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden.</description>
+    </item>
+    
+    <item>
+      <title>EGRET</title>
+      <link>https://netZoo.github.io/zooanimals/egret/</link>
+      <pubDate>Thu, 02 Aug 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/egret/</guid>
+      <description>Reference Predicting genotype-specific gene regulatory networks
+Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Platig
+bioRxiv
+doi.org/10.1101/2021.01.18.427134
+Abstract The majority of disease-associated genetic variants are thought to have regulatory effects, including the disruption of transcription factor (TF) binding and the alteration of downstream gene expression. Identifying how a person’s genotype affects their individual gene regulatory network has the potential to provide important insights into disease etiology and to enable improved genotype-specific disease risk assessments and treatments.</description>
     </item>
     
   </channel>
