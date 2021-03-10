@@ -84,7 +84,7 @@ PUMA:
 SAMBAR:
  paper (netZooR, netZooPy)
 SPIDER:
- In preparation. (netZooM)
+ paper (netZooM)
 OTTER:
  paper (netZooR, netZooPy, netZooM)
 CRANE:
@@ -94,7 +94,8 @@ EGRET:
 DRAGON:
  In preparation. (netZooPy)
 Sequence analysis YARN:
- paper - repo</description>
+ paper - repo
+FENRIR:</description>
     </item>
     
     <item>
@@ -227,6 +228,19 @@ James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
 bioRxiv
 doi.org/10.1101/2020.07.12.198747.
 Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes.</description>
+    </item>
+    
+    <item>
+      <title>SPIDER</title>
+      <link>https://netZoo.github.io/zooanimals/spider/</link>
+      <pubDate>Tue, 02 Oct 2018 08:49:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/spider/</guid>
+      <description>Reference Constructing Gene Regulatory Networks using Epigenetic Data
+Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.
+bioRxiv
+doi.org/10.1101/2020.10.19.345827.
+Abstract The biological processes that drive cellular function can be represented by a complex network of interactions between regulators (transcription factors) and their targets (genes). A cell’s epigenetic state plays an important role in mediating these interactions, primarily by influencing chromatin accessibility. However, effectively leveraging epigenetic information when constructing regulatory networks remains a challenge.</description>
     </item>
     
     <item>

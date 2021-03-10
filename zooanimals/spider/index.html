@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>LIONESS :: The network zoo</title>
+    <title>SPIDER :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1615394145" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/lioness/">
+  <body class="" data-url="/zooanimals/spider/">
     <nav id="sidebar" class="">
 
 
@@ -8772,7 +8772,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/lioness/" title="LIONESS" class="dd-item active">
+      <li data-nav-id="/zooanimals/lioness/" title="LIONESS" class="dd-item ">
         <a href="/zooanimals/lioness/">
         LIONESS
         
@@ -8924,7 +8924,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/spider/" title="SPIDER" class="dd-item ">
+      <li data-nav-id="/zooanimals/spider/" title="SPIDER" class="dd-item active">
         <a href="/zooanimals/spider/">
         SPIDER
         
@@ -9213,7 +9213,7 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > LIONESS
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > SPIDER
           
          
           
@@ -9233,7 +9233,6 @@ if (!doNotTrack) {
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9253,7 +9252,7 @@ if (!doNotTrack) {
           
             <h1>
               
-              LIONESS
+              SPIDER
             </h1>
           
 
@@ -9268,36 +9267,18 @@ if (!doNotTrack) {
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.isci.2019.03.021" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/10.1101/2020.10.19.345827" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Estimating Sample-Specific Regulatory Networks.</p>
-<p>Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.</p>
-<p>iScience</p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S2589004219300872">doi.org/10.1016/j.isci.2019.03.021</a>.</p>
+<p>Constructing Gene Regulatory Networks using Epigenetic Data</p>
+<p>Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2020.10.19.345827v1.abstract">doi.org/10.1101/2020.10.19.345827</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks. We demonstrate our approach in several contexts, including simulated, yeast microarray, and human lymphoblastoid cell line RNA sequencing data. We use these sample-specific networks to study changes in network topology across time and to characterize shifts in gene regulation that were not apparent in the expression data. We believe that generating sample-specific networks will greatly facilitate the application of network methods to large, complex, and heterogeneous multi-omic datasets, supporting the emerging field of precision network medicine.</p>
+<p>The biological processes that drive cellular function can be represented by a complex network of interactions between regulators (transcription factors) and their targets (genes). A cell’s epigenetic state plays an important role in mediating these interactions, primarily by influencing chromatin accessibility. However, effectively leveraging epigenetic information when constructing regulatory networks remains a challenge. We developed SPIDER, which incorporates epigenetic information (DNase-Seq) into a message passing framework in order to estimate gene regulatory networks. We validated SPIDER’s predictions using ChlP-Seq data from ENCODE and found that SPIDER networks were more accurate than other publicly available, epigenetically informed regulatory networks as well as networks based on methods that leverage epigenetic data to predict transcription factor binding sites. SPIDER was also able to improve the detection of cell line specific regulatory interactions. Notably, SPIDER can recover ChlP-seq verified transcription factor binding events in the regulatory regions of genes that do not have a corresponding sequence motif. Constructing biologically interpretable, epigenetically informed networks using SPIDER will allow us to better understand gene regulation as well as aid in the identification of cell-specific drivers and biomarkers of cellular phenotypes.</p>
 <h3 id="implementation">Implementation</h3>
-<p>netZooR, netZooPy, netZooM</p>
-<h3 id="netbook-tutorials">Netbook tutorials</h3>
-<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use LIONESS:</p>
-<ul>
-<li>
-<p>netZooR:</p>
-<ul>
-<li>
-<p>Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R</p>
-</li>
-<li>
-<p>Comparing LIONESS Regulatory Networks using limma</p>
-</li>
-<li>
-<p>Differential gene targeting of pancreatic cancer subtypes</p>
-</li>
-</ul>
-</li>
-</ul>
+<p>netZooM</p>
 
 
 <footer class=" footline" >
@@ -9452,26 +9433,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -9599,6 +9560,26 @@ if (!doNotTrack) {
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -9703,10 +9684,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/panda/" title="PANDA"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/crane/" title="CRANE"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/condor/" title="CONDOR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/gpuzoo/" title="gpuZoo" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
