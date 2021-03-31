@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>ALPACA :: The network zoo</title>
+    <title>How to contribute to netbooks :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1617149129" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/alpaca/">
+  <body class="" data-url="/contribute/contributenetbooks/">
     <nav id="sidebar" class="">
 
 
@@ -8621,7 +8621,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item 
-        
+        parent
         
         
         ">
@@ -8664,7 +8664,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/contribute/contributenetbooks/" title="How to contribute to netbooks" class="dd-item ">
+      <li data-nav-id="/contribute/contributenetbooks/" title="How to contribute to netbooks" class="dd-item active">
         <a href="/contribute/contributenetbooks/">
         How to contribute to netbooks
         
@@ -8729,7 +8729,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item 
-        parent
+        
         
         
         ">
@@ -8848,7 +8848,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/alpaca/" title="ALPACA" class="dd-item active">
+      <li data-nav-id="/zooanimals/alpaca/" title="ALPACA" class="dd-item ">
         <a href="/zooanimals/alpaca/">
         ALPACA
         
@@ -9232,7 +9232,7 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > ALPACA
+            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to contribute to netbooks
           
          
           
@@ -9247,13 +9247,9 @@ if (!doNotTrack) {
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#reference">Reference</a></li>
-        <li><a href="#abstract">Abstract</a></li>
-        <li><a href="#implementation">Implementation</a></li>
-      </ul>
-    </li>
+    <li><a href="#contribution-guide">Contribution guide</a></li>
+    <li><a href="#preparing-the-contribution">Preparing the contribution</a></li>
+    <li><a href="#submit-the-contribution">Submit the contribution</a></li>
   </ul>
 </nav>
     </div>
@@ -9271,7 +9267,7 @@ if (!doNotTrack) {
           
             <h1>
               
-              ALPACA
+              How to contribute to netbooks
             </h1>
           
 
@@ -9279,25 +9275,28 @@ if (!doNotTrack) {
 
 
 
-<p>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-
-
-
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41540-018-0052-5" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-</p>
-<h3 id="reference">Reference</h3>
-<p>Detecting phenotype-driven transitions in regulatory network structure.</p>
-<p>Megha Padi and John Quackenbush.</p>
-<p>npj Systems biology and applications</p>
-<p><a href="https://www.nature.com/articles/s41540-018-0052-5">doi:10.1038/s41540-018-0052-5</a>.</p>
-<h3 id="abstract">Abstract</h3>
-<p>Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease. While many methods exist for inferring networks and analyzing their topologies separately, there is a lack of robust methods for quantifying differences in network structure. Here, we describe ALPACA (ALtered Partitions Across Community Architectures), a method for comparing two genome-scale networks derived from different phenotypic states to identify condition-specific modules. In simulations, ALPACA leads to more nuanced, sensitive, and robust module discovery than currently available network comparison methods. As an application, we use ALPACA to compare transcriptional networks in three contexts: angiogenic and non-angiogenic subtypes of ovarian cancer, human fibroblasts expressing transforming viral oncogenes, and sexual dimorphism in human breast tissue. In each case, ALPACA identifies modules enriched for processes relevant to the phenotype. For example, modules specific to angiogenic ovarian tumors are enriched for genes associated with blood vessel development, and modules found in female breast tissue are enriched for genes involved in estrogen receptor and ERK signaling. The functional relevance of these new modules suggests that not only can ALPACA identify structural changes in complex networks, but also that these changes may be relevant for characterizing biological phenotypes.</p>
-<h3 id="implementation">Implementation</h3>
-<p>netZooR</p>
+<h2 id="contribution-guide">Contribution guide</h2>
+<p><a href="http://netbooks.networkmedicine.org">netbooks</a> is a Jupyter notebook tutorial server that hosts several uses case of the Network Zoo tools.</p>
+<h2 id="preparing-the-contribution">Preparing the contribution</h2>
+<p>Please prepare your tutorial as an Python/R <a href="https://jupyter.org/">Jupyter notebook</a>.</p>
+<p>Make sure to:</p>
+<ul>
+<li>
+<p>avoid saving files on folder</p>
+</li>
+<li>
+<p>avoid making systems calls to create folders or call  other programs such as <code>os.system( someBashCommand )</code></p>
+</li>
+<li>
+<p>include substantial documentation of the code and illustrate the use cases with biological/theoretical motivation in the introduction and main takeaway in the conclusion</p>
+</li>
+<li>
+<p>Always include the package loading call in the beginning of each tutorial and the references at the end</p>
+</li>
+</ul>
+<h2 id="submit-the-contribution">Submit the contribution</h2>
+<p>Please open a new pull request at the <a href="https://github.com/netZoo/netbooks">netbooks GitHub repo</a> and push the <code>.ipynb</code> file.
+Then, the server will fetch the new changes periodically and the tutorial will be displayed in the server.</p>
 
 
 <footer class=" footline" >
@@ -9336,8 +9335,93 @@ if (!doNotTrack) {
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -9411,42 +9495,6 @@ if (!doNotTrack) {
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -9483,58 +9531,6 @@ if (!doNotTrack) {
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9719,10 +9715,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/monster/" title="MONSTER"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/contribute/contribute/" title="How to contribute"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/puma/" title="PUMA" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/contribute/install/" title="How to install" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
