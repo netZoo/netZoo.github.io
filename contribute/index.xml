@@ -30,7 +30,7 @@ Each language repository has a master and a devel branch. The master branch cont
       <description>Contribution guide netbooks is a Jupyter notebook tutorial server that hosts several uses case of the Network Zoo tools.
 Preparing the contribution Please prepare your tutorial as an Python/R Jupyter notebook.
 Make sure to:
-  Avoid saving files on folder
+  Avoid saving files on disk
   Avoid making systems calls to create folders or call other programs such as os.system( someBashCommand )
   Include substantial documentation of the code and illustrate the use cases with biological/theoretical motivation in the introduction and main takeaway in the conclusion</description>
     </item>

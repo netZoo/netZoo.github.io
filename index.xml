@@ -30,7 +30,7 @@ Each language repository has a master and a devel branch. The master branch cont
       <description>Contribution guide netbooks is a Jupyter notebook tutorial server that hosts several uses case of the Network Zoo tools.
 Preparing the contribution Please prepare your tutorial as an Python/R Jupyter notebook.
 Make sure to:
-  Avoid saving files on folder
+  Avoid saving files on disk
   Avoid making systems calls to create folders or call other programs such as os.system( someBashCommand )
   Include substantial documentation of the code and illustrate the use cases with biological/theoretical motivation in the introduction and main takeaway in the conclusion</description>
     </item>
@@ -278,6 +278,19 @@ Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Pl
 bioRxiv
 doi.org/10.1101/2021.01.18.427134
 Abstract The majority of disease-associated genetic variants are thought to have regulatory effects, including the disruption of transcription factor (TF) binding and the alteration of downstream gene expression. Identifying how a person’s genotype affects their individual gene regulatory network has the potential to provide important insights into disease etiology and to enable improved genotype-specific disease risk assessments and treatments.</description>
+    </item>
+    
+    <item>
+      <title>DRAGON</title>
+      <link>https://netZoo.github.io/zooanimals/dragon/</link>
+      <pubDate>Mon, 02 Jul 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/dragon/</guid>
+      <description>Reference DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks
+Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Helena U. Zacharias, John Quackenbush,� and Michael Altenbuchinger
+arXiv
+arXiv:2104.01690
+Abstract The increasing quantity of multi-omics data, such as methylomic and transcriptomic profiles, collected on the same specimen, or even on the same cell, provide a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations.</description>
     </item>
     
   </channel>

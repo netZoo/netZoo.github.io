@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>gpuZoo :: The network zoo</title>
+    <title>DRAGON :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1617992871" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/gpuzoo/">
+  <body class="" data-url="/zooanimals/dragon/">
     <nav id="sidebar" class="">
 
 
@@ -8962,7 +8962,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/gpuzoo/" title="gpuZoo" class="dd-item active">
+      <li data-nav-id="/zooanimals/gpuzoo/" title="gpuZoo" class="dd-item ">
         <a href="/zooanimals/gpuzoo/">
         gpuZoo
         
@@ -9000,7 +9000,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/dragon/" title="DRAGON" class="dd-item ">
+      <li data-nav-id="/zooanimals/dragon/" title="DRAGON" class="dd-item active">
         <a href="/zooanimals/dragon/">
         DRAGON
         
@@ -9251,7 +9251,7 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > gpuZoo
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > DRAGON
           
          
           
@@ -9270,9 +9270,8 @@ if (!doNotTrack) {
       <ul>
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
-        <li><a href="#supplementary-data">Supplementary data</a></li>
         <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#github-repository">GitHub repository</a></li>
+        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9292,7 +9291,7 @@ if (!doNotTrack) {
           
             <h1>
               
-              gpuZoo
+              DRAGON
             </h1>
           
 
@@ -9300,64 +9299,45 @@ if (!doNotTrack) {
 
 
 
-
+<p>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="arXiv:2104.01690" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
 <h3 id="reference">Reference</h3>
-<p>gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.</p>
+<p>DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks</p>
+<p>Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Helena U. Zacharias, John Quackenbush,� and Michael Altenbuchinger</p>
+<p>arXiv</p>
+<p><a href="https://arxiv.org/pdf/2104.01690.pdf">arXiv:2104.01690</a></p>
 <h3 id="abstract">Abstract</h3>
-<p>Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden. To address this limitation, we developed gpuZoo, a GPU-accelerated implementation of PANDA, PUMA, SPIDER, and LIONESS. The runtime of the gpuZoo implementation in MATLAB and Python is up to 35 times faster and 20 times less expensive than multi-core CPU implementations of the same method. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements. Taken together, gpuZoo allows gene regulatory network inference in large-scale genomic studies with cost-effective performance.</p>
-<p>gpuZoo is available in MATLAB through the netZooM package <a href="https://github.com/netZoo/netZooM">https://github.com/netZoo/netZooM</a> and in Python through the netZooPy package <a href="https://github.com/netZoo/netZooPy">https://github.com/netZoo/netZooPy</a>.</p>
-<h3 id="supplementary-data">Supplementary data</h3>
-<p>This is the data used for the benchmarks of gpuZoo.</p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Motif</th>
-<th>PPI</th>
-<th>Expression</th>
-<th>Mode</th>
-<th>TFs</th>
-<th>Genes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Small network</td>
-<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/Hugo_motifCellLine_reduced.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
-<td>Intersection</td>
-<td>652</td>
-<td>1000</td>
-</tr>
-<tr>
-<td>Protein-coding genes network</td>
-<td><a href="https://granddb.s3.amazonaws.com/optPANDA/motifs/Hugo_motifCellLine.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
-<td>Union</td>
-<td>652</td>
-<td>27149</td>
-</tr>
-<tr>
-<td>Transcript network</td>
-<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/motif_complete_reduced.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/optPANDA/ppi/ppi_complete.txt">download</a></td>
-<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/THP-1.tsv">download</a></td>
-<td>Union</td>
-<td>1603</td>
-<td>43698</td>
-</tr>
-</tbody>
-</table>
+<p>The increasing quantity of multi-omics data, such as methylomic and transcriptomic profiles,
+collected on the same specimen, or even on the same cell, provide a unique opportunity to explore
+the complex interactions that define cell phenotype and govern cellular responses to perturbations.
+We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the
+joint analysis of paired omics data. This method, called DRAGON (Determining Regulatory
+Associations using Graphical models on multi-Omic Networks), calibrates its parameters to achieve
+an optimal trade-off between the network’s complexity and estimation accuracy, while explicitly
+accounting for the characteristics of each of the assessed omics layers. In simulation studies, we
+show that DRAGON adapts to edge-density and feature-size differences between the omics layers,
+which improves model inference and the recovery of associations compared to state-of-the-art network
+inference using GGMs. Next, we verified this performance gain on paired single-cell data, where the
+transcriptome was assayed together with selected proteins. Finally, we used DRAGON to study joint
+transcriptome–methylome data of breast cancer specimens. In this context, we provide examples of
+how DRAGON can identify key molecular mechanisms. For instance, we show how co-expression
+can be explained by co-methylation and how DRAGON gives hints about the spatial organization of
+the genome. DRAGON is available as open-source code in python through the Network Zoo package
+(netZooPy v0.8; netzoo.github.io)</p>
 <h3 id="implementation">Implementation</h3>
-<p>netZooPy, netZooM</p>
-<h3 id="github-repository">GitHub repository</h3>
-<p>To reproduce the benchmarks, check the <a href="https://github.com/QuackenbushLab/gpuzoo">github repository gpuZoo</a>.</p>
+<p>netZooPy</p>
+<h3 id="netbook-tutorials">Netbook tutorials</h3>
+<p>The following nebtooks use DRAGON:</p>
+<pre><code>- Investigating potential regulatory relationships between TFs in breast cancer using DRAGON
+</code></pre>
 
 
 <footer class=" footline" >
@@ -9672,26 +9652,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -9719,6 +9679,23 @@ if (!doNotTrack) {
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -9726,6 +9703,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9795,10 +9775,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/spider/" title="SPIDER"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/egret/" title="EGRET"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/egret/" title="EGRET" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/papers/" title="Papers" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
