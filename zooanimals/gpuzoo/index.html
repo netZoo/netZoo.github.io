@@ -12,20 +12,20 @@
     <title>gpuZoo :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1618249198" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1618249198" rel="stylesheet">
-    <link href="/css/hybrid.css?1618249198" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1618249198" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1618249198" rel="stylesheet">
-    <link href="/css/auto-complete.css?1618249198" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1618249198" rel="stylesheet">
-    <link href="/css/theme.css?1618249198" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1618249198" rel="stylesheet">
+    <link href="/css/nucleus.css?1626284586" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1626284586" rel="stylesheet">
+    <link href="/css/hybrid.css?1626284586" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1626284586" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1626284586" rel="stylesheet">
+    <link href="/css/auto-complete.css?1626284586" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1626284586" rel="stylesheet">
+    <link href="/css/theme.css?1626284586" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1626284586" rel="stylesheet">
     
-      <link href="/css/theme-purple.css?1618249198" rel="stylesheet">
+      <link href="/css/theme-purple.css?1626284586" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1618249198"></script>
+    <script src="/js/jquery-3.3.1.min.js?1626284586"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8597,14 +8597,14 @@ if (!doNotTrack) {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1618249198"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1618249198"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1626284586"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1626284586"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1618249198"></script>
+<script type="text/javascript" src="/js/search.js?1626284586"></script>
 
     
   </div>
@@ -9300,16 +9300,23 @@ if (!doNotTrack) {
 
 
 
-
+<p>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2021.07.13.452214" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
 <h3 id="reference">Reference</h3>
 <p>gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.</p>
+<p>Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2021.07.13.452214v1">doi.org/10.1101/2021.07.13.452214</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden. To address this limitation, we developed gpuZoo, a GPU-accelerated implementation of PANDA, PUMA, SPIDER, and LIONESS. The runtime of the gpuZoo implementation in MATLAB and Python is up to 35 times faster and 20 times less expensive than multi-core CPU implementations of the same method. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements. Taken together, gpuZoo allows gene regulatory network inference in large-scale genomic studies with cost-effective performance.</p>
-<p>gpuZoo is available in MATLAB through the netZooM package <a href="https://github.com/netZoo/netZooM">https://github.com/netZoo/netZooM</a> and in Python through the netZooPy package <a href="https://github.com/netZoo/netZooPy">https://github.com/netZoo/netZooPy</a>.</p>
+<p>Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS). These methods work by performing repeated operations on data matrices in order to integrate information across multiple lines of biological evidence. This limits their use for large-scale genomic studies due to the associated high computational burden. To address this limitation, we developed gpuZoo, which includes GPU-accelerated implementations of these algorithms. The runtime of the gpuZoo implementation in MATLAB and Python is up to 61 times faster and 28 times less expensive than the multi-core CPU implementation of the same methods. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements by combining GPU acceleration with an efficient on-line derivation. Taken together, gpuZoo allows parallel and on-line gene regulatory network inference in large-scale genomic studies with cost-effective performance. gpuZoo is available in MATLAB through the netZooM package <a href="https://github.com/netZoo/netZooM">https://github.com/netZoo/netZooM</a> and in Python through the netZooPy package <a href="https://github.com/netZoo/netZooPy">https://github.com/netZoo/netZooPy</a>.</p>
 <h3 id="supplementary-data">Supplementary data</h3>
 <p>This is the data used for the benchmarks of gpuZoo.</p>
 <table>
@@ -9808,20 +9815,20 @@ if (!doNotTrack) {
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1618249198"></script>
-    <script src="/js/perfect-scrollbar.min.js?1618249198"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1618249198"></script>
-    <script src="/js/jquery.sticky.js?1618249198"></script>
-    <script src="/js/featherlight.min.js?1618249198"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1618249198"></script>
-    <script src="/js/highlight.pack.js?1618249198"></script>
+    <script src="/js/clipboard.min.js?1626284586"></script>
+    <script src="/js/perfect-scrollbar.min.js?1626284586"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1626284586"></script>
+    <script src="/js/jquery.sticky.js?1626284586"></script>
+    <script src="/js/featherlight.min.js?1626284586"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1626284586"></script>
+    <script src="/js/highlight.pack.js?1626284586"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1618249198"></script>
-    <script src="/js/learn.js?1618249198"></script>
-    <script src="/js/hugo-learn.js?1618249198"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1626284586"></script>
+    <script src="/js/learn.js?1626284586"></script>
+    <script src="/js/hugo-learn.js?1626284586"></script>
 
-    <link href="/mermaid/mermaid.css?1618249198" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1618249198"></script>
+    <link href="/mermaid/mermaid.css?1626284586" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1626284586"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

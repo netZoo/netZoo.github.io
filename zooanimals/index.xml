@@ -184,7 +184,10 @@ Abstract The biological processes that drive cellular function can be represente
       
       <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
       <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
-Abstract Gene regulatory network inference allows the study of transcriptional control to identify the alteration of cellular processes in human diseases. The computational inference of gene regulation using PANDA, PUMA, and SPIDER for aggregate networks and LIONESS, which models single-sample networks involves the assessment of several lines of biological evidence. These tools use the same PANDA computational backend, in particular, they perform operations on large data matrices, which limits their use for large-scale genomic studies due to the computational burden.</description>
+Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
+bioRxiv
+doi.org/10.1101/2021.07.13.452214.
+Abstract Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS).</description>
     </item>
     
     <item>
