@@ -42,7 +42,7 @@ EGRET:
 DRAGON:
  paper (netZooPy)
 Sequence analysis YARN:
- paper - repo
+ paper (netZooR)
 FENRIR:
  In preparation - repo</description>
     </item>
@@ -188,6 +188,19 @@ Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L
 bioRxiv
 doi.org/10.1101/2021.07.13.452214.
 Abstract Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS).</description>
+    </item>
+    
+    <item>
+      <title>YARN</title>
+      <link>https://netZoo.github.io/zooanimals/yarn/</link>
+      <pubDate>Sun, 02 Sep 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/yarn/</guid>
+      <description>Reference Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data
+Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp;amp; John Quackenbush
+BMC Bioinformatics
+doi.org/10.1186/s12859-017-1847-x.
+Abstract Background Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies.</description>
     </item>
     
     <item>
