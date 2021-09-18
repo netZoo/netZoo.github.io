@@ -118,11 +118,6 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/yarn/</loc>
-    <lastmod>2018-09-02T08:50:52-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://netZoo.github.io/zooanimals/egret/</loc>
     <lastmod>2018-08-02T08:50:52-04:00</lastmod>
   </url>
@@ -130,6 +125,11 @@
   <url>
     <loc>https://netZoo.github.io/zooanimals/dragon/</loc>
     <lastmod>2018-07-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/yarn/</loc>
+    <lastmod>2018-06-02T08:50:52-04:00</lastmod>
   </url>
   
   <url>
