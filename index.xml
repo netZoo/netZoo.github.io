@@ -227,7 +227,7 @@ Abstract Background: With the onset of next-generation sequencing technologies, 
       <guid>https://netZoo.github.io/zooanimals/otter/</guid>
       <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching.
 Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz.
-bioRxiv
+Proceedings of the AAAI Conference on Artificial Intelligence
 doi.org/10.1101/2020.06.23.167999.
 Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
     </item>
@@ -240,8 +240,8 @@ Abstract Gene regulatory network inference is instrumental to the discovery of g
       <guid>https://netZoo.github.io/zooanimals/crane/</guid>
       <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules.
 James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
-bioRxiv
-doi.org/10.1101/2020.07.12.198747.
+Frontiers in Genetics
+doi.org/10.3389/fgene.2020.603264.
 Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes.</description>
     </item>
     
