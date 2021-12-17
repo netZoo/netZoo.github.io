@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "The network zoo"
 theme = "hugo-theme-learn"
 googleAnalytics = "UA-151168345-2"
+publishDir = "docs"
 
 # For search functionality
 [outputs]
