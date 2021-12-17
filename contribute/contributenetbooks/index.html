@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Zoo animals :: The network zoo</title>
+    <title>How to contribute to netbooks :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1639765680" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/">
+  <body class="" data-url="/contribute/contributenetbooks/">
     <nav id="sidebar" class="">
 
 
@@ -8621,7 +8621,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item 
-        
+        parent
         
         
         ">
@@ -8664,7 +8664,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/contribute/contributenetbooks/" title="How to contribute to netbooks" class="dd-item ">
+      <li data-nav-id="/contribute/contributenetbooks/" title="How to contribute to netbooks" class="dd-item active">
         <a href="/contribute/contributenetbooks/">
         How to contribute to netbooks
         
@@ -8729,8 +8729,8 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/zooanimals/">
@@ -9254,6 +9254,8 @@ if (!doNotTrack) {
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -9264,7 +9266,13 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > Zoo animals
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to contribute to netbooks
+          
+         
           
          
           
@@ -9273,6 +9281,19 @@ if (!doNotTrack) {
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#contribution-guide">Contribution guide</a></li>
+    <li><a href="#preparing-the-contribution">Preparing the contribution</a></li>
+    <li><a href="#submit-the-contribution">Submit the contribution</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -9280,29 +9301,50 @@ if (!doNotTrack) {
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              How to contribute to netbooks
+            </h1>
           
 
         
 
 
 
-
-	<h1 id="zoo-animals">Zoo animals</h1>
-<h3 id="a-link-to-the-zoo-animals-and-their-papers">A link to the zoo animals and their papers.</h3>
-
-
-
+<h2 id="contribution-guide">Contribution guide</h2>
+<p><a href="http://netbooks.networkmedicine.org">netbooks</a> is a Jupyter notebook tutorial server that hosts several uses case of the Network Zoo tools.</p>
+<h2 id="preparing-the-contribution">Preparing the contribution</h2>
+<p>Please prepare your tutorial as an Python/R <a href="https://jupyter.org/">Jupyter notebook</a>.</p>
+<p>Make sure to:</p>
+<ul>
+<li>
+<p>Avoid saving files on disk</p>
+</li>
+<li>
+<p>Avoid making systems calls to create folders or call  other programs such as <code>os.system( someBashCommand )</code></p>
+</li>
+<li>
+<p>Include substantial documentation of the code and illustrate the use cases with biological/theoretical motivation in the introduction and main takeaway in the conclusion</p>
+</li>
+<li>
+<p>Always include the package loading call in the beginning of each tutorial and the references at the end</p>
+</li>
+<li>
+<p>Avoid setting working directories using <code>setwd()/os.chdir()</code> and instead refer to files by their relative paths</p>
+</li>
+</ul>
+<h2 id="submit-the-contribution">Submit the contribution</h2>
+<p>Please open a new pull request at the <a href="https://github.com/netZoo/netbooks">netbooks GitHub repo</a> and push the <code>.ipynb</code> file.</p>
+<p>Then, the server will fetch the new changes periodically and the tutorial will be displayed in the server.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -9334,8 +9376,6 @@ if (!doNotTrack) {
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9349,6 +9389,45 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -9377,19 +9456,6 @@ if (!doNotTrack) {
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -9406,33 +9472,10 @@ if (!doNotTrack) {
                     
 
                     
-            
-        
-                    
-            
-        
-                    
                         
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9745,10 +9788,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/contribute/issues/" title="Getting help"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/contribute/contribute/" title="How to contribute"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/animals/" title="List" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/contribute/install/" title="How to install" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -9779,3 +9822,4 @@ if (!doNotTrack) {
 
   </body>
 </html>
+

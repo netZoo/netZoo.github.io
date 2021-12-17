@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Zoo animals :: The network zoo</title>
+    <title>gpuZoo :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1639765680" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/">
+  <body class="" data-url="/zooanimals/gpuzoo/">
     <nav id="sidebar" class="">
 
 
@@ -8730,7 +8730,7 @@ if (!doNotTrack) {
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/zooanimals/">
@@ -8962,7 +8962,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/gpuzoo/" title="gpuZoo" class="dd-item ">
+      <li data-nav-id="/zooanimals/gpuzoo/" title="gpuZoo" class="dd-item active">
         <a href="/zooanimals/gpuzoo/">
         gpuZoo
         
@@ -9254,6 +9254,8 @@ if (!doNotTrack) {
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -9264,7 +9266,13 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > Zoo animals
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > gpuZoo
+          
+         
           
          
           
@@ -9273,6 +9281,25 @@ if (!doNotTrack) {
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#supplementary-data">Supplementary data</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#github-repository">GitHub repository</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -9280,29 +9307,90 @@ if (!doNotTrack) {
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              gpuZoo
+            </h1>
           
 
         
 
 
 
+<p>
 
-	<h1 id="zoo-animals">Zoo animals</h1>
-<h3 id="a-link-to-the-zoo-animals-and-their-papers">A link to the zoo animals and their papers.</h3>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
 
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2021.07.13.452214" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.</p>
+<p>Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2021.07.13.452214v1">doi.org/10.1101/2021.07.13.452214</a>.</p>
+<h3 id="abstract">Abstract</h3>
+<p>Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS). These methods work by performing repeated operations on data matrices in order to integrate information across multiple lines of biological evidence. This limits their use for large-scale genomic studies due to the associated high computational burden. To address this limitation, we developed gpuZoo, which includes GPU-accelerated implementations of these algorithms. The runtime of the gpuZoo implementation in MATLAB and Python is up to 61 times faster and 28 times less expensive than the multi-core CPU implementation of the same methods. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements by combining GPU acceleration with an efficient on-line derivation. Taken together, gpuZoo allows parallel and on-line gene regulatory network inference in large-scale genomic studies with cost-effective performance. gpuZoo is available in MATLAB through the netZooM package <a href="https://github.com/netZoo/netZooM">https://github.com/netZoo/netZooM</a> and in Python through the netZooPy package <a href="https://github.com/netZoo/netZooPy">https://github.com/netZoo/netZooPy</a>.</p>
+<h3 id="supplementary-data">Supplementary data</h3>
+<p>This is the data used for the benchmarks of gpuZoo.</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Motif</th>
+<th>PPI</th>
+<th>Expression</th>
+<th>Mode</th>
+<th>TFs</th>
+<th>Genes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small network</td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/Hugo_motifCellLine_reduced.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
+<td>Intersection</td>
+<td>652</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Protein-coding genes network</td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/motifs/Hugo_motifCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/ppi2015_freezeCellLine.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/Hugo_exp1_lcl.txt">download</a></td>
+<td>Union</td>
+<td>652</td>
+<td>27149</td>
+</tr>
+<tr>
+<td>Transcript network</td>
+<td><a href="https://granddb.s3.amazonaws.com/gpuPANDA/motif_complete_reduced.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/ppi/ppi_complete.txt">download</a></td>
+<td><a href="https://granddb.s3.amazonaws.com/optPANDA/expression/THP-1.tsv">download</a></td>
+<td>Union</td>
+<td>1603</td>
+<td>43698</td>
+</tr>
+</tbody>
+</table>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a></p>
+<h3 id="github-repository">GitHub repository</h3>
+<p>To reproduce the benchmarks, check the <a href="https://github.com/QuackenbushLab/gpuzoo">github repository gpuZoo</a>.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
+
         
         </div> 
         
@@ -9610,6 +9698,7 @@ if (!doNotTrack) {
             
                 
                     
+                    
                 
                 
 
@@ -9625,6 +9714,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9745,10 +9837,10 @@ if (!doNotTrack) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="/contribute/issues/" title="Getting help"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/spider/" title="SPIDER"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/animals/" title="List" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/egret/" title="EGRET" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -9779,3 +9871,4 @@ if (!doNotTrack) {
 
   </body>
 </html>
+

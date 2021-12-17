@@ -22,6 +22,20 @@ Each language repository has a master and a devel branch. The master branch cont
     </item>
     
     <item>
+      <title>How to contribute to netbooks</title>
+      <link>https://netZoo.github.io/contribute/contributenetbooks/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/contribute/contributenetbooks/</guid>
+      <description>Contribution guide netbooks is a Jupyter notebook tutorial server that hosts several uses case of the Network Zoo tools.
+Preparing the contribution Please prepare your tutorial as an Python/R Jupyter notebook.
+Make sure to:
+  Avoid saving files on disk
+  Avoid making systems calls to create folders or call other programs such as os.system( someBashCommand )
+  Include substantial documentation of the code and illustrate the use cases with biological/theoretical motivation in the introduction and main takeaway in the conclusion</description>
+    </item>
+    
+    <item>
       <title>How to install</title>
       <link>https://netZoo.github.io/contribute/install/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
@@ -38,7 +52,8 @@ In Python, an additional step is required to install netZooPy through pip3 insta
       <pubDate>Mon, 01 Jul 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/contribute/issues/</guid>
-      <description>Issues If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
+      <description>Issues If you need help or if you have any question about netZoo, please check discussions.
+If you would like to report a bug in the netZoo, please open an issue in the issues tab of the corresponding netZoo{R,Py,M,C} github.
 Tutorials Check the tutorials in the github repo for a basic application of the network tools.
 netZooPy: Jupyter Notebook Tutorials.
 netZooM: LiveScript Tutorials.
