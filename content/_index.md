@@ -76,7 +76,7 @@ netZoo{R,Py,M,C} is a community maintained package licensed under [GPL-3.0](http
 
 ### Labs
 
-![labs](images/labs-01.png "Labs")
+![labs](docs/images/labs-01.png "Labs")
 
 {{< rawhtml >}}
 <!-- Place this tag in your head or just before your close body tag. -->
