@@ -15,7 +15,7 @@ type 3) have to be submitted with unit tests and tutorials to explain how the ne
 
 ### Preparing the contribution
 
-To increase the chances of including a contribution to netZoo, please follow the instructions below.
+If you are new to GitHub, check our [Git tutorial](http://netbooks.networkmedicine.org/) to learn about  basic commands. Then, to increase the chances of including a contribution to netZoo, please follow the instructions for the contribution model below.
 
 #### New functions
 

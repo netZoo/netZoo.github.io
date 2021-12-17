@@ -12,7 +12,13 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Bipartite Community Structure of eQTLs. [link](https://pubmed.ncbi.nlm.nih.gov/27618581/).
+Bipartite Community Structure of eQTLs. 
+
+John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
+
+Plos computational biology
+
+[doi.org/10.1371/journal.pcbi.1005033](https://pubmed.ncbi.nlm.nih.gov/27618581/).
 
 ### Abstract
 
@@ -20,4 +26,16 @@ Genome Wide Association Studies (GWAS) and expression quantitative trait locus (
 
 ### Implementation
 
-netZooR, netZooPy
+[netZooR](https://github.com/netZoo/netZooR), [netZooPy](https://github.com/netZoo/netZooPy)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use CONDOR:
+
+- netZooPy:
+
+	- Benchmarking motif networks for the reconstruction of kidney cancer regulatory network
+
+- netZooR:
+
+	- Exploring eQTL tissue regulation with CONDOR

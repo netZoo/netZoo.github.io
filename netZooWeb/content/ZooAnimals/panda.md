@@ -12,7 +12,13 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Passing Messages between Biological Networks to Refine Predicted Interactions. [link](https://www.ncbi.nlm.nih.gov/pubmed/23741402).
+Passing Messages between Biological Networks to Refine Predicted Interactions. 
+
+Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
+
+Plos One
+
+[doi.org/10.1371/journal.pone.0064832](https://www.ncbi.nlm.nih.gov/pubmed/23741402).
 
 ### Abstract
 
@@ -20,4 +26,26 @@ Regulatory network reconstruction is a fundamental problem in computational biol
 
 ### Implementation
 
-netZooR, netZooPy, netZooM, netZooC
+[netZooR](https://github.com/netZoo/netZooR), [netZooPy](https://github.com/netZoo/netZooPy), [netZooM](https://github.com/netZoo/netZooM), [netZooC](https://github.com/netZoo/netZooC)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use PANDA:
+
+- netZooR:
+
+	- Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R
+
+	- Building PANDA Regulatory Networks from GTEx Gene Expression Data in R
+
+	- Finding drug candidates to reverse Lung Adenocarcinoma (LUAD)-induced gene regulation disruption using TCGA
+
+	- Differential gene targeting of pancreatic cancer subtypes
+
+- netZooPy:
+
+	- Controlling the variance of PANDA networks
+
+	- Benchmarking motif networks for the reconstruction of kidney cancer regulatory network
+
+

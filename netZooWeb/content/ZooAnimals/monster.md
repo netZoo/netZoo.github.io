@@ -12,7 +12,13 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Estimating drivers of cell state transitions using gene regulatory network models. [link](https://pubmed.ncbi.nlm.nih.gov/29237467/).
+Estimating drivers of cell state transitions using gene regulatory network models. 
+
+Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush.
+
+BMC Systems Biology
+
+[doi.org/10.1186/s12918-017-0517-y](https://pubmed.ncbi.nlm.nih.gov/29237467/).
 
 ### Abstract
 
@@ -26,4 +32,14 @@ Keywords: Chronic obstructive pulmonary disease; Gene regulatory network inferen
 
 ### Implementation
 
-netZooR
+[netZooR](https://github.com/netZoo/netZooR)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use MONSTER:
+
+- netZooR:
+
+	- Estimating state transition in yeast cell cycle using MONSTER
+
+	- Finding drug candidates to reverse Lung Adenocarcinoma (LUAD)-induced gene regulation disruption using TCGA

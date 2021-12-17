@@ -5,16 +5,39 @@ title = "The network zoo"
 
 # The network zoo
 
-netZoo{R,Py,M,C} is a network biology package for the reconstruction and analysis of gene regulatory networks.
+{{< rawhtml >}}
+<div align="center">
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/netZoo/netZooR" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooR on GitHub">netZooR</a>
+<a class="github-button" href="https://github.com/netZoo/netZooPy" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooPy on GitHub">netZooPy</a>
+<a class="github-button" href="https://github.com/netZoo/netZooM" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooM on GitHub">netZooM</a>
+<a class="github-button" href="https://github.com/netZoo/netZooC" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooC on GitHub">netZooC</a>
+<a class="github-button" href="https://github.com/netZoo/netbooks" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooC on GitHub">netbooks</a>
+</div>
+{{< /rawhtml >}}
 
-If you use the netZoo, please cite us using the following format.
+netZoo{R,Py,M,C} is a network biology package for the inference and analysis of gene regulatory networks. If you use netZoo, please cite us using the following format:
 
-> We used ALPACA (Padi and Quackenbush 2018) as implemented in netZooR (v 0.7.2; netzoo.github.io) using R (v 4.0.2).
+> We employed ALPACA (Padi and Quackenbush, 2018) as implemented in netZooR (v 0.7.2; netzoo.github.io) using R (v 4.0.2).
 
-See the following [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
+See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
-A collection of networks generated using the netZoo is available in [GRAND](https://grand.networkmedicine.org) database.
+A collection of tutorials hosted on the cloud allows you to get up and running without hardware requirement and without installing any depedency. netZoo R and Python tutorials are available on [netBooks](http://netbooks.networkmedicine.org/). Otherwise, you can run the tutorials on your computer using  [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
+
+### netZoo ecosystem
+
+- The software tools are developed in [netZoo](https://github.com/netZoo).
+
+- Continuous integration is enabled through [ZooKeeper](https://github.com/netZoo/netZooR/actions) (Travis-CI, GitHub actions, and Jenkins). 
+
+- A set of networks generated using netZoo tools are hosted in [GRAND](https://grand.networkmedicine.org) database. 
+
+- netZoo tutorials are distributed through bundled hardware and software environments using [netBooks](http://netbooks.networkmedicine.org). 
+
+- To ask questions or to provide feedback or ideas, please use our community channel for [discussions](https://github.com/netZoo/netZooR/discussions).
+
 ### Packages
+
 R: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{% button href="https://github.com/netZoo/netZooR" icon="fab fa-github" %}}netZooR{{% /button %}}
 
 Python: &nbsp; &nbsp; {{% button href="https://github.com/netZoo/netZooPy" icon="fab fa-github" %}}netZooPy{{% /button %}}
@@ -37,11 +60,11 @@ prior.
 
 ### Live status
 
-Continuous integration is enabled for netZoo using [Travis](https://travis-ci.com/github/netZoo) and [ZooKeeper](http://zookeeper.networkmedicine.org/).
+Continuous integration (ZooKeeper) is enabled for netZoo using [Travis](https://travis-ci.com/github/netZoo) for netZooC and netZooM,  and [GitHub actions](https://github.com/netZoo/netZooR/actions) for netZooR and netZooPy.
 
 R &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](http://zookeeper.networkmedicine.org/job/netZooR_Ubuntu18.04/lastBuild/) ([Ubuntu](http://zookeeper.networkmedicine.org/job/netZooR_Ubuntu18.04/)) - [coverage](https://codecov.io/gh/netZoo/netZooR)
 
-Python &nbsp; - [build status](https://travis-ci.com/netZoo/netZooPy) ([Ubuntu](https://travis-ci.com/netZoo/netZooPy), [Macos](https://travis-ci.com/github/netZoo/netZooPy)) - [coverage](https://codecov.io/gh/netZoo/netZooPy)
+Python &nbsp; - [build status](https://github.com/netZoo/netZooPy/actions) ([Ubuntu](https://github.com/netZoo/netZooPy/actions), [Macos](https://github.com/netZoo/netZooPy/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooPy)
 
 MATLAB - [build status](https://travis-ci.com/netZoo/netZooM) ([Ubuntu](https://travis-ci.com/netZoo/netZooM/jobs/212762427), [Macos](https://travis-ci.com/netZoo/netZooM/jobs/212762428)) - [coverage](https://codecov.io/gh/netZoo/netZooM)
 
@@ -51,4 +74,11 @@ C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](https://travis-ci.com/netZ
 netZoo{R,Py,M,C} is a community maintained package licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 {{% /notice %}}
 
+### Labs
+
 ![labs](images/labs-01.png "Labs")
+
+{{< rawhtml >}}
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+{{< /rawhtml >}}

@@ -12,7 +12,13 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Detecting phenotype-driven transitions in regulatory network structure. [link](https://www.nature.com/articles/s41540-018-0052-5).
+Detecting phenotype-driven transitions in regulatory network structure. 
+
+Megha Padi and John Quackenbush.
+
+npj Systems biology and applications
+
+[doi:10.1038/s41540-018-0052-5](https://www.nature.com/articles/s41540-018-0052-5).
 
 ### Abstract
 
@@ -20,4 +26,4 @@ Complex traits and diseases like human height or cancer are often not caused by 
 
 ### Implementation
 
-netZooR
+[netZooR](https://github.com/netZoo/netZooR)

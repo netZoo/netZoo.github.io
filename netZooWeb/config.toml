@@ -2,6 +2,7 @@ baseURL = "https://netZoo.github.io"
 languageCode = "en-us"
 title = "The network zoo"
 theme = "hugo-theme-learn"
+googleAnalytics = "UA-151168345-2"
 
 # For search functionality
 [outputs]
@@ -14,28 +15,34 @@ url = "https://github.com/netZoo"
 weight = 10
 
 [[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book-reader'></i> NetBooks"
+identifier = "dde"
+url = "http://netbooks.networkmedicine.org/"
+weight = 11
+
+[[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-cloud'></i> Travis-ci"
 identifier = "db"
 url = "https://travis-ci.com/netZoo"
-weight = 11
+weight = 12
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-cloud'></i> ZooKeeper"
 identifier = "dc"
-url = "http://zookeeper.networkmedicine.org/"
-weight = 12
+url = "https://github.com/netZoo/netZooR/actions"
+weight = 13
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Codecov"
 identifier = "dd"
 url = "https://codecov.io/gh/netZoo"
-weight = 13
+weight = 14
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-envelope-square'></i> Contact"
 identifier = "de"
-url = "mailto:twang@hsph.harvard.edu"
-weight = 14
+url = "mailto:benguebila@hsph.harvard.edu"
+weight = 15
 
 [params]
 	description= "Network biology packages"

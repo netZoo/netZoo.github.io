@@ -12,12 +12,36 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Cancer subtype identification using somatic mutation data. [link](https://www.nature.com/articles/s41416-018-0109-7).
+Cancer subtype identification using somatic mutation data. 
+
+Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush. 
+
+British Journal of Cancer
+
+[doi.org/10.1038/s41416-018-0109-7](https://www.nature.com/articles/s41416-018-0109-7).
 
 ### Abstract
 
-Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs. We applied PUMA to 38 tissues from the Genotype-Tissue Expression (GTEx) project, integrating RNA-Seq data with two different miRNA target predictions priors, built on predictions from TargetScan and miRanda, respectively. We found that while target predictions obtained from these two different resources are considerably different, PUMA captures similar tissue-specific miRNA-target regulatory interactions in the different network models. Furthermore, the tissue-specific functions of miRNAs we identified based on regulatory profiles (available at: https://kuijjer.shinyapps.io/puma_gtex/) are highly similar between networks modeled on the two target prediction resources. This indicates that PUMA consistently captures important tissue-specific miRNA regulatory processes. In addition, using PUMA we identified miRNAs regulating important tissue-specific processes that, when mutated, may result in disease development in the same tissue. PUMA is available in C ++, MATLAB, and Python on GitHub (https://github.com/kuijjerlab and https://netzoo.github.io/).
+Background:
+With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis. Classification of patients with similar mutation profiles may help identifying subgroups of patients who might benefit from specific types of treatment. However, classification based on somatic mutations is challenging due to the sparseness and heterogeneity of the data.
+
+Methods:
+Here we describe a new method to de-sparsify somatic mutation data using biological pathways. We applied this method to 23 cancer types from The Cancer Genome Atlas, including samples from 5805 primary tumours.
+
+Results:
+We show that, for most cancer types, de-sparsified mutation data associate with phenotypic data. We identify poor prognostic subtypes in three cancer types, which are associated with mutations in signal transduction pathways for which targeted treatment options are available. We identify subtype–drug associations for 14 additional subtypes. Finally, we perform a pan-cancer subtyping analysis and identify nine pan-cancer subtypes, which associate with mutations in four overarching sets of biological pathways.
+
+Conclusions:
+This study is an important step toward understanding mutational patterns in cancer.
 
 ### Implementation
 
-netZooR, netZooPy
+[netZooR](https://github.com/netZoo/netZooR), [netZooPy](https://github.com/netZoo/netZooPy)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use SAMBAR:
+
+- netZooR:
+
+    - Gene regulatory network analysis in Glioblastoma

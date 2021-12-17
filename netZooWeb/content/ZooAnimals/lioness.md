@@ -12,7 +12,13 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Estimating Sample-Specific Regulatory Networks. [link](https://www.sciencedirect.com/science/article/pii/S2589004219300872).
+Estimating Sample-Specific Regulatory Networks. 
+
+Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.
+
+iScience
+
+[doi.org/10.1016/j.isci.2019.03.021](https://www.sciencedirect.com/science/article/pii/S2589004219300872).
 
 ### Abstract
 
@@ -20,4 +26,16 @@ Biological systems are driven by intricate interactions among molecules. Many me
 
 ### Implementation
 
-netZooR, netZooPy, netZooM
+[netZooR](https://github.com/netZoo/netZooR), [netZooPy](https://github.com/netZoo/netZooPy), [netZooM](https://github.com/netZoo/netZooM)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use LIONESS:
+
+- netZooR:
+
+	- Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R
+
+	- Comparing LIONESS Regulatory Networks using limma
+
+	- Differential gene targeting of pancreatic cancer subtypes

@@ -36,7 +36,7 @@ SAMBAR:
 
 SPIDER: 
 
-&nbsp; &nbsp; &nbsp; In preparation.                                             (netZooM)
+&nbsp; &nbsp; &nbsp; [paper](https://www.biorxiv.org/content/10.1101/2020.10.19.345827v1.abstract) (netZooM)
 
 OTTER:
 
@@ -46,11 +46,19 @@ CRANE:
 
 &nbsp; &nbsp; &nbsp; [paper](https://www.biorxiv.org/content/10.1101/2020.07.12.198747v1) (netZooR)
 
+EGRET:
+
+&nbsp; &nbsp; &nbsp; [paper](https://www.biorxiv.org/content/10.1101/2021.01.18.427134v1.abstract) (netZooR)
+
+DRAGON:
+
+&nbsp; &nbsp; &nbsp; [paper](https://arxiv.org/abs/2104.01690) (netZooPy)
+
 ### Sequence analysis
 
 YARN: 
 
-&nbsp; &nbsp; &nbsp;[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/) - [repo](https://github.com/QuackenbushLab/yarn)
+&nbsp; &nbsp; &nbsp;[paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627434/) (netZooR)
 
 FENRIR: 
 
