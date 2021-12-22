@@ -90,7 +90,7 @@ if 1: # Skip CONDOR NOW because schoalrly error
 	scholarly.pprint(first_publication_filled)
 
 	# Fetch citations
-	for citation in pub.get_citedby():
+	for citation in scholarly.citedby(first_publication_filled):
         	print(citation['bib']['title'])
 	        try:
         	        pubs = pubs + '>'+citation['bib']['title']+'. '+citation['bib']['author']+'. \n \n'+citation['bib']['url'] + '. \n \n'
@@ -119,7 +119,7 @@ first_publication_filled = scholarly.fill(pub)
 scholarly.pprint(first_publication_filled)
 
 # Fetch citations
-for citation in pub.get_citedby():
+for citation in scholarly.citedby(first_publication_filled):
         print(citation['bib']['title'])
         try:
                 pubs = pubs + '>'+citation['bib']['title']+'. '+citation['bib']['author']+'. \n \n'+citation['bib']['url'] + '. \n \n'
@@ -148,7 +148,7 @@ first_publication_filled = scholarly.fill(pub)
 scholarly.pprint(first_publication_filled)
 
 # Fetch citations
-for citation in pub.get_citedby():
+for citation in scholarly.citedby(first_publication_filled):
         print(citation['bib']['title'])
         try:
                 pubs = pubs + '>'+citation['bib']['title']+'. '+citation['bib']['author']+'. \n \n'+citation['bib']['url'] + '. \n \n'
@@ -178,7 +178,7 @@ if 1: #scholarly error
 	scholarly.pprint(first_publication_filled)
 
 	# Fetch citations
-	for citation in pub.get_citedby():
+	for citation in scholarly.citedby(first_publication_filled):
         	print(citation['bib']['title'])
 	        try:
         	        pubs = pubs + '>'+citation['bib']['title']+'. '+citation['bib']['author']+'. \n \n'+citation['bib']['url'] + '. \n \n'
