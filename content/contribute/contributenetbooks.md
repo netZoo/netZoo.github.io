@@ -25,6 +25,17 @@ Make sure to:
 
 - Avoid setting working directories using `setwd()/os.chdir()` and instead refer to files by their relative paths
 
+## Minimum standards
+
+Each new contribution should include:
+
+- An introduction that describes the problem at a higher level
+
+- Description of input data files and providing links to their original sources
+
+- Descriptipon of the results and how to interpret them.
+
+
 ## Submit the contribution
 
 Please open a new pull request at the [netbooks GitHub repo](https://github.com/netZoo/netbooks) and push the `.ipynb` file.
