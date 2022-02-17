@@ -13,7 +13,7 @@ The ecosystem includes several components including:
 
 These tools are widely used in the academic community to analyze data from biological experiments to model cancer and other human conditions. To get started, please read through the following project and reach out to Marouen Ben Guebila (benguebila@hsph.harvard.edu) if you’d like to join!
 
-# GSoC 2022 projects overview:
+# GSoC 2022 projects overview
 
 ## 1 Connect netzoocloud with recount3
 
