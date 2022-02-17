@@ -17,17 +17,17 @@ These tools are widely used in the academic community to analyze data from biolo
 
 ## 1 Connect netzoocloud with recount3
 
-URL: netzoocloud.networkmedicine.org
+URL: http://netzoocloud.networkmedicine.org
 
 Project type: adding a feature to an existing tool
 
-Description: Netzoocloud is a web interface for network zoo tools that allows users with different levels of programming abilities to run these tools on their own data. However, a very common use case is to run network inference tools on publicly-avilable data, such as the one provided by recount3. Recount3 is a database that collected a large set of genetic data snd processed them in a uniform manner which allows to build comparative analysis. In this project, we will build an interface to link netzoocloud to recount3 to connect both resources and facilitate a very common task done by a large number of users.
+Description: Netzoocloud is a web interface for network zoo tools that allows users with different levels of programming abilities to run these tools on their own data. However, a very common use case is to run network inference tools on publicly-available data, such as the one provided by [recount3](http://rna.recount.bio/). Recount3 is a database that collected a large set of genetic data snd processed them in a uniform manner which allows to build comparative analysis. In this project, we will build an interface to link netzoocloud to recount3 to connect both resources and facilitate a very common task done by a large number of users.
 
 Skills: HTML/CSS, React, JQuery, Django, R.
 
 ## 2 Build an API for netzoocloud
 
-URL: netzoocloud.networkmedicine.org
+URL: http://netzoocloud.networkmedicine.org
 
 Project type: adding a feature to an existing tool
 
@@ -37,13 +37,13 @@ Skills: Django, REST APIs, DRF, HTML/CSS.
 
 ## 3 Containerized environments for netbooks
 
-URL: netbooks.networkmedicine.org
+URL: http://netbooks.networkmedicine.org
 
 Project type: Improving an existing tool
 
-Description: netbooks is a web server that allows to run executable documents on a Jupyter hub server. This tool is intended to guide users into the usage of functions in the Network Zoo, see examples of outputs and analytical results, and reproduce examples. A limitation of this tool is that all notebook run on the same environment (Python version and other dependencies), however, these tools were built on a different set of analysis, therefore, to have a perfect reproducibility, in this project, we will build a system to integrate each notebook in its own environment and execute his environment in runtime.
+Description: netbooks is a web server that allows to run executable documents on a Jupyter Hub server. This tool is intended to guide users in the usage of functions in the Network Zoo, browse examples of outputs and analytical results, and reproduce examples. A limitation of this tool is that all notebook run on the same environment (Python version and other dependencies), however, these tools were built on a different set of analysis, therefore, to have a perfect reproducibility, in this project, we will build a system to integrate each notebook in its own environment and execute this environment in runtime.
 
-Skills: Python, Jupyter notebook/hub, conda.
+Skills: Python, Jupyter notebook/Jupyter Hub, conda.
 
 ## 4 Building site-wide search functionalities in GRAND
 
@@ -51,7 +51,7 @@ URL: https://grand.networkmedicine.org
 
 Project type: Improving an existing tool
 
-Description: GRAND is a database that hosts networks for several biological systems and human conditions. These networks can be queried and visualized using the built-in tools in the database. These networks are classified in categories but a resource-wide search tool using advanced filters is still missing and has been required by several users. Therefore, in this project, we will implement a search functionality that allows users to fetch networks based advanced features such as nodes and edge attributes.
+Description: GRAND is a database that hosts networks for several biological systems and human conditions built using Network Zoo tools. These networks can be queried and visualized using the built-in tools in the database. These networks are also classified in categories but a resource-wide search tool using advanced filters is still missing and has been required by several users. Therefore, in this project, we will implement a search functionality that allows users to fetch networks based on advanced features such as node and edge attributes.
 
 Skills: HTML/CSS, Javascript, Python and Django.
 
@@ -61,6 +61,6 @@ URL: https://github.com/netZoo/netZooM
 
 Project type: Improving an existing tool
 
-Description: netZoo tools are implemented in Python, R, MATLAB, and C. Although continuous integration systems have improved in the past years particularly with GitHub actions, a common challenge remains with testing proprietary software such MATLAB scripts. In this project, we will build a Jenkins continuous integration server for netZooM using our servers and configure it to run unit test for this repository.
+Description: Network Zoo tools are implemented in Python, R, MATLAB, and C. Although continuous integration systems have improved in the past years particularly with GitHub actions, a common challenge remains with testing proprietary software such as MATLAB scripts. In this project, we will build a Jenkins continuous integration server for netZooM (M stands for MATLAB) using our own servers and configure it to run unit test for this repository.
 
 Skills: Jenkins, Linux, GitHub, MATLAB.
