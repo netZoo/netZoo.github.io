@@ -13,9 +13,9 @@ The ecosystem includes several components including:
 
 These tools are widely used in the academic community to analyze data from biological experiments to model cancer and other human conditions. To get started, please read through the following project and reach out to Marouen Ben Guebila (benguebila@hsph.harvard.edu) if you’d like to join!
 
-GSoC 2022 projects overview:
+# GSoC 2022 projects overview:
 
-# 1 Connect netzoocloud with recount3
+## 1 Connect netzoocloud with recount3
 
 URL: netzoocloud.networkmedicine.org
 
@@ -35,7 +35,7 @@ Description: Netzoocloud is a web interface for network zoo tools that allows us
 
 Skills: Django, REST APIs, DRF, HTML/CSS.
 
-#3 Containerized environments for netbooks
+## 3 Containerized environments for netbooks
 
 URL: netbooks.networkmedicine.org
 
@@ -45,7 +45,7 @@ Description: netbooks is a web server that allows to run executable documents on
 
 Skills: Python, Jupyter notebook/hub, conda.
 
-#4 Building site-wide search functionalities in GRAND
+## 4 Building site-wide search functionalities in GRAND
 
 URL: https://grand.networkmedicine.org
 
@@ -55,7 +55,7 @@ Description: GRAND is a database that hosts networks for several biological syst
 
 Skills: HTML/CSS, Javascript, Python and Django.
 
-#5 Jenkins continuous integration server for netZooM
+## 5 Jenkins continuous integration server for netZooM
 
 URL: https://github.com/netZoo/netZooM
 
@@ -64,5 +64,3 @@ Project type: Improving an existing tool
 Description: netZoo tools are implemented in Python, R, MATLAB, and C. Although continuous integration systems have improved in the past years particularly with GitHub actions, a common challenge remains with testing proprietary software such MATLAB scripts. In this project, we will build a Jenkins continuous integration server for netZooM using our servers and configure it to run unit test for this repository.
 
 Skills: Jenkins, Linux, GitHub, MATLAB.
-
-
