@@ -1,5 +1,5 @@
 ---
-title: "List"
+title: "GSoC 2022"
 date: 2019-08-02T08:50:52-04:00
 draft: false
 ---
