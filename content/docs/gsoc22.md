@@ -64,3 +64,13 @@ Project type: Improving an existing tool
 Description: Network Zoo tools are implemented in Python, R, MATLAB, and C. Although continuous integration systems have improved in the past years particularly with GitHub actions, a common challenge remains with testing proprietary software such as MATLAB scripts. In this project, we will build a Jenkins continuous integration server for netZooM (M stands for MATLAB) using our own servers and configure it to run unit test for this repository.
 
 Skills: Jenkins, Linux, GitHub, MATLAB.
+
+## 6 NetZooPy package harmonization 
+
+URL: https://github.com/netZoo/netZooPy
+
+Project type: Improving an existing tool
+
+NetZooPy is a scientific computing package widely used by academics for analysis of regulatory networks. It has been built during the years with the contribution of multiple developers, each contributing a different “animal” (a python package) of the zoo, and it is now being repackaged to provide smoother interactions with the users. The contributor will have to harmonize the existing code by creating standard input/output interfaces, refactoring and integrating classes and common function, and expanding the unit-testing.
+
+Skills: Python, version control.
