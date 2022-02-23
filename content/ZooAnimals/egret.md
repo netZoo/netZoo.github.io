@@ -18,7 +18,7 @@ Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Pl
 
 Genome Research
 
-[10.1101/gr.275107.120](https://genome.cshlp.org/content/early/2022/02/21/gr.275107.120)
+[doi.org/10.1101/gr.275107.120](https://genome.cshlp.org/content/early/2022/02/21/gr.275107.120)
 
 ### Abstract
 
