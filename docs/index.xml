@@ -289,9 +289,9 @@ Abstract Gene regulatory network inference allows for the study of transcription
       <guid>https://netZoo.github.io/zooanimals/egret/</guid>
       <description>Reference Predicting genotype-specific gene regulatory networks
 Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Platig
-bioRxiv
-doi.org/10.1101/2021.01.18.427134
-Abstract The majority of disease-associated genetic variants are thought to have regulatory effects, including the disruption of transcription factor (TF) binding and the alteration of downstream gene expression. Identifying how a person’s genotype affects their individual gene regulatory network has the potential to provide important insights into disease etiology and to enable improved genotype-specific disease risk assessments and treatments.</description>
+Genome Research
+10.1101/gr.275107.120
+Abstract Understanding how each person&#39;s unique genotype influences their individual patterns of gene regulation has the potential to improve our understanding of human health and development, and to refine genotype-specific disease risk assessments and treatments. However, the effects of genetic variants are not typically considered when constructing gene regulatory networks, despite the fact that many disease-associated genetic variants are thought to have regulatory effects, including the disruption of transcription factor (TF) binding.</description>
     </item>
     
     <item>
