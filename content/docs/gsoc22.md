@@ -25,6 +25,14 @@ Description: Netzoocloud is a web interface for network zoo tools that allows us
 
 Skills: HTML/CSS, React, JQuery, Django, R.
 
+Expected size of project: 350 hours
+
+Mentors: Marouen Ben Guebila and Talha Khan
+
+Expected outcomes: A netZooCloud module that allows users to integrate public data in their genomic analysis.
+
+Difficulty: Medium
+
 ## 2 Build an API for netzoocloud
 
 URL: http://netzoocloud.networkmedicine.org
@@ -34,6 +42,14 @@ Project type: adding a feature to an existing tool
 Description: Netzoocloud is a web interface for network zoo tools that allows users with different levels of programming abilities to run these tools on their own data. A common use case requires users to integrate netzoocloud in their own analytical pipeline, which requires building a programmatic access for netzoocloud. In this project, we will build a REST API for netzoocloud and enable a set of functionalities programmatically, then build an HTML page for the documentation of the API as a user guide.
 
 Skills: Django, REST APIs, DRF, HTML/CSS.
+
+Expected size of project: 350 hours
+
+Mentors: Marouen Ben Guebila and Talha Khan
+
+Expected outcomes: New release with a new functionality in netZooCloud to allow users to query the resource programmatically.
+
+Difficulty: Medium
 
 ## 3 Containerized environments for netbooks
 
@@ -45,6 +61,14 @@ Description: netbooks is a web server that allows to run executable documents on
 
 Skills: Python, Jupyter notebook/Jupyter Hub, conda.
 
+Expected size of project: 350 hours
+
+Mentors: Marouen Ben Guebila
+
+Expected outcomes: New netbooks release with improved reproducibility of analyses in netbooks, better isolation of user analyses on the server.
+
+Difficulty: Medium
+
 ## 4 Building site-wide search functionalities in GRAND
 
 URL: https://grand.networkmedicine.org
@@ -54,6 +78,14 @@ Project type: Improving an existing tool
 Description: GRAND is a database that hosts networks for several biological systems and human conditions built using Network Zoo tools. These networks can be queried and visualized using the built-in tools in the database. These networks are also classified in categories but a resource-wide search tool using advanced filters is still missing and has been required by several users. Therefore, in this project, we will implement a search functionality that allows users to fetch networks based on advanced features such as node and edge attributes.
 
 Skills: HTML/CSS, Javascript, Python and Django.
+
+Expected size of project: 350 hours
+
+Mentors: Marouen Ben Guebila
+
+Expected outcomes: New GRAND relsease with improved user experience on GRAND and better integration of new resource in the website.
+
+Difficulty: Medium
 
 ## 5 Jenkins continuous integration server for netZooM
 
@@ -65,6 +97,14 @@ Description: Network Zoo tools are implemented in Python, R, MATLAB, and C. Alth
 
 Skills: Jenkins, Linux, GitHub, MATLAB.
 
+Expected size of project: 350 hours
+
+Mentors: Marouen Ben Guebila
+
+Expected outcomes: A new netZooM release with improved code quality.
+
+Difficulty: Medium
+
 ## 6 NetZooPy package harmonization 
 
 URL: https://github.com/netZoo/netZooPy
@@ -74,3 +114,11 @@ Project type: Improving an existing tool
 NetZooPy is a scientific computing package widely used by academics for analysis of regulatory networks. It has been built during the years with the contribution of multiple developers, each contributing a different “animal” (a python package) of the zoo, and it is now being repackaged to provide smoother interactions with the users. The contributor will have to harmonize the existing code by creating standard input/output interfaces, refactoring and integrating classes and common function, and expanding the unit-testing.
 
 Skills: Python, version control.
+
+Expected size of project: 350 hours
+
+Mentors: Viola Fanfani
+
+Expected outcomes: A new netZooPy release with improved documentation, code quality, and better coverage.
+
+Difficulty: Medium
