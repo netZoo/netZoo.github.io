@@ -42,6 +42,12 @@ The following [netbooks](http://netbooks.networkmedicine.org) use PANDA:
 
 	- Differential gene targeting of pancreatic cancer subtypes
 
+	- Sex differences in lung adenocarcinoma
+
+	- Generating 26 cancer gene regulatory network using TCGA datasets
+
+	- Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS
+
 - netZooPy:
 
 	- Controlling the variance of PANDA networks

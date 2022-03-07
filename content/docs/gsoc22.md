@@ -1,7 +1,7 @@
 ---
 title: "GSoC 2022"
 date: 2019-06-02T08:50:52-04:00
-draft: false
+draft: true
 ---
 
 The Network Zoo is an open-source software ecosystem developed at Harvard T.H. Chan School of Public Health to model biological systems as networks of interacting elements. 

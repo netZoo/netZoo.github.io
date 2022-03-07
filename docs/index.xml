@@ -142,16 +142,6 @@ Contact Drop us an email if you have any other inquiry.</description>
     </item>
     
     <item>
-      <title>GSoC 2022</title>
-      <link>https://netZoo.github.io/docs/gsoc22/</link>
-      <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/docs/gsoc22/</guid>
-      <description>The Network Zoo is an open-source software ecosystem developed at Harvard T.H. Chan School of Public Health to model biological systems as networks of interacting elements. The ecosystem includes several components including:
- A methods zoo (https://github.com/netZoo) : a repository that hosts the code, unit tests and examples of network inference methods. These methods are called after animal names (PANDA, DRAGON, CONDOR). A zoo cloud (http://netzoocloud.networkmedicine.org) : an interface that allows to run these methods on a remote server.</description>
-    </item>
-    
-    <item>
       <title>LIONESS</title>
       <link>https://netZoo.github.io/zooanimals/lioness/</link>
       <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
@@ -276,9 +266,9 @@ Abstract The biological processes that drive cellular function can be represente
       <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
       <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
 Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
-bioRxiv
-doi.org/10.1101/2021.07.13.452214.
-Abstract Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS).</description>
+NAR Genomic and Biofinformatics
+doi.org/10.1093/nargab/lqac002.
+Abstract Gene regulatory network inference allows for the modeling of genome-scale regulatory processes that are altered during development, in disease, and in response to perturbations. Our group has developed a collection of tools to model various regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, as well as gene regulation in individual samples (LIONESS).</description>
     </item>
     
     <item>

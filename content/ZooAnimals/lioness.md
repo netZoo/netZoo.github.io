@@ -39,3 +39,5 @@ The following [netbooks](http://netbooks.networkmedicine.org) use LIONESS:
 	- Comparing LIONESS Regulatory Networks using limma
 
 	- Differential gene targeting of pancreatic cancer subtypes
+
+	- Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS

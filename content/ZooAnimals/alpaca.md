@@ -27,3 +27,11 @@ Complex traits and diseases like human height or cancer are often not caused by 
 ### Implementation
 
 [netZooR](https://github.com/netZoo/netZooR)
+
+### Netbook tutorials
+
+The following [netbooks](http://netbooks.networkmedicine.org) use ALPACA:
+
+- netZooR:
+
+	- Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS

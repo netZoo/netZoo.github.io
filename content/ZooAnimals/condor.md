@@ -32,10 +32,12 @@ Genome Wide Association Studies (GWAS) and expression quantitative trait locus (
 
 The following [netbooks](http://netbooks.networkmedicine.org) use CONDOR:
 
-- netZooPy:
-
-	- Benchmarking motif networks for the reconstruction of kidney cancer regulatory network
-
 - netZooR:
 
 	- Exploring eQTL tissue regulation with CONDOR
+
+	- Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS
+
+- netZooPy:
+
+	- Benchmarking motif networks for the reconstruction of kidney cancer regulatory network

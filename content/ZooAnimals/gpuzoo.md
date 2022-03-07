@@ -8,7 +8,7 @@ draft: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {{< /rawhtml >}}
 {{< rawhtml >}}
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2021.07.13.452214" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/nargab/lqac002" data-hide-no-mentions="true" class="altmetric-embed"></div>
 {{< /rawhtml >}}
 ### Reference
 
@@ -16,13 +16,13 @@ gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics
 
 Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
 
-bioRxiv
+NAR Genomic and Biofinformatics
 
-[doi.org/10.1101/2021.07.13.452214](https://www.biorxiv.org/content/10.1101/2021.07.13.452214v1).
+[doi.org/10.1093/nargab/lqac002](https://academic.oup.com/nargab/article/4/1/lqac002/6524305?login=false).
 
 ### Abstract
 
-Gene regulatory network inference allows for the study of transcriptional control to identify the alteration of cellular processes in human diseases. Our group has developed several tools to model a variety of regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, and gene regulation in individual samples (LIONESS). These methods work by performing repeated operations on data matrices in order to integrate information across multiple lines of biological evidence. This limits their use for large-scale genomic studies due to the associated high computational burden. To address this limitation, we developed gpuZoo, which includes GPU-accelerated implementations of these algorithms. The runtime of the gpuZoo implementation in MATLAB and Python is up to 61 times faster and 28 times less expensive than the multi-core CPU implementation of the same methods. gpuZoo takes advantage of the modern multi-GPU device architecture to build a population of sample-specific gene regulatory networks with similar runtime and cost improvements by combining GPU acceleration with an efficient on-line derivation. Taken together, gpuZoo allows parallel and on-line gene regulatory network inference in large-scale genomic studies with cost-effective performance. gpuZoo is available in MATLAB through the netZooM package https://github.com/netZoo/netZooM and in Python through the netZooPy package https://github.com/netZoo/netZooPy.
+Gene regulatory network inference allows for the modeling of genome-scale regulatory processes that are altered during development, in disease, and in response to perturbations. Our group has developed a collection of tools to model various regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, as well as gene regulation in individual samples (LIONESS). These methods work by postulating a network structure and then optimizing that structure to be consistent with multiple lines of biological evidence through repeated operations on data matrices. Although our methods are widely used, the corresponding computational complexity, and the associated costs and run times, do limit some applications. To improve the cost/time performance of these algorithms, we developed gpuZoo which implements GPU-accelerated calculations, dramatically improving the performance of these algorithms. The runtime of the gpuZoo implementation in MATLAB and Python is up to 61 times faster and 28 times less expensive than multi-core CPU implementation of the same methods. gpuZoo is available in MATLAB through the netZooM package https://github.com/netZoo/netZooM and in Python through the netZooPy package https://github.com/netZoo/netZooPy.
 
 ### Supplementary data
 

@@ -27,15 +27,5 @@ netZooC:
  Link to the dedicated documentation website.</description>
     </item>
     
-    <item>
-      <title>GSoC 2022</title>
-      <link>https://netZoo.github.io/docs/gsoc22/</link>
-      <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/docs/gsoc22/</guid>
-      <description>The Network Zoo is an open-source software ecosystem developed at Harvard T.H. Chan School of Public Health to model biological systems as networks of interacting elements. The ecosystem includes several components including:
- A methods zoo (https://github.com/netZoo) : a repository that hosts the code, unit tests and examples of network inference methods. These methods are called after animal names (PANDA, DRAGON, CONDOR). A zoo cloud (http://netzoocloud.networkmedicine.org) : an interface that allows to run these methods on a remote server.</description>
-    </item>
-    
   </channel>
 </rss>
