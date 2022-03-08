@@ -34,4 +34,6 @@ The following [netbooks](http://netbooks.networkmedicine.org) use ALPACA:
 
 - netZooR:
 
+    - Gene regulatory network analysis in Glioblastoma
+
 	- Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS
