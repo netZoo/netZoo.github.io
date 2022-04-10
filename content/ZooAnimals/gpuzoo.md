@@ -16,7 +16,7 @@ gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics
 
 Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
 
-NAR Genomic and Biofinformatics
+NAR Genomics and Biofinformatics
 
 [doi.org/10.1093/nargab/lqac002](https://academic.oup.com/nargab/article/4/1/lqac002/6524305?login=false).
 
