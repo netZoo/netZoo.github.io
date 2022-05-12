@@ -185,7 +185,7 @@ Abstract The biological processes that drive cellular function can be represente
       <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
       <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
 Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
-NAR Genomics and Biofinformatics
+NAR Genomics and Bioinformatics
 doi.org/10.1093/nargab/lqac002.
 Abstract Gene regulatory network inference allows for the modeling of genome-scale regulatory processes that are altered during development, in disease, and in response to perturbations. Our group has developed a collection of tools to model various regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, as well as gene regulation in individual samples (LIONESS).</description>
     </item>
