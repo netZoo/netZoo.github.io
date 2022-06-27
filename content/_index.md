@@ -16,9 +16,13 @@ title = "The network zoo"
 </div>
 {{< /rawhtml >}}
 
-netZoo{R,Py,M,C} is a network biology package for the inference and analysis of gene regulatory networks. If you use netZoo, please cite us using the following format:
+netZoo{R,Py,M,C} is a network biology package for the inference and analysis of gene regulatory networks. Implementation details and use cases in 
 
-> We employed ALPACA (Padi and Quackenbush, 2018) as implemented in netZooR (v 0.7.2; netzoo.github.io) using R (v 4.0.2).
+> The Network Zoo: a multilingual package for the inference and analysis of biological networks. Ben Guebila et al, 2022. bioRxiv. [doi:10.1101/2022.05.30.494077v1](https://www.biorxiv.org/content/10.1101/2022.05.30.494077v1)
+
+If you use netZoo, please cite us using the following format:
+
+> We employed ALPACA (Padi and Quackenbush, 2018) as implemented in netZooR v 1.0 (Ben Guebila et al, 2022) using R v 4.0.2.
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
