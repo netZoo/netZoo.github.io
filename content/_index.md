@@ -12,7 +12,7 @@ title = "The network zoo"
 <a class="github-button" href="https://github.com/netZoo/netZooPy" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooPy on GitHub">netZooPy</a>
 <a class="github-button" href="https://github.com/netZoo/netZooM" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooM on GitHub">netZooM</a>
 <a class="github-button" href="https://github.com/netZoo/netZooC" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooC on GitHub">netZooC</a>
-<a class="github-button" href="https://github.com/netZoo/netbooks" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooC on GitHub">netbooks</a>
+<a class="github-button" href="https://github.com/netZoo/netbooks" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooC on GitHub">Netbooks</a>
 </div>
 {{< /rawhtml >}}
 
@@ -26,7 +26,7 @@ If you use netZoo, please cite us using the following format:
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
-A collection of tutorials hosted on the cloud allows you to get up and running without hardware requirement and without installing any depedency. netZoo R and Python tutorials are available on [netBooks](http://netbooks.networkmedicine.org/). Otherwise, you can run the tutorials on your computer using  [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
+A collection of tutorials hosted on the cloud allows you to get up and running without hardware requirement and without installing any depedency. netZoo R and Python tutorials are available on [Netbooks](http://netbooks.networkmedicine.org/). Otherwise, you can run the tutorials on your computer using  [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
 
 ### netZoo ecosystem
 
@@ -36,7 +36,7 @@ A collection of tutorials hosted on the cloud allows you to get up and running w
 
 - A set of networks generated using netZoo tools are hosted in [GRAND](https://grand.networkmedicine.org) database. [Publication](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab778/6368528). 
 
-- netZoo tutorials are distributed through bundled hardware and software environments using [netBooks](http://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2).
+- netZoo tutorials are distributed through bundled hardware and software environments using [Netbooks](http://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2).
 
 - To ask questions or to provide feedback or ideas, please use our community channel for [discussions](https://github.com/netZoo/netZooR/discussions).
 

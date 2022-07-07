@@ -20,5 +20,21 @@ netZooM: LiveScript [Tutorials](https://netzoom.readthedocs.io/en/latest/tutos/i
 
 netZooR: R markdown [Tutorials](https://github.com/netZoo/netZooR/tree/master/vignettes).
 
+### Abbreviations
+
+The Network Zoo ecosystem tools are abbreviated as follows:
+
+The Network Zoo: netZoo
+
+Jupter Notebook server: Netbooks
+
+Gene Regulatory Network Database: GRAND
+
+Cloud Network Zoo: netZooCloud
+
+Continuous integration system: ZooKeeper
+
+GPU Network Zoo: gpuZoo
+
 ### Contact
-Drop us an [email](mailto:benguebila@hsph.harvard.edu) if you have any other inquiry.
+Drop us an [email](mailto:benguebila@hsph.harvard.edu) if you have any question.

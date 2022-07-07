@@ -86,9 +86,11 @@ The contribution model follows the standard fork-branch model on the devel branc
 
 14. the PR will go through automatic tests and it will be accepted by the moderators if it passes the tests
 
-15. if the PR does not pass the test, further changes need to be made (step 8-10)
+15. If more than one commit are made in the same PR, then it is strongly recommended to 'squash' them into a single commit
 
-16. once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through
+16. if the PR does not pass the test, further changes need to be made (step 8-10)
+
+17. once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through
 
 	`git checkout devel`
 
@@ -96,7 +98,7 @@ The contribution model follows the standard fork-branch model on the devel branc
 
 	`git merge upstream/devel`
 
-17. you can do the same for the master branch to update it .
+18. you can do the same for the master branch to update it .
 
 {{% notice tip %}}
 Delete the merged feature branch both locally and remotely.
