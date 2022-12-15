@@ -16,7 +16,7 @@ url = "https://github.com/netZoo"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-book-reader'></i> NetBooks"
+name = "<i class='fas fa-fw fa-book-reader'></i> Netbooks"
 identifier = "dde"
 url = "http://netbooks.networkmedicine.org/"
 weight = 11
@@ -24,7 +24,7 @@ weight = 11
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-cloud'></i> Travis-ci"
 identifier = "db"
-url = "https://travis-ci.com/netZoo"
+url = "https://travis-ci.org/github/netZoo/netZooC"
 weight = 12
 
 [[menu.shortcuts]]

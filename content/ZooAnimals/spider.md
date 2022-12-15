@@ -26,4 +26,4 @@ The biological processes that drive cellular function can be represented by a co
 
 ### Implementation
 
-[netZooM](https://github.com/netZoo/netZooM)
+[netZooM](https://github.com/netZoo/netZooM), [netZooR](https://github.com/netZoo/netZooR)

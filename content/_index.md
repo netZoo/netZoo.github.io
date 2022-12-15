@@ -32,7 +32,7 @@ A collection of tutorials hosted on the cloud allows you to get up and running w
 
 - The software tools are developed in [netZoo](https://github.com/netZoo).
 
-- Continuous integration is enabled through [ZooKeeper](https://github.com/netZoo/netZooR/actions) (Travis-CI, GitHub actions, and Jenkins). 
+- Continuous integration is enabled through [ZooKeeper](https://github.com/netZoo/netZooR/actions) (Travis-CI and GitHub actions). 
 
 - A set of networks generated using netZoo tools are hosted in [GRAND](https://grand.networkmedicine.org) database. [Publication](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab778/6368528). 
 
@@ -70,7 +70,7 @@ R &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](http://zookeeper.networkme
 
 Python &nbsp; - [build status](https://github.com/netZoo/netZooPy/actions) ([Ubuntu](https://github.com/netZoo/netZooPy/actions), [Macos](https://github.com/netZoo/netZooPy/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooPy)
 
-MATLAB - [build status](https://travis-ci.com/netZoo/netZooM) ([Ubuntu](https://travis-ci.com/netZoo/netZooM/jobs/212762427), [Macos](https://travis-ci.com/netZoo/netZooM/jobs/212762428)) - [coverage](https://codecov.io/gh/netZoo/netZooM)
+MATLAB - [build status](https://github.com/netZoo/netZooM/actions) ([Ubuntu](https://github.com/netZoo/netZooM/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooM)
 
 C &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](https://travis-ci.com/netZoo/netZooC) ([Ubuntu](https://travis-ci.com/netZoo/netZooC/jobs/553452530), [Macos](https://travis-ci.com/netZoo/netZooC/jobs/553452531)) - [coverage](https://codecov.io/gh/netZoo/netZooC)
 

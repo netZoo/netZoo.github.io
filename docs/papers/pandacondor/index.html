@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>DRAGON :: The network zoo</title>
+    <title>List :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1671118358" rel="stylesheet">
@@ -49,7 +49,7 @@ if (!doNotTrack) {
 </script>
 
   </head>
-  <body class="" data-url="/zooanimals/dragon/">
+  <body class="" data-url="/papers/pandacondor/">
     <nav id="sidebar" class="">
 
 
@@ -8729,7 +8729,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item 
-        parent
+        
         
         
         ">
@@ -9000,7 +9000,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/zooanimals/dragon/" title="DRAGON" class="dd-item active">
+      <li data-nav-id="/zooanimals/dragon/" title="DRAGON" class="dd-item ">
         <a href="/zooanimals/dragon/">
         DRAGON
         
@@ -9046,7 +9046,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/papers/" title="Papers" class="dd-item 
-        
+        parent
         
         
         ">
@@ -9070,7 +9070,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/papers/pandacondor/" title="List" class="dd-item ">
+      <li data-nav-id="/papers/pandacondor/" title="List" class="dd-item active">
         <a href="/papers/pandacondor/">
         List
         
@@ -9289,7 +9289,7 @@ if (!doNotTrack) {
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > DRAGON
+            <a href='/'>The network zoo</a> > <a href='/papers/'>Papers</a> > List
           
          
           
@@ -9304,12 +9304,11 @@ if (!doNotTrack) {
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#publications">Publications</a>
       <ul>
-        <li><a href="#reference">Reference</a></li>
-        <li><a href="#abstract">Abstract</a></li>
-        <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
+        <li><a href="#panda">PANDA</a></li>
+        <li><a href="#lioness">LIONESS</a></li>
+        <li><a href="#condor">CONDOR</a></li>
       </ul>
     </li>
   </ul>
@@ -9329,7 +9328,7 @@ if (!doNotTrack) {
           
             <h1>
               
-              DRAGON
+              List
             </h1>
           
 
@@ -9337,51 +9336,10 @@ if (!doNotTrack) {
 
 
 
-<p>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-
-
-
-<div data-badge-popover="right" data-badge-type="donut" data-arxiv-id="2104.01690" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-</p>
-<h3 id="reference">Reference</h3>
-<p>DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks</p>
-<p>Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Helena U. Zacharias, John Quackenbush, and Michael Altenbuchinger</p>
-<p>arXiv</p>
-<p><a href="https://arxiv.org/abs/2104.01690">arXiv:2104.01690</a></p>
-<h3 id="abstract">Abstract</h3>
-<p>The increasing quantity of multi-omics data, such as methylomic and transcriptomic profiles,
-collected on the same specimen, or even on the same cell, provide a unique opportunity to explore
-the complex interactions that define cell phenotype and govern cellular responses to perturbations.
-We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the
-joint analysis of paired omics data. This method, called DRAGON (Determining Regulatory
-Associations using Graphical models on multi-Omic Networks), calibrates its parameters to achieve
-an optimal trade-off between the network’s complexity and estimation accuracy, while explicitly
-accounting for the characteristics of each of the assessed omics layers. In simulation studies, we
-show that DRAGON adapts to edge-density and feature-size differences between the omics layers,
-which improves model inference and the recovery of associations compared to state-of-the-art network
-inference using GGMs. Next, we verified this performance gain on paired single-cell data, where the
-transcriptome was assayed together with selected proteins. Finally, we used DRAGON to study joint
-transcriptome–methylome data of breast cancer specimens. In this context, we provide examples of
-how DRAGON can identify key molecular mechanisms. For instance, we show how co-expression
-can be explained by co-methylation and how DRAGON gives hints about the spatial organization of
-the genome. DRAGON is available as open-source code in python through the Network Zoo package
-(netZooPy v0.8; netzoo.github.io)</p>
-<h3 id="implementation">Implementation</h3>
-<p><a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooR">netZooR</a></p>
-<h3 id="netbook-tutorials">Netbook tutorials</h3>
-<p>The following <a href="http://netbooks.networkmedicine.org/">netbooks</a> use DRAGON:</p>
-<ul>
-<li>
-<p>netZooPy:</p>
-<ul>
-<li>Investigating potential regulatory relationships between TFs in breast cancer using DRAGON</li>
-</ul>
-</li>
-</ul>
+<h2 id="publications">Publications</h2>
+<h3 id="panda">PANDA</h3>
+<h3 id="lioness">LIONESS</h3>
+<h3 id="condor">CONDOR</h3>
 
 
 <footer class=" footline" >
@@ -9503,7 +9461,6 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
                 
                     
-                    
                 
                 
 
@@ -9517,8 +9474,21 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -9728,26 +9698,6 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -9767,6 +9717,7 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
                 
                     
+                    
                 
                 
 
@@ -9779,6 +9730,7 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
             
                 
+                    
                     
                 
                 
@@ -9795,6 +9747,9 @@ the genome. DRAGON is available as open-source code in python through the Networ
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9851,10 +9806,10 @@ the genome. DRAGON is available as open-source code in python through the Networ
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/egret/" title="EGRET"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/papers/" title="Papers"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/yarn/" title="YARN" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/papers/papers/" title="List" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

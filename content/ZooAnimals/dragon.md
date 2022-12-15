@@ -42,7 +42,7 @@ the genome. DRAGON is available as open-source code in python through the Networ
 
 ### Implementation
 
-[netZooPy](https://github.com/netZoo/netZooPy)
+[netZooPy](https://github.com/netZoo/netZooPy), [netZooR](https://github.com/netZoo/netZooR)
 
 ### Netbook tutorials
 

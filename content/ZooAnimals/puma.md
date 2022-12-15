@@ -26,4 +26,4 @@ Conventional methods to analyze genomic data do not make use of the interplay be
 
 ### Implementation
 
-[netZooPy](https://github.com/netZoo/netZooPy), [netZooM](https://github.com/netZoo/netZooM), [netZooC](https://github.com/netZoo/netZooC)
+[netZooPy](https://github.com/netZoo/netZooPy), [netZooM](https://github.com/netZoo/netZooM), [netZooC](https://github.com/netZoo/netZooC), [netZooR](https://github.com/netZoo/netZooR)

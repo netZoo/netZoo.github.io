@@ -26,7 +26,9 @@ The Network Zoo ecosystem tools are abbreviated as follows:
 
 The Network Zoo: netZoo
 
-Jupter Notebook server: Netbooks
+Python Network Zoo: netZooPy
+
+Jupyter Notebook server: Netbooks
 
 Gene Regulatory Network Database: GRAND
 
