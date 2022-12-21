@@ -1,6 +1,6 @@
 ---
-title: "DRAGON"
-date: 2018-07-02T08:50:52-04:00
+title: "TIGER"
+date: 2018-06-02T08:50:52-04:00
 draft: false
 ---
 
@@ -8,17 +8,17 @@ draft: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {{< /rawhtml >}}
 {{< rawhtml >}}
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/nar/gkac1157" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2022.12.12.520141" data-hide-no-mentions="true" class="altmetric-embed"></div>
 {{< /rawhtml >}}
 ### Reference
 
-DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks
+Joint inference of transcription factor activity and context-specific regulatory networks
 
-Katherine H Shutta, Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Dawn L DeMeo, Helena U Zacharias, John Quackenbush, Michael Altenbuchinger
+Chen Chen, Megha Padi
 
-OUP Nucleic Acids Research
+bioRxiv
 
-[10.1093/nar/gkac1157](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac1157/6931867)
+[doi.org/10.1101/2022.12.12.520141](https://www.biorxiv.org/content/10.1101/2022.12.12.520141v1)
 
 ### Abstract
 
@@ -27,17 +27,8 @@ The increasing quantity of multi-omic data, such as methylomic and transcriptomi
 
 ### Implementation
 
-[netZooPy](https://github.com/netZoo/netZooPy), [netZooR](https://github.com/netZoo/netZooR)
+[netZooR](https://github.com/netZoo/netZooR)
 
-### Netbook tutorials
-
-The following [netbooks](http://netbooks.networkmedicine.org/) use DRAGON:
-
-- netZooPy:
-
-	- Investigating potential regulatory relationships between TFs in breast cancer using DRAGON
-
-	- Multiomic CCLE analysis using the Network Zoo
 
 
 

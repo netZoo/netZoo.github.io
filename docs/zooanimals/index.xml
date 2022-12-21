@@ -210,10 +210,23 @@ Abstract Understanding how each person&#39;s unique genotype influences their in
       
       <guid>https://netZoo.github.io/zooanimals/dragon/</guid>
       <description>Reference DRAGON: Determining Regulatory Associations using Graphical models on multi-Omic Networks
-Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Helena U. Zacharias, John Quackenbush, and Michael Altenbuchinger
-arXiv
-arXiv:2104.01690
-Abstract The increasing quantity of multi-omics data, such as methylomic and transcriptomic profiles, collected on the same specimen, or even on the same cell, provide a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations.</description>
+Katherine H Shutta, Deborah Weighill, Rebekka Burkholz, Marouen Ben Guebila, Dawn L DeMeo, Helena U Zacharias, John Quackenbush, Michael Altenbuchinger
+OUP Nucleic Acids Research
+10.1093/nar/gkac1157
+Abstract The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations.</description>
+    </item>
+    
+    <item>
+      <title>TIGER</title>
+      <link>https://netZoo.github.io/zooanimals/tiger/</link>
+      <pubDate>Sat, 02 Jun 2018 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/tiger/</guid>
+      <description>Reference Joint inference of transcription factor activity and context-specific regulatory networks
+Chen Chen, Megha Padi
+bioRxiv
+doi.org/10.1101/2022.12.12.520141
+Abstract The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations. We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the joint analysis of paired omics data.</description>
     </item>
     
     <item>
