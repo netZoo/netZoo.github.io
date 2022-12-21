@@ -240,7 +240,7 @@ Although ultrahigh-throughput RNA-Sequencing has become the dominant technology 
 Chen Chen, Megha Padi
 bioRxiv
 doi.org/10.1101/2022.12.12.520141
-Abstract The increasing quantity of multi-omic data, such as methylomic and transcriptomic profiles collected on the same specimen or even on the same cell, provides a unique opportunity to explore the complex interactions that define cell phenotype and govern cellular responses to perturbations. We propose a network approach based on Gaussian Graphical Models (GGMs) that facilitates the joint analysis of paired omics data.</description>
+Abstract Transcriptional regulation is a critical process that determines cell fate and disease. One of the challenges in understanding transcriptional regulation is that there is no easy way to infer the main regulators from gene expression data. Many existing methods focus on estimating the activity of individual transcription factors (TFs) using static TF-gene interaction databases, but regulomes are often altered in different cell types and disease conditions.</description>
     </item>
     
   </channel>
