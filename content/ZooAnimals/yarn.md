@@ -18,7 +18,7 @@ Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John 
 
 BMC Bioinformatics
 
-[doi.org/10.1186/s12859-017-1847-x](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1847-x).
+[doi.org/10.1186/s12859-017-1847-x](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1847-x)
 
 ### Abstract
 

@@ -225,7 +225,7 @@ Abstract The increasing quantity of multi-omic data, such as methylomic and tran
       <description>Reference Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data
 Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp;amp; John Quackenbush
 BMC Bioinformatics
-doi.org/10.1186/s12859-017-1847-x.
+doi.org/10.1186/s12859-017-1847-x
 Abstract Background
 Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies.</description>
     </item>
