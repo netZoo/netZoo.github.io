@@ -2,7 +2,7 @@ baseURL = "https://netZoo.github.io"
 languageCode = "en-us"
 title = "The network zoo"
 theme = "hugo-theme-learn"
-googleAnalytics = "UA-151168345-2"
+googleAnalytics = "G-TRXH486JVZ"
 publishDir = "docs"
 
 # For search functionality

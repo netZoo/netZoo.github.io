@@ -43,3 +43,7 @@ The following [netbooks](http://netbooks.networkmedicine.org) use MONSTER:
 	- Estimating state transition in yeast cell cycle using MONSTER
 
 	- Finding drug candidates to reverse Lung Adenocarcinoma (LUAD)-induced gene regulation disruption using TCGA
+
+	- Multiomic CCLE analysis using the Network Zoo (part of netZooPy examples but written in R)
+
+
