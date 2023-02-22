@@ -6,6 +6,16 @@ title = "The network zoo"
 # The network zoo
 
 {{< rawhtml >}}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRXH486JVZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRXH486JVZ');
+</script>
+
 <div align="center">
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/netZoo/netZooR" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star netZoo/netZooR on GitHub">netZooR</a>
