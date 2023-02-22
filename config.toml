@@ -4,6 +4,8 @@ title = "The network zoo"
 theme = "hugo-theme-learn"
 googleAnalytics =  "G-TRXH486JVZ"
 publishDir = "docs"
+landingPageURL = "/"
+landingPageName = "<i class='fas fa-home'></i> Home"
 
 # For search functionality
 [outputs]
