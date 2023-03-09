@@ -19,7 +19,7 @@ title = "The network zoo"
 
 netZoo{R,Py,M,C} is a network biology package for the inference and analysis of gene regulatory networks. Implementation details and use cases in 
 
-> The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks. Ben Guebila et al, 2022. bioRxiv. [doi:10.1186/s13059-023-02877-1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02877-1)
+> The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks. Ben Guebila et al, 2023. Genome Biology. [doi:10.1186/s13059-023-02877-1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02877-1)
 
 If you use netZoo, please cite us using the following format:
 
@@ -31,7 +31,7 @@ A collection of tutorials hosted on the cloud allows you to get up and running w
 
 ### netZoo ecosystem
 
-- The software tools are developed in [netZoo](https://github.com/netZoo).
+- The software tools are developed in [netZoo](https://github.com/netZoo). [Publication](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02877-1)
 
 - Continuous integration is enabled through [ZooKeeper](https://github.com/netZoo/netZooR/actions) (Travis-CI and GitHub actions). 
 
