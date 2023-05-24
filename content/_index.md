@@ -23,7 +23,7 @@ netZoo{R,Py,M,C} is a network biology package for the inference and analysis of 
 
 If you use netZoo, please cite us using the following format:
 
-> We employed ALPACA (Padi and Quackenbush, 2018) as implemented in netZooR v 1.0 (Ben Guebila et al, 2022) using R v 4.0.2.
+> We employed ALPACA (Padi and Quackenbush, 2018) as implemented in netZooR v 1.0 (Ben Guebila et al, 2023) using R v 4.0.2.
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
