@@ -32,6 +32,8 @@ Jupyter Notebook server: Netbooks
 
 Gene Regulatory Network Database: GRAND
 
+CLUE gene regulation (webserver for drug repurposing): CLUEreg
+
 Cloud Network Zoo: netZooCloud
 
 Continuous integration system: ZooKeeper
