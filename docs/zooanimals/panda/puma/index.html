@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>YARN :: The network zoo</title>
+    <title>PUMA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697230475" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/yarn/">
+  <body class="" data-url="/zooanimals/panda/puma/">
     <nav id="sidebar" class="">
 
 
@@ -8900,7 +8900,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/panda/puma/" title="PUMA" class="dd-item ">
+      <li data-nav-id="/zooanimals/panda/puma/" title="PUMA" class="dd-item active">
         <a href="/zooanimals/panda/puma/">
         PUMA
         
@@ -9068,7 +9068,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/yarn/" title="YARN" class="dd-item active">
+      <li data-nav-id="/zooanimals/yarn/" title="YARN" class="dd-item ">
         <a href="/zooanimals/yarn/">
         YARN
         
@@ -9347,7 +9347,7 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > YARN
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > PUMA
           
          
           
@@ -9386,7 +9386,7 @@
           
             <h1>
               
-              YARN
+              PUMA
             </h1>
           
 
@@ -9401,23 +9401,18 @@
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/10.1186/s12859-017-1847-x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/bioinformatics/btaa571" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data</p>
-<p>Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp; John Quackenbush</p>
-<p>BMC Bioinformatics</p>
-<p><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1847-x">doi.org/10.1186/s12859-017-1847-x</a></p>
+<p>PUMA: PANDA Using MicroRNA Associations.</p>
+<p>Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.</p>
+<p>OUP Bioinformatics</p>
+<p><a href="https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977">doi.org/10.1093/bioinformatics/btaa571</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Background</p>
-<p>Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies. However, projects are generating ever-larger data sets comprising RNA-Seq data from hundreds or thousands of samples, often collected at multiple centers and from diverse tissues. These complex data sets present significant analytical challenges due to batch and tissue effects, but provide the opportunity to revisit the assumptions and methods that we use to preprocess, normalize, and filter RNA-Seq data – critical first steps for any subsequent analysis.</p>
-<p>Results</p>
-<p>We find that analysis of large RNA-Seq data sets requires both careful quality control and the need to account for sparsity due to the heterogeneity intrinsic in multi-group studies. We developed Yet Another RNA Normalization software pipeline (YARN), that includes quality control and preprocessing, gene filtering, and normalization steps designed to facilitate downstream analysis of large, heterogeneous RNA-Seq data sets and we demonstrate its use with data from the Genotype-Tissue Expression (GTEx) project.</p>
-<p>Conclusions</p>
-<p>An R package instantiating YARN is available at <a href="http://bioconductor.org/packages/yarn">http://bioconductor.org/packages/yarn</a>.</p>
+<p>Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs. We applied PUMA to 38 tissues from the Genotype-Tissue Expression (GTEx) project, integrating RNA-Seq data with two different miRNA target predictions priors, built on predictions from TargetScan and miRanda, respectively. We found that while target predictions obtained from these two different resources are considerably different, PUMA captures similar tissue-specific miRNA-target regulatory interactions in the different network models. Furthermore, the tissue-specific functions of miRNAs we identified based on regulatory profiles (available at: <a href="https://kuijjer.shinyapps.io/puma_gtex/">https://kuijjer.shinyapps.io/puma_gtex/</a>) are highly similar between networks modeled on the two target prediction resources. This indicates that PUMA consistently captures important tissue-specific miRNA regulatory processes. In addition, using PUMA we identified miRNAs regulating important tissue-specific processes that, when mutated, may result in disease development in the same tissue. PUMA is available in C ++, MATLAB, and Python on GitHub (<a href="https://github.com/kuijjerlab">https://github.com/kuijjerlab</a> and <a href="https://netzoo.github.io/)">https://netzoo.github.io/)</a>.</p>
 <h3 id="implementation">Implementation</h3>
-<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
+<p><a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a>, <a href="https://github.com/netZoo/netZooC">netZooC</a>, <a href="https://github.com/netZoo/netZooR">netZooR</a></p>
 
 
 <footer class="footline">
@@ -9651,6 +9646,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -9778,26 +9793,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9886,10 +9881,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/dragon/" title="DRAGON"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/alpaca/" title="ALPACA"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/tiger/" title="TIGER" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/sambar/" title="SAMBAR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

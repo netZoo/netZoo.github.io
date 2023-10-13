@@ -115,10 +115,10 @@ FENRIR:
     
     <item>
       <title>PANDA</title>
-      <link>https://netZoo.github.io/zooanimals/panda/</link>
+      <link>https://netZoo.github.io/zooanimals/panda/panda/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/panda/</guid>
+      <guid>https://netZoo.github.io/zooanimals/panda/panda/</guid>
       <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions.
 Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
 Plos One
@@ -195,10 +195,10 @@ Abstract Complex traits and diseases like human height or cancer are often not c
     
     <item>
       <title>PUMA</title>
-      <link>https://netZoo.github.io/zooanimals/puma/</link>
+      <link>https://netZoo.github.io/zooanimals/panda/puma/</link>
       <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/puma/</guid>
+      <guid>https://netZoo.github.io/zooanimals/panda/puma/</guid>
       <description>Reference PUMA: PANDA Using MicroRNA Associations.
 Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
 OUP Bioinformatics
@@ -247,10 +247,10 @@ Abstract The use of biological networks such as protein-protein interaction and 
     
     <item>
       <title>SPIDER</title>
-      <link>https://netZoo.github.io/zooanimals/spider/</link>
+      <link>https://netZoo.github.io/zooanimals/panda/spider/</link>
       <pubDate>Tue, 02 Oct 2018 08:49:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/spider/</guid>
+      <guid>https://netZoo.github.io/zooanimals/panda/spider/</guid>
       <description>Reference Constructing Gene Regulatory Networks using Epigenetic Data
 Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.
 bioRxiv
@@ -273,10 +273,10 @@ Abstract Gene regulatory network inference allows for the modeling of genome-sca
     
     <item>
       <title>EGRET</title>
-      <link>https://netZoo.github.io/zooanimals/egret/</link>
+      <link>https://netZoo.github.io/zooanimals/panda/egret/</link>
       <pubDate>Thu, 02 Aug 2018 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/egret/</guid>
+      <guid>https://netZoo.github.io/zooanimals/panda/egret/</guid>
       <description>Reference Predicting genotype-specific gene regulatory networks
 Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Platig
 Genome Research

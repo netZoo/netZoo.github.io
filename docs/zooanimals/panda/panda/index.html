@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>YARN :: The network zoo</title>
+    <title>PANDA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697230475" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/yarn/">
+  <body class="" data-url="/zooanimals/panda/panda/">
     <nav id="sidebar" class="">
 
 
@@ -8795,7 +8795,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/panda/panda/" title="PANDA" class="dd-item ">
+      <li data-nav-id="/zooanimals/panda/panda/" title="PANDA" class="dd-item active">
         <a href="/zooanimals/panda/panda/">
         PANDA
         
@@ -9068,7 +9068,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/yarn/" title="YARN" class="dd-item active">
+      <li data-nav-id="/zooanimals/yarn/" title="YARN" class="dd-item ">
         <a href="/zooanimals/yarn/">
         YARN
         
@@ -9347,7 +9347,7 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > YARN
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > PANDA
           
          
           
@@ -9367,6 +9367,7 @@
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9386,7 +9387,7 @@
           
             <h1>
               
-              YARN
+              PANDA
             </h1>
           
 
@@ -9401,23 +9402,59 @@
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/10.1186/s12859-017-1847-x" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0064832" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data</p>
-<p>Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp; John Quackenbush</p>
-<p>BMC Bioinformatics</p>
-<p><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1847-x">doi.org/10.1186/s12859-017-1847-x</a></p>
+<p>Passing Messages between Biological Networks to Refine Predicted Interactions.</p>
+<p>Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.</p>
+<p>Plos One</p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pubmed/23741402">doi.org/10.1371/journal.pone.0064832</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Background</p>
-<p>Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies. However, projects are generating ever-larger data sets comprising RNA-Seq data from hundreds or thousands of samples, often collected at multiple centers and from diverse tissues. These complex data sets present significant analytical challenges due to batch and tissue effects, but provide the opportunity to revisit the assumptions and methods that we use to preprocess, normalize, and filter RNA-Seq data – critical first steps for any subsequent analysis.</p>
-<p>Results</p>
-<p>We find that analysis of large RNA-Seq data sets requires both careful quality control and the need to account for sparsity due to the heterogeneity intrinsic in multi-group studies. We developed Yet Another RNA Normalization software pipeline (YARN), that includes quality control and preprocessing, gene filtering, and normalization steps designed to facilitate downstream analysis of large, heterogeneous RNA-Seq data sets and we demonstrate its use with data from the Genotype-Tissue Expression (GTEx) project.</p>
-<p>Conclusions</p>
-<p>An R package instantiating YARN is available at <a href="http://bioconductor.org/packages/yarn">http://bioconductor.org/packages/yarn</a>.</p>
+<p>Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model. The resulting networks were not only more accurate than those produced using individual data sets and other existing methods, but they also captured information regarding specific biological mechanisms and pathways that were missed using other methodologies. PANDA is scalable to higher eukaryotes, applicable to specific tissue or cell type data and conceptually generalizable to include a variety of regulatory, interaction, expression, and other genome-scale data. An implementation of the PANDA algorithm is available at <a href="http://www.sourceforge.net/projects/panda-net">www.sourceforge.net/projects/panda-net</a>.</p>
 <h3 id="implementation">Implementation</h3>
-<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a>, <a href="https://github.com/netZoo/netZooC">netZooC</a></p>
+<h3 id="netbook-tutorials">Netbook tutorials</h3>
+<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use PANDA:</p>
+<ul>
+<li>
+<p>netZooR:</p>
+<ul>
+<li>
+<p>Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R</p>
+</li>
+<li>
+<p>Building PANDA Regulatory Networks from GTEx Gene Expression Data in R</p>
+</li>
+<li>
+<p>Finding drug candidates to reverse Lung Adenocarcinoma (LUAD)-induced gene regulation disruption using TCGA</p>
+</li>
+<li>
+<p>Differential gene targeting of pancreatic cancer subtypes</p>
+</li>
+<li>
+<p>Sex differences in lung adenocarcinoma</p>
+</li>
+<li>
+<p>Generating 26 cancer gene regulatory network using TCGA datasets</p>
+</li>
+<li>
+<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
+</li>
+</ul>
+</li>
+<li>
+<p>netZooPy:</p>
+<ul>
+<li>
+<p>Controlling the variance of PANDA networks</p>
+</li>
+<li>
+<p>Benchmarking motif networks for the reconstruction of kidney cancer regulatory network</p>
+</li>
+</ul>
+</li>
+</ul>
 
 
 <footer class="footline">
@@ -9571,6 +9608,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -9778,26 +9835,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9886,10 +9923,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/dragon/" title="DRAGON"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/animals/" title="List"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/tiger/" title="TIGER" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/lioness/" title="LIONESS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
