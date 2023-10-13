@@ -1,9 +1,9 @@
 ---
-title: PANDA
+title: PANDA & co
 weight: 6
 chapter: true
 ---
 
-# PANDA and similar methods
+# PANDA & co
 
-### A link to the zoo animals and their papers.
+### PANDA and similar methods that use the same computational backend

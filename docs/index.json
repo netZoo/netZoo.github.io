@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://netZoo.github.io/zooanimals/",
+	"title": "Zoo animals",
+	"tags": [],
+	"description": "",
+	"content": "Zoo animals A link to the zoo animals and their papers. "
+},
+{
 	"uri": "https://netZoo.github.io/contribute/",
 	"title": "Contribution guide",
 	"tags": [],
@@ -8,17 +15,10 @@
 },
 {
 	"uri": "https://netZoo.github.io/zooanimals/panda/",
-	"title": "PANDA",
+	"title": "PANDA &amp; co",
 	"tags": [],
 	"description": "",
-	"content": "PANDA and similar methods A link to the zoo animals and their papers. "
-},
-{
-	"uri": "https://netZoo.github.io/zooanimals/",
-	"title": "Zoo animals",
-	"tags": [],
-	"description": "",
-	"content": "Zoo animals A link to the zoo animals and their papers. "
+	"content": "PANDA \u0026amp; co PANDA and similar methods that use the same computational backend "
 },
 {
 	"uri": "https://netZoo.github.io/papers/",

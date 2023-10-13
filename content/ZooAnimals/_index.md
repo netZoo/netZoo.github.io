@@ -1,6 +1,6 @@
 ---
 title: Zoo animals
-weight: 6
+weight: 1
 chapter: true
 ---
 
