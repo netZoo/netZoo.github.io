@@ -12,6 +12,42 @@
     
     
     <item>
+      <title>List</title>
+      <link>https://netZoo.github.io/zooanimals/animals/</link>
+      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
+      
+      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
+      <description>Network biology PANDA:
+ paper (netZooR, netZooPy, netZooM, netZooC)
+LIONESS:
+ paper (netZooR, netZooPy, netZooM)
+CONDOR:
+ paper (netZooR, netZooPy)
+MONSTER:
+ paper (netZooR)
+ALPACA:
+ paper (netZooR)
+PUMA:
+ paper (netZooPy, netZooM, netZooC)
+SAMBAR:
+ paper (netZooR, netZooPy)
+SPIDER:
+ paper (netZooM)
+OTTER:
+ paper (netZooR, netZooPy, netZooM)
+CRANE:
+ paper (netZooR)
+EGRET:
+ paper (netZooR)
+DRAGON:
+ paper (netZooPy)
+Sequence analysis YARN:
+ paper (netZooR)
+FENRIR:
+ In preparation - repo</description>
+    </item>
+    
+    <item>
       <title>How to contribute</title>
       <link>https://netZoo.github.io/contribute/contribute/</link>
       <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
@@ -75,42 +111,6 @@ netZooC:
  Understanding tissue-specific gene regulation. AR Sonawane and J Platig and M Fagny and CY Chen….
  https://www.sciencedirect.com/science/article/pii/S2211124717314183.
  DIABLO: an integrative approach for identifying key molecular drivers from multi-omics assays.</description>
-    </item>
-    
-    <item>
-      <title>List</title>
-      <link>https://netZoo.github.io/zooanimals/animals/</link>
-      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/animals/</guid>
-      <description>Network biology PANDA:
- paper (netZooR, netZooPy, netZooM, netZooC)
-LIONESS:
- paper (netZooR, netZooPy, netZooM)
-CONDOR:
- paper (netZooR, netZooPy)
-MONSTER:
- paper (netZooR)
-ALPACA:
- paper (netZooR)
-PUMA:
- paper (netZooPy, netZooM, netZooC)
-SAMBAR:
- paper (netZooR, netZooPy)
-SPIDER:
- paper (netZooM)
-OTTER:
- paper (netZooR, netZooPy, netZooM)
-CRANE:
- paper (netZooR)
-EGRET:
- paper (netZooR)
-DRAGON:
- paper (netZooPy)
-Sequence analysis YARN:
- paper (netZooR)
-FENRIR:
- In preparation - repo</description>
     </item>
     
     <item>
