@@ -3,6 +3,7 @@ title: "PANDA"
 date: 2019-07-02T08:50:52-04:00
 draft: false
 showhidden: false
+description: true
 ---
 
 {{< rawhtml >}}
