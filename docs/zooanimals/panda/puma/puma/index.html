@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>MONSTER :: The network zoo</title>
+    <title>PUMA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697242855" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/monster/">
+  <body class="" data-url="/zooanimals/panda/puma/puma/">
     <nav id="sidebar" class="">
 
 
@@ -8659,7 +8659,7 @@
   
     
     <li data-nav-id="/zooanimals/panda/" title="PANDA &amp; co" class="dd-item
-        
+        parent
         
         
         ">
@@ -8726,7 +8726,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/monster/" title="MONSTER" class="dd-item active">
+      <li data-nav-id="/zooanimals/monster/" title="MONSTER" class="dd-item ">
         <a href="/zooanimals/monster/">
         MONSTER
         
@@ -9270,7 +9270,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > MONSTER
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/panda/'>PANDA & co</a> > PUMA
+          
+         
           
          
           
@@ -9290,7 +9296,6 @@
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9310,7 +9315,7 @@
           
             <h1>
               
-              MONSTER
+              PUMA
             </h1>
           
 
@@ -9325,39 +9330,18 @@
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s12918-017-0517-y" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/bioinformatics/btaa571" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Estimating drivers of cell state transitions using gene regulatory network models.</p>
-<p>Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush.</p>
-<p>BMC Systems Biology</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/29237467/">doi.org/10.1186/s12918-017-0517-y</a>.</p>
+<p>PUMA: PANDA Using MicroRNA Associations.</p>
+<p>Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.</p>
+<p>OUP Bioinformatics</p>
+<p><a href="https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977">doi.org/10.1093/bioinformatics/btaa571</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Background: Specific cellular states are often associated with distinct gene expression patterns. These states are plastic, changing during development, or in the transition from health to disease. One relatively simple extension of this concept is to recognize that we can classify different cell-types by their active gene regulatory networks and that, consequently, transitions between cellular states can be modeled by changes in these underlying regulatory networks.</p>
-<p>Results: Here we describe MONSTER, MOdeling Network State Transitions from Expression and Regulatory data, a regression-based method for inferring transcription factor drivers of cell state conditions at the gene regulatory network level. As a demonstration, we apply MONSTER to four different studies of chronic obstructive pulmonary disease to identify transcription factors that alter the network structure as the cell state progresses toward the disease-state.</p>
-<p>Conclusions: We demonstrate that MONSTER can find strong regulatory signals that persist across studies and tissues of the same disease and that are not detectable using conventional analysis methods based on differential expression. An R package implementing MONSTER is available at github.com/QuackenbushLab/MONSTER.</p>
-<p>Keywords: Chronic obstructive pulmonary disease; Gene regulatory network inference; Genomics.</p>
+<p>Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs. We applied PUMA to 38 tissues from the Genotype-Tissue Expression (GTEx) project, integrating RNA-Seq data with two different miRNA target predictions priors, built on predictions from TargetScan and miRanda, respectively. We found that while target predictions obtained from these two different resources are considerably different, PUMA captures similar tissue-specific miRNA-target regulatory interactions in the different network models. Furthermore, the tissue-specific functions of miRNAs we identified based on regulatory profiles (available at: <a href="https://kuijjer.shinyapps.io/puma_gtex/">https://kuijjer.shinyapps.io/puma_gtex/</a>) are highly similar between networks modeled on the two target prediction resources. This indicates that PUMA consistently captures important tissue-specific miRNA regulatory processes. In addition, using PUMA we identified miRNAs regulating important tissue-specific processes that, when mutated, may result in disease development in the same tissue. PUMA is available in C ++, MATLAB, and Python on GitHub (<a href="https://github.com/kuijjerlab">https://github.com/kuijjerlab</a> and <a href="https://netzoo.github.io/)">https://netzoo.github.io/)</a>.</p>
 <h3 id="implementation">Implementation</h3>
-<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
-<h3 id="netbook-tutorials">Netbook tutorials</h3>
-<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use MONSTER:</p>
-<ul>
-<li>
-<p>netZooR:</p>
-<ul>
-<li>
-<p>Estimating state transition in yeast cell cycle using MONSTER</p>
-</li>
-<li>
-<p>Finding drug candidates to reverse Lung Adenocarcinoma (LUAD)-induced gene regulation disruption using TCGA</p>
-</li>
-<li>
-<p>Multiomic CCLE analysis using the Network Zoo (part of netZooPy examples but written in R)</p>
-</li>
-</ul>
-</li>
-</ul>
+<p><a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a>, <a href="https://github.com/netZoo/netZooC">netZooC</a>, <a href="https://github.com/netZoo/netZooR">netZooR</a></p>
 
 
 <footer class="footline">
@@ -9411,8 +9395,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9452,6 +9434,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -9484,7 +9469,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9500,9 +9484,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -9783,10 +9764,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/condor/" title="CONDOR"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/" title="Zoo animals"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/alpaca/" title="ALPACA" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/lioness/" title="LIONESS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

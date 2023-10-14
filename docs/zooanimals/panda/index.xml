@@ -6,61 +6,22 @@
     <description>Recent content in PANDA &amp; co on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2019 08:50:52 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 02 Feb 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/panda/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>PANDA</title>
-      <link>https://netZoo.github.io/zooanimals/panda/panda/</link>
-      <pubDate>Tue, 02 Jul 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/panda/panda/</guid>
-      <description>Reference Passing Messages between Biological Networks to Refine Predicted Interactions.
-Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
-Plos One
-doi.org/10.1371/journal.pone.0064832.
-Abstract Regulatory network reconstruction is a fundamental problem in computational biology. There are significant limitations to such reconstruction using individual datasets, and increasingly people attempt to construct networks using multiple, independent datasets obtained from complementary sources, but methods for this integration are lacking. We developed PANDA (Passing Attributes between Networks for Data Assimilation), a message-passing model using multiple sources of information to predict regulatory relationships, and used it to integrate protein-protein interaction, gene expression, and sequence motif data to reconstruct genome-wide, condition-specific regulatory networks in yeast as a model.</description>
-    </item>
-    
-    <item>
       <title>PUMA</title>
-      <link>https://netZoo.github.io/zooanimals/panda/puma/</link>
+      <link>https://netZoo.github.io/zooanimals/panda/puma/puma/</link>
       <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/panda/puma/</guid>
+      <guid>https://netZoo.github.io/zooanimals/panda/puma/puma/</guid>
       <description>Reference PUMA: PANDA Using MicroRNA Associations.
 Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
 OUP Bioinformatics
 doi.org/10.1093/bioinformatics/btaa571.
 Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
-    </item>
-    
-    <item>
-      <title>SPIDER</title>
-      <link>https://netZoo.github.io/zooanimals/panda/spider/</link>
-      <pubDate>Tue, 02 Oct 2018 08:49:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/panda/spider/</guid>
-      <description>Reference Constructing Gene Regulatory Networks using Epigenetic Data
-Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.
-bioRxiv
-doi.org/10.1101/2020.10.19.345827.
-Abstract The biological processes that drive cellular function can be represented by a complex network of interactions between regulators (transcription factors) and their targets (genes). A cell’s epigenetic state plays an important role in mediating these interactions, primarily by influencing chromatin accessibility. However, effectively leveraging epigenetic information when constructing regulatory networks remains a challenge.</description>
-    </item>
-    
-    <item>
-      <title>EGRET</title>
-      <link>https://netZoo.github.io/zooanimals/panda/egret/</link>
-      <pubDate>Thu, 02 Aug 2018 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/panda/egret/</guid>
-      <description>Reference Predicting genotype-specific gene regulatory networks
-Deborah Weighill, Marouen Ben Guebila, Kimberly Glass, John Quackenbush, John Platig
-Genome Research
-doi.org/10.1101/gr.275107.120
-Abstract Understanding how each person&#39;s unique genotype influences their individual patterns of gene regulation has the potential to improve our understanding of human health and development, and to refine genotype-specific disease risk assessments and treatments. However, the effects of genetic variants are not typically considered when constructing gene regulatory networks, despite the fact that many disease-associated genetic variants are thought to have regulatory effects, including the disruption of transcription factor (TF) binding.</description>
     </item>
     
   </channel>
