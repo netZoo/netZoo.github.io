@@ -1,5 +1,6 @@
 ---
 title: PANDA & co
+chapter: true
 ---
 
 # PANDA & co
