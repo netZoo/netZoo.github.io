@@ -1,9 +1,9 @@
----
++++
 title: "EGRET"
 date: 2018-08-02T08:50:52-04:00
 draft: false
 hidden: true
----
++++
 
 {{< rawhtml >}}
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>

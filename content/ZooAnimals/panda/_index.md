@@ -1,6 +1,5 @@
 ---
 title: PANDA & co
-weight: 6
 ---
 
 # PANDA & co
