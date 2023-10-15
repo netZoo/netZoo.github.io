@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/panda/</loc>
-    <lastmod>2019-02-02T08:50:52-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://netZoo.github.io/papers/</loc>
     <lastmod>2019-07-02T08:50:52-04:00</lastmod>
   </url>
@@ -85,6 +80,11 @@
   <url>
     <loc>https://netZoo.github.io/zooanimals/alpaca/</loc>
     <lastmod>2019-03-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://netZoo.github.io/zooanimals/panda/</loc>
+    <lastmod>2019-02-02T08:50:52-04:00</lastmod>
   </url>
   
   <url>
