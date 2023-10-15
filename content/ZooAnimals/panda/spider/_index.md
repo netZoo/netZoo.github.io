@@ -2,7 +2,7 @@
 title: "SPIDER"
 date: 2018-10-02T08:49:52-04:00
 draft: false
-hidden: true
+hidden: false
 ---
 
 {{< rawhtml >}}

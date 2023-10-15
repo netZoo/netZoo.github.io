@@ -6,23 +6,9 @@
     <description>Recent content in PANDA &amp; co on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Feb 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/panda/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>PUMA</title>
-      <link>https://netZoo.github.io/zooanimals/panda/puma/puma/</link>
-      <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/panda/puma/puma/</guid>
-      <description>Reference PUMA: PANDA Using MicroRNA Associations.
-Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
-OUP Bioinformatics
-doi.org/10.1093/bioinformatics/btaa571.
-Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
-    </item>
     
   </channel>
 </rss>

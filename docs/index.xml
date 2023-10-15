@@ -145,19 +145,6 @@ Abstract Complex traits and diseases like human height or cancer are often not c
     </item>
     
     <item>
-      <title>PUMA</title>
-      <link>https://netZoo.github.io/zooanimals/panda/puma/puma/</link>
-      <pubDate>Sat, 02 Feb 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/panda/puma/puma/</guid>
-      <description>Reference PUMA: PANDA Using MicroRNA Associations.
-Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
-OUP Bioinformatics
-doi.org/10.1093/bioinformatics/btaa571.
-Abstract Conventional methods to analyze genomic data do not make use of the interplay between multiple factors, such as between microRNAs (miRNAs) and the mRNA transcripts they regulate, and thereby often fail to identify the cellular processes that are unique to specific tissues. We developed PUMA (PANDA Using MicroRNA Associations), a computational tool that uses message passing to integrate a prior network of miRNA target predictions with target gene co-expression information to model genome-wide gene regulation by miRNAs.</description>
-    </item>
-    
-    <item>
       <title>SAMBAR</title>
       <link>https://netZoo.github.io/zooanimals/sambar/</link>
       <pubDate>Wed, 02 Jan 2019 08:50:52 -0400</pubDate>
