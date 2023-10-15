@@ -1,7 +1,6 @@
 ---
 title: PANDA & co
 weight: 6
-chapter: true
 ---
 
 # PANDA & co
