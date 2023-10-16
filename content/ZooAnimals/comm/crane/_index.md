@@ -2,6 +2,7 @@
 title: "CRANE"
 date: 2018-10-02T08:50:52-04:00
 draft: false
+description: "CRANE is a method for determining statistical significance of structural differences between networks. Analysis with CRANE is a four-phase process. The first step of CRANE is to estimate two networks: a reference network and a perturbed network. In the same spirit as LIONESS, CRANE is flexible: any network inference method (e.g., correlation, partial correlation, PANDA) can be used at this stage. In the second step, differential features are determined by comparing the reference and perturbed networks. Here, CRANE is again flexible: such differential features could arise from simple measures such as a comparison of node degree or centrality, or from more nuanced techniques such as differential module detection with ALPACA. Third, a large number of constrained random networks are developed based on the network structure of the reference network. By comparing each random network with the original reference network, a set of null differential measures is obtained. Fourth, the observed differential features from step two can be compared with the null distribution from step three to generate empirical p-values. A typical workflow for applying CRANE in NetZooR would involve fitting PANDA networks in step one and using ALPACA to estimate differential modules in step two."
 ---
 
 {{< rawhtml >}}
