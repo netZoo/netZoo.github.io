@@ -3,6 +3,7 @@ title: "SPIDER"
 date: 2018-10-02T08:49:52-04:00
 draft: false
 hidden: false
+description: SPIDER extends the PANDA framework by incorporating DNase-Seq data to account for chromatin state for the prediction of TF binding sites. The method consists of processing DNase-Seq data to find open chromatin regions and build a “mask” matrix that is then overlaid on the TF-gene motif network to select binding sites that are available fro TF binding. This method can be applied for various biological contexts such as cell lines and tissues. Sonawane and colleagues have employed their method to model cell- type specific GRNs using DNase-Seq data from ENCODE and showed that integrating epigenetic data in SPIDER networks allows building more accurate networks.
 ---
 
 {{< rawhtml >}}

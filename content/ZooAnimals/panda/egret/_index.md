@@ -3,7 +3,7 @@ title: "EGRET"
 date: 2018-08-02T08:50:52-04:00
 draft: false
 hidden: false
-description: SPIDER extends the PANDA framework by incorporating DNase-Seq data to account for chromatin state for the prediction of TF binding sites. The method consists of processing DNase-Seq data to find open chromatin regions and build a “mask” matrix that is then overlaid on the TF-gene motif network to select binding sites that are available fro TF binding. This method can be applied for various biological contexts such as cell lines and tissues. Sonawane and colleagues have employed their method to model cell- type specific GRNs using DNase-Seq data from ENCODE and showed that integrating epigenetic data in SPIDER networks allows building more accurate networks.
+description: EGRET incorporates genetic variants as a fourth data type in the PANDA message-passing framework, enabling the estimation of genotype-specific GRNs. Genetic variants can alter transcription factor binding by affecting the composition of motif sites on the DNA. Not every genetic variant has such an affect; EGRET incorporates only genetic variants which have (1) been shown to be associated with gene expression (expression quantitative trait loci, or eQTL), and (2) are predicted to affect transcription factor binding based on a tool called QBiC (Martin et al. 2019). This information is used in combination with TFBM predictions as input to the PANDA message-passing framework. The resulting EGRET network is a genotype-specific bipartite GRN that is similar to a PANDA network but incorporates the information contained by individual genetic variation.
 ---
 
 {{< rawhtml >}}

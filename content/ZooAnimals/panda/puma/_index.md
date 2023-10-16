@@ -3,6 +3,7 @@ title: "PUMA"
 date: 2019-02-02T08:50:52-04:00
 draft: false
 hidden: false
+description: PUMA extends the PANDA framework to model how microRNAs (miRNAs) participate in gene regulatory networks. PUMA networks are bipartite networks that consist of a regulatory layer and a layer of genes being regulated, similar to PANDA networks. While the regulatory layer of PANDA networks consists only of transcription factors (TFs), the regulatory layer of PUMA networks consists of both TFs and miRNAs. A PUMA network is seeded using a combination of input data sources such as motif scans or ChIP-seq data (for TF-gene edges) and an miRNA target prediction tool such as TargetScan or miRanda (for miRNA-gene edges). PUMA uses a message passing framework similar to PANDA to integrate this prior information with gene-gene coexpression and protein-protein interactions to estimate a final regulatory network incorporating miRNAs. Kuijjer and colleagues [7] apply PUMA to 38 GTEx tissues and demonstrate that PUMA can identify important patterns in tissue-specific regulation of genes by miRNA.
 ---
 
 {{< rawhtml >}}
