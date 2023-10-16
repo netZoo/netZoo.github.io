@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="Network biology packages">
+    <meta name="description" content="OTTER is a GRN inference method based on the idea that observed biological data (PPI data and gene co-expression data) are projections of a bipartite GRN between TFs and genes. Specifically, PPI data represent the projection of the GRN onto the TF-TF space and gene co-expression data represent the projection of the GRN onto the gene-gene space. OTTER reframes the problem of GRN inference as a problem of relaxed graph matching and finds a GRN that has optimal agreement with the observed PPI and coexpression data. The OTTER objective function is tunable in two ways: first, one can prioritize matching the PPI data or the coexpression data more heavily depending on one&#39;s confidence in the data source; second, there is a regularization parameter that can be applied to induce sparsity on the estimated GRN. The OTTER objective function can be solved using spectral decomposition techniques and gradient descent; the latter is shown to be closely related to the PANDA message-passing approach (Glass et al. 2013).">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>LIONESS :: The network zoo</title>
+    <title>OTTER :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697428764" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/lioness/">
+  <body class="" data-url="/zooanimals/panda/otter/">
     <nav id="sidebar" class="">
 
 
@@ -8659,7 +8659,7 @@
   
     
     <li data-nav-id="/zooanimals/panda/" title="PANDA &amp; co" class="dd-item
-        
+        parent
         
         
         ">
@@ -8740,8 +8740,8 @@
   
     
     <li data-nav-id="/zooanimals/panda/otter/" title="OTTER" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/panda/otter/">
@@ -8826,7 +8826,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/lioness/" title="LIONESS" class="dd-item active">
+      <li data-nav-id="/zooanimals/lioness/" title="LIONESS" class="dd-item ">
         <a href="/zooanimals/lioness/">
         LIONESS
         
@@ -9391,7 +9391,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > LIONESS
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/panda/'>PANDA & co</a> > OTTER
+          
+         
           
          
           
@@ -9410,6 +9416,7 @@
       <ul>
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#supplementary-data">Supplementary data</a></li>
         <li><a href="#implementation">Implementation</a></li>
         <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
@@ -9431,7 +9438,7 @@
           
             <h1>
               
-              LIONESS
+              OTTER
             </h1>
           
 
@@ -9439,49 +9446,120 @@
 
 
 
-<p>
+
+	<p>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.isci.2019.03.021" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2020.06.23.167999" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Estimating Sample-Specific Regulatory Networks.</p>
-<p>Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.</p>
-<p>iScience</p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S2589004219300872">doi.org/10.1016/j.isci.2019.03.021</a>.</p>
+<p>Gene Regulatory Network Inference as Relaxed Graph Matching.</p>
+<p>Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz.</p>
+<p>Proceedings of the AAAI Conference on Artificial Intelligence</p>
+<p><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17230">doi.org/10.1101/2020.06.23.167999</a>.</p>
 <h3 id="abstract">Abstract</h3>
-<p>Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks. We demonstrate our approach in several contexts, including simulated, yeast microarray, and human lymphoblastoid cell line RNA sequencing data. We use these sample-specific networks to study changes in network topology across time and to characterize shifts in gene regulation that were not apparent in the expression data. We believe that generating sample-specific networks will greatly facilitate the application of network methods to large, complex, and heterogeneous multi-omic datasets, supporting the emerging field of precision network medicine.</p>
+<p>Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix. The solutions of OTTER can be derived explicitly and inspire an alternative spectral algorithm, for which we can provide network recovery guarantees. We compare different solution approaches of OTTER to other inference methods using three biological data sets, which we make publicly available to offer a new application venue for relaxed graph matching in gene regulatory network inference. We find that using modern gradient descent methods with superior convergence properties solving OTTER outperforms state-of-the-art gene regulatory network inference methods in predicting binding of transcription factors to regulatory regions.</p>
+<h3 id="supplementary-data">Supplementary data</h3>
+<p>Several OTTER networks are available in <a href="https://grand.networkmedicine.org/cancers/">GRAND</a> database. In addition, the raw data for reconstruction and benchmarking of the networks are provided below.</p>
+<table>
+<thead>
+<tr>
+<th>File name</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>expressed_genes_tissue.txt</td>
+<td>Column (gene) names of the gene regulatory matrix W or the initial guess W0. They are also the node names of the correlation matrix C.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS1_Breast/expressed_genes_breast.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS2_Cervix/expressed_genes_cervix.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS3_Liver/expressed_genes_liver.txt">liver</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/expressed_genes_liver_TCGA_and_GTEx.txt">liver_tcga_gtex</a></td>
+</tr>
+<tr>
+<td>expressed_tf_names_tissue.txt</td>
+<td>Row (TF) names of the gene regulatory matrix W or the initial guess W0. They are also the node names of the protein-protein interaction matrix P.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS1_Breast/expressed_tf_names_breast.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS2_Cervix/expressed_tf_names_cervix.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS3_Liver/expressed_tf_names_liver.txt">liver</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/expressed_tf_names_liver_TCGA_and_GTEx.txt">liver_tcga_gtex</a></td>
+</tr>
+<tr>
+<td>motif_prior_matrix_tissue_otter.txt</td>
+<td>Initial gene regulatory network W0, which was constructed based on TF binding motifs in the human reference genome. Row names: TF names in order of file expressed_tf_names_tissue.txt Column names: Gene names in order of file expressed_genes_tissue.txt</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS1_Breast/motif_prior_matrix_breast.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS2_Cervix/motif_prior_matrix_cervix.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS3_Liver/motif_prior_matrix_liver.txt">liver</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/motif_prior_matrix_liver_TCGA_and_GTEx.txt">liver_tcga_gtex</a></td>
+</tr>
+<tr>
+<td>PPI_matrix_tissue.txt</td>
+<td>Protein-protein interaction matrix P. The node names are provided in the file expressed_tf_names_tissue.txt</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/PPI_matrix_breast.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/PPI_matrix_cervix.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/PPI_matrix_bliver.txt">liver</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/PPI_matrix_liver_TCGA_and_GTEx.txt">liver_tcga_gtex</a></td>
+</tr>
+<tr>
+<td>tcga_tissue_TPM_otter.txt</td>
+<td>Gene expression data. Columns refer two samples (i.e. people) and rows to genes. The gene names are defined in expressed_genes_tissue.txt. This data is used to compute the correlation matrix C.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS1_Breast/tcga_breast_TPM_otter.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS2_Cervix/tcga_cervix_TPM_otter.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS3_Liver/tcga_liver_TPM_otter.txt">tcga_liver</a></td>
+</tr>
+<tr>
+<td>corTissue.csv</td>
+<td>Correlation matrix C. Rows and columns refer to genes with names defined in expressed_genes_tissue.txt</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/corBreast.csv">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/corCervix.csv">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/corLiver.csv">liver</a></td>
+</tr>
+<tr>
+<td>chipseq_postive_edges_tissue.txt</td>
+<td>Validation set. Existing edges between TFs and genes. All TFs in the first column are tested with all genes. Thus, if an edge between any TFs in the first column and any other gene is not listed, it was not measured and counts as non-existent in the validation.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS1_Breast/chipseq_postive_edges_breast.txt">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS2_Cervix/chipseq_postive_edges_cervix.txt">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/DataS3_Liver/chipseq_postive_edges_liver.txt">liver</a></td>
+</tr>
+<tr>
+<td>otterTissue.txt</td>
+<td>Inferred gene regulatory network by optimizing OTTER with gradient descent.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/otterBreast.csv">breast</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/otterCervix.csv">cervix</a>, <a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/otterLiver.csv">liver</a></td>
+</tr>
+<tr>
+<td>otterLiverTCGA.csv</td>
+<td>Inferred gene regulatory network by optimizing OTTER with gradient descent. Liver cancer tissue. For comparison with the normal tissue network (otterLiverGTEX.csv), it has the same set of nodes.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/otterLiverTCGA.csv">liver_tcga</a></td>
+</tr>
+<tr>
+<td>otterLiverGTEX.csv</td>
+<td>Inferred gene regulatory network by optimizing OTTER with gradient descent. Normal liver tissue. For comparison with the liver cancer tissue network (otterLiverTCGA.csv), it has the same set of nodes.</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/otterLiverGTEX.csv">liver_gtex</a></td>
+</tr>
+<tr>
+<td>Supplementary_Figures.zip</td>
+<td>Result figures of GO term enrichment analysis comparing TCGA and GTEx OTTER networks</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/Supplementary_Figures.zip">Supplementary figures</a></td>
+</tr>
+<tr>
+<td>Supplementary_Tables.zip</td>
+<td>Result tables of GO term enrichment analysis comparing TCGA and GTEx OTTER networks</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/Supplementary_Tables.zip">Supplementary tables</a></td>
+</tr>
+<tr>
+<td>Otter_AAAI2021-12.pdf</td>
+<td>Supplementary material file</td>
+<td><a href="https://netzoo.s3.us-east-2.amazonaws.com/supData/otter/Otter_AAAI2021-12.pdf">Supplementary material</a></td>
+</tr>
+</tbody>
+</table>
 <h3 id="implementation">Implementation</h3>
 <p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a></p>
 <h3 id="netbook-tutorials">Netbook tutorials</h3>
-<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use LIONESS:</p>
+<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use OTTER:</p>
 <ul>
 <li>
 <p>netZooR:</p>
 <ul>
-<li>
-<p>Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R</p>
-</li>
-<li>
-<p>Comparing LIONESS Regulatory Networks using limma</p>
-</li>
-<li>
-<p>Differential gene targeting of pancreatic cancer subtypes</p>
-</li>
-<li>
-<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
-</li>
+<li>Inferring Gene Regulatory Networks from GTEx Gene Expression Data in R with OTTER</li>
 </ul>
 </li>
 </ul>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -9532,8 +9610,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9549,6 +9625,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9582,6 +9661,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -9609,6 +9708,9 @@
             
         
                     
+            
+        
+                    
                         
             
             
@@ -9625,33 +9727,10 @@
             
         
                     
-            
-        
-                    
                         
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9948,10 +10027,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/panda/egret/" title="EGRET"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/panda/puma/" title="PUMA"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/condor/" title="CONDOR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/panda/spider/" title="SPIDER" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -9983,4 +10062,3 @@
 
   </body>
 </html>
-

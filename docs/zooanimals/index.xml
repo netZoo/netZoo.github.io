@@ -77,19 +77,6 @@ Abstract Background: With the onset of next-generation sequencing technologies, 
     </item>
     
     <item>
-      <title>OTTER</title>
-      <link>https://netZoo.github.io/zooanimals/otter/</link>
-      <pubDate>Fri, 02 Nov 2018 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/otter/</guid>
-      <description>Reference Gene Regulatory Network Inference as Relaxed Graph Matching.
-Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz.
-Proceedings of the AAAI Conference on Artificial Intelligence
-doi.org/10.1101/2020.06.23.167999.
-Abstract Gene regulatory network inference is instrumental to the discovery of genetic mechanisms driving diverse diseases, including cancer. Here, we present a theoretical framework for PANDA, an established method for gene regulatory network inference. PANDA is based on iterative message passing updates that resemble the gradient descent of an optimization problem, OTTER, which can be interpreted as relaxed inexact graph matching between a gene-gene co-expression and a protein-protein interaction matrix.</description>
-    </item>
-    
-    <item>
       <title>CRANE</title>
       <link>https://netZoo.github.io/zooanimals/crane/</link>
       <pubDate>Tue, 02 Oct 2018 08:50:52 -0400</pubDate>

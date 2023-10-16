@@ -12,17 +12,17 @@
     <title>PANDA &amp; co :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1697424922" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1697424922" rel="stylesheet">
-    <link href="/css/hybrid.css?1697424922" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1697424922" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1697424922" rel="stylesheet">
-    <link href="/css/auto-complete.css?1697424922" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1697424922" rel="stylesheet">
-    <link href="/css/theme.css?1697424922" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1697424922" rel="stylesheet">
+    <link href="/css/nucleus.css?1697428764" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1697428764" rel="stylesheet">
+    <link href="/css/hybrid.css?1697428764" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1697428764" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1697428764" rel="stylesheet">
+    <link href="/css/auto-complete.css?1697428764" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1697428764" rel="stylesheet">
+    <link href="/css/theme.css?1697428764" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1697428764" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1697424922" rel="stylesheet">
+      <link href="/css/theme-red.css?1697428764" rel="stylesheet">
     
 
 
@@ -35,7 +35,7 @@
   gtag('config', 'G-TRXH486JVZ');
 </script>
 
-    <script src="/js/jquery-3.3.1.min.js?1697424922"></script>
+    <script src="/js/jquery-3.3.1.min.js?1697428764"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8595,14 +8595,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1697424922"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1697424922"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1697428764"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1697428764"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1697424922"></script>
+<script type="text/javascript" src="/js/search.js?1697428764"></script>
 
     
   </div>
@@ -8720,6 +8720,32 @@
         ">
       <a href="/zooanimals/panda/puma/">
           PUMA
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/zooanimals/panda/otter/" title="OTTER" class="dd-item
+        
+        
+        
+        ">
+      <a href="/zooanimals/panda/otter/">
+          OTTER
           
       </a>
       
@@ -8887,27 +8913,6 @@
       <li data-nav-id="/zooanimals/sambar/" title="SAMBAR" class="dd-item ">
         <a href="/zooanimals/sambar/">
         SAMBAR
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/zooanimals/otter/" title="OTTER" class="dd-item ">
-        <a href="/zooanimals/otter/">
-        OTTER
         
         </a>
     </li>
@@ -9413,7 +9418,7 @@
 
 
 	<h1 id="panda--co">PANDA &amp; co</h1>
-<h3 id="panda-and-similar-methods-that-use-the-same-computational-backend">PANDA and similar methods that use the same computational backend</h3>
+<h3 id="panda-and-similar-methods-that-use-the-same-conceptual-or-computational-backend">PANDA and similar methods that use the same conceptual or computational backend</h3>
 
 
 
@@ -9463,6 +9468,23 @@
 				
 					
 <p>PUMA extends the PANDA framework to model how microRNAs (miRNAs) participate in gene regulatory networks. PUMA networks are bipartite networks that consist of a regulatory layer and a layer of genes being regulated, similar to PANDA networks. While the regulatory layer of PANDA networks consists only of transcription factors (TFs), the regulatory layer of PUMA networks consists of both TFs and miRNAs. A PUMA network is seeded using a combination of input data sources such as motif scans or ChIP-seq data (for TF-gene edges) and an miRNA target prediction tool such as TargetScan or miRanda (for miRNA-gene edges). PUMA uses a message passing framework similar to PANDA to integrate this prior information with gene-gene coexpression and protein-protein interactions to estimate a final regulatory network incorporating miRNAs. Kuijjer and colleagues [7] apply PUMA to 38 GTEx tissues and demonstrate that PUMA can identify important patterns in tissue-specific regulation of genes by miRNA.</p>
+					
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/zooanimals/panda/otter/" >OTTER</a>
+</li>
+				
+
+				
+					
+<p>OTTER is a GRN inference method based on the idea that observed biological data (PPI data and gene co-expression data) are projections of a bipartite GRN between TFs and genes. Specifically, PPI data represent the projection of the GRN onto the TF-TF space and gene co-expression data represent the projection of the GRN onto the gene-gene space. OTTER reframes the problem of GRN inference as a problem of relaxed graph matching and finds a GRN that has optimal agreement with the observed PPI and coexpression data. The OTTER objective function is tunable in two ways: first, one can prioritize matching the PPI data or the coexpression data more heavily depending on one&#39;s confidence in the data source; second, there is a regularization parameter that can be applied to induce sparsity on the estimated GRN. The OTTER objective function can be solved using spectral decomposition techniques and gradient descent; the latter is shown to be closely related to the PANDA message-passing approach (Glass et al. 2013).</p>
 					
 				
 			
@@ -9644,9 +9666,6 @@
             
         
                     
-            
-        
-                    
                         
             
             
@@ -9659,6 +9678,9 @@
                     
                     
 
+                    
+            
+        
                     
             
         
@@ -9992,19 +10014,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1697424922"></script>
-    <script src="/js/perfect-scrollbar.min.js?1697424922"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1697424922"></script>
-    <script src="/js/jquery.sticky.js?1697424922"></script>
-    <script src="/js/featherlight.min.js?1697424922"></script>
-    <script src="/js/highlight.pack.js?1697424922"></script>
+    <script src="/js/clipboard.min.js?1697428764"></script>
+    <script src="/js/perfect-scrollbar.min.js?1697428764"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1697428764"></script>
+    <script src="/js/jquery.sticky.js?1697428764"></script>
+    <script src="/js/featherlight.min.js?1697428764"></script>
+    <script src="/js/highlight.pack.js?1697428764"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1697424922"></script>
-    <script src="/js/learn.js?1697424922"></script>
-    <script src="/js/hugo-learn.js?1697424922"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1697428764"></script>
+    <script src="/js/learn.js?1697428764"></script>
+    <script src="/js/hugo-learn.js?1697428764"></script>
     
         
-            <script src="/mermaid/mermaid.js?1697424922"></script>
+            <script src="/mermaid/mermaid.js?1697428764"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
