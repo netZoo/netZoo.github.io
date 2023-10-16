@@ -7,4 +7,4 @@ chapter: true
 
 ### PANDA and similar methods that use the same computational backend
 
-{{% children %}}
+{{% children description="true" %}}
