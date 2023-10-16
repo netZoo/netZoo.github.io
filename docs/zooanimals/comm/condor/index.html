@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>List :: The network zoo</title>
+    <title>CONDOR :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697429417" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/docs/docs/">
+  <body class="" data-url="/zooanimals/comm/condor/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8659,7 +8659,7 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        
+        parent
         
         
         ">
@@ -8688,8 +8688,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/condor/" title="CONDOR" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/comm/condor/">
@@ -9270,7 +9270,7 @@
   
     
     <li data-nav-id="/docs/" title="Docs" class="dd-item
-        parent
+        
         
         
         ">
@@ -9296,7 +9296,7 @@
  
   
     
-      <li data-nav-id="/docs/docs/" title="List" class="dd-item active">
+      <li data-nav-id="/docs/docs/" title="List" class="dd-item ">
         <a href="/docs/docs/">
         List
         
@@ -9444,7 +9444,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/docs/'>Docs</a> > List
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/comm/'>Community detection</a> > CONDOR
+          
+         
           
          
           
@@ -9457,7 +9463,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -9473,7 +9490,7 @@
           
             <h1>
               
-              List
+              CONDOR
             </h1>
           
 
@@ -9481,17 +9498,53 @@
 
 
 
+
+	<p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pcbi.1005033" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>Bipartite Community Structure of eQTLs.</p>
+<p>John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.</p>
+<p>Plos computational biology</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/27618581/">doi.org/10.1371/journal.pcbi.1005033</a>.</p>
+<h3 id="abstract">Abstract</h3>
+<p>Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states. Here we present CONDOR, a method that represents both cis- and trans-acting SNPs and the genes with which they are associated as a bipartite graph and then uses the modular structure of that graph to place SNPs into a functional context. In applying CONDOR to eQTLs in chronic obstructive pulmonary disease (COPD), we found the global network &ldquo;hub&rdquo; SNPs were devoid of disease associations through GWAS. However, the network was organized into 52 communities of SNPs and genes, many of which were enriched for genes in specific functional classes. We identified local hubs within each community (&ldquo;core SNPs&rdquo;) and these were enriched for GWAS SNPs for COPD and many other diseases. These results speak to our intuition: rather than single SNPs influencing single genes, we see groups of SNPs associated with the expression of families of functionally related genes and that disease SNPs are associated with the perturbation of those functions. These methods are not limited in their application to COPD and can be used in the analysis of a wide variety of disease processes and other phenotypic traits.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
+<h3 id="netbook-tutorials">Netbook tutorials</h3>
+<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use CONDOR:</p>
+<ul>
+<li>
 <p>netZooR:</p>
-<p>      <a href="https://netzoo.github.io/netZooR/">Link</a> to the dedicated documentation website.</p>
+<ul>
+<li>
+<p>Exploring eQTL tissue regulation with CONDOR</p>
+</li>
+<li>
+<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
+</li>
+</ul>
+</li>
+<li>
 <p>netZooPy:</p>
-<p>      <a href="https://netzoopy.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooM:</p>
-<p>      <a href="https://netzoom.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooC:</p>
-<p>      <a href="https://netzooc.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
+<ul>
+<li>Benchmarking motif networks for the reconstruction of kidney cancer regulatory network</li>
+</ul>
+</li>
+</ul>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -9526,8 +9579,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9544,6 +9595,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -9558,6 +9610,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -9575,103 +9628,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -9713,27 +9671,10 @@
 
                     
                     
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -9831,6 +9772,121 @@
                     
 
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -9935,7 +9991,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9948,7 +10003,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9973,10 +10027,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/" title="Docs"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/comm/" title="Community detection"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/" title="Zoo animals" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/comm/alpaca/" title="ALPACA" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10008,4 +10062,3 @@
 
   </body>
 </html>
-

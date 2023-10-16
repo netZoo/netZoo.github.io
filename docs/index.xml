@@ -106,19 +106,6 @@ Abstract Biological systems are driven by intricate interactions among molecules
     </item>
     
     <item>
-      <title>CONDOR</title>
-      <link>https://netZoo.github.io/zooanimals/condor/</link>
-      <pubDate>Thu, 02 May 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/condor/</guid>
-      <description>Reference Bipartite Community Structure of eQTLs.
-John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
-Plos computational biology
-doi.org/10.1371/journal.pcbi.1005033.
-Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states.</description>
-    </item>
-    
-    <item>
       <title>MONSTER</title>
       <link>https://netZoo.github.io/zooanimals/monster/</link>
       <pubDate>Tue, 02 Apr 2019 08:50:52 -0400</pubDate>
@@ -132,19 +119,6 @@ Abstract Background: Specific cellular states are often associated with distinct
     </item>
     
     <item>
-      <title>ALPACA</title>
-      <link>https://netZoo.github.io/zooanimals/alpaca/</link>
-      <pubDate>Sat, 02 Mar 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/alpaca/</guid>
-      <description>Reference Detecting phenotype-driven transitions in regulatory network structure.
-Megha Padi and John Quackenbush.
-npj Systems biology and applications
-doi:10.1038/s41540-018-0052-5.
-Abstract Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease.</description>
-    </item>
-    
-    <item>
       <title>SAMBAR</title>
       <link>https://netZoo.github.io/zooanimals/sambar/</link>
       <pubDate>Wed, 02 Jan 2019 08:50:52 -0400</pubDate>
@@ -155,19 +129,6 @@ Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and Jo
 British Journal of Cancer
 doi.org/10.1038/s41416-018-0109-7.
 Abstract Background: With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis.</description>
-    </item>
-    
-    <item>
-      <title>CRANE</title>
-      <link>https://netZoo.github.io/zooanimals/crane/</link>
-      <pubDate>Tue, 02 Oct 2018 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/crane/</guid>
-      <description>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules.
-James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
-Frontiers in Genetics
-doi.org/10.3389/fgene.2020.603264.
-Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes.</description>
     </item>
     
     <item>

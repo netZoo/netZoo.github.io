@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>List :: The network zoo</title>
+    <title>CRANE :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697429417" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/docs/docs/">
+  <body class="" data-url="/zooanimals/comm/crane/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8659,7 +8659,7 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        
+        parent
         
         
         ">
@@ -8740,8 +8740,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/crane/" title="CRANE" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/comm/crane/">
@@ -9270,7 +9270,7 @@
   
     
     <li data-nav-id="/docs/" title="Docs" class="dd-item
-        parent
+        
         
         
         ">
@@ -9296,7 +9296,7 @@
  
   
     
-      <li data-nav-id="/docs/docs/" title="List" class="dd-item active">
+      <li data-nav-id="/docs/docs/" title="List" class="dd-item ">
         <a href="/docs/docs/">
         List
         
@@ -9444,7 +9444,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/docs/'>Docs</a> > List
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/comm/'>Community detection</a> > CRANE
+          
+         
           
          
           
@@ -9457,7 +9463,17 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -9473,7 +9489,7 @@
           
             <h1>
               
-              List
+              CRANE
             </h1>
           
 
@@ -9481,17 +9497,32 @@
 
 
 
-<p>netZooR:</p>
-<p>      <a href="https://netzoo.github.io/netZooR/">Link</a> to the dedicated documentation website.</p>
-<p>netZooPy:</p>
-<p>      <a href="https://netzoopy.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooM:</p>
-<p>      <a href="https://netzoom.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooC:</p>
-<p>      <a href="https://netzooc.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
+
+	<p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
-<footer class="footline">
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/10.3389/fgene.2020.603264" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules.</p>
+<p>James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.</p>
+<p>Frontiers in Genetics</p>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.603264/full">doi.org/10.3389/fgene.2020.603264</a>.</p>
+<h3 id="abstract">Abstract</h3>
+<p>The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes. Changes in community structure can be detected by maximizing a modularity-based score, but because biological systems and network inference algorithms are inherently noisy, it remains a challenge to determine whether these changes represent real cellular responses or whether they appeared by random chance. Here, we introduce Constrained Random Alteration of Network Edges (CRANE), a computational method that samples networks with fixed node strengths to identify a null distribution and assess the robustness of observed changes in network structure. In contrast with other approaches, such as consensus clustering or established network generative models, CRANE produces more biologically realistic results and performs better in simulations. When applied to breast and ovarian cancer networks, CRANE improves the recovery of cancer-relevant GO terms while reducing the signal from non-specific housekeeping processes. CRANE is a general tool that can be applied in tandem with a variety of stochastic community detection methods to evaluate the veracity of their results.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
+
+
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -9526,8 +9557,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9544,6 +9573,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -9558,6 +9588,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9591,103 +9624,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -9708,32 +9644,18 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
                     
-                    
-                    
-
-                    
-            
-        
                     
                         
-            
-            
-                
-                    
-                
-                
-
-                    
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -9831,6 +9753,121 @@
                     
 
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -9935,7 +9972,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9948,7 +9984,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9973,10 +10008,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/" title="Docs"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/comm/alpaca/" title="ALPACA"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/" title="Zoo animals" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/panda/" title="PANDA &amp; co" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10008,4 +10043,3 @@
 
   </body>
 </html>
-

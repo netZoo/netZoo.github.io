@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>List :: The network zoo</title>
+    <title>Community detection :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697429417" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/docs/docs/">
+  <body class="" data-url="/zooanimals/comm/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8659,8 +8659,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/comm/">
@@ -9270,7 +9270,7 @@
   
     
     <li data-nav-id="/docs/" title="Docs" class="dd-item
-        parent
+        
         
         
         ">
@@ -9296,7 +9296,7 @@
  
   
     
-      <li data-nav-id="/docs/docs/" title="List" class="dd-item active">
+      <li data-nav-id="/docs/docs/" title="List" class="dd-item ">
         <a href="/docs/docs/">
         List
         
@@ -9428,8 +9428,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -9444,7 +9442,7 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/docs/'>Docs</a> > List
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > Community detection
           
          
           
@@ -9455,13 +9453,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-<nav id="TableOfContents"></nav>
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -9469,32 +9460,114 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-              List
-            </h1>
           
 
         
 
 
 
-<p>netZooR:</p>
-<p>      <a href="https://netzoo.github.io/netZooR/">Link</a> to the dedicated documentation website.</p>
-<p>netZooPy:</p>
-<p>      <a href="https://netzoopy.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooM:</p>
-<p>      <a href="https://netzoom.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooC:</p>
-<p>      <a href="https://netzooc.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
+
+	<h1 id="community-detection-methods">Community detection methods</h1>
+<h3 id="finding-communities-in-bipartite-networks">Finding communities in bipartite networks</h3>
 
 
-<footer class="footline">
+
+
+
+
+
+<ul class="children children-li">
+	
+
+	
+		
+			
+		
+	
+
+	
+
+	
+		
+	
+		
+			
+				
+<li>
+<a href="/zooanimals/comm/condor/" >CONDOR</a>
+</li>
+				
+
+				
+					
+<p>Reference Bipartite Community Structure of eQTLs.
+John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
+Plos computational biology
+doi.org/10.1371/journal.pcbi.1005033.
+Abstract Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states.</p>
+					
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/zooanimals/comm/alpaca/" >ALPACA</a>
+</li>
+				
+
+				
+					
+<p>ALPACA is a method for differential network analysis that is based on a novel approach to comparison of network community structures. Comparisons of community structure have typically been accomplished by assessing which nodes switch community membership between networks (community comparison) or by computing the edge weight differences by subtracting the adjacency matrices of two networks and then performing community detection on the resulting differential network (edge subtraction). Both these approaches have important limitations. Community comparison is subject to a resolution limit and cannot detect differences smaller than the average community size in a network. Edge subtraction transfers noise from both of the original networks to the differential network, leading to an imprecise estimator. Moreover, positive and negative edge differences cannot be distinguished in the subsequent community detection performed on the differential network. In contrast to community comparison and edge subtraction, ALPACA compares the community structure of two networks by optimizing a new metric: differential modularity. In the ALPACA algorithm, one network is defined as the reference network and the second is defined as the perturbed network. The differential modularity metric measures the extent to which edges in a community in the perturbed network differ from those that would be expected by random chance according to a null distribution based on the reference network. Community structure of the perturbed network is determined by maximizing this differential modularity. The resulting communities are differential modules that show how the perturbed network differs from the reference network at the community level.</p>
+					
+				
+			
+			
+		
+	
+		
+			
+				
+<li>
+<a href="/zooanimals/comm/crane/" >CRANE</a>
+</li>
+				
+
+				
+					
+<p>Reference Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules.
+James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
+Frontiers in Genetics
+doi.org/10.3389/fgene.2020.603264.
+Abstract The use of biological networks such as protein-protein interaction and transcriptional regulatory networks is becoming an integral part of biological research in the genomics era. However, these networks are not static, and during phenotypic transitions like disease onset, they can acquire new “communities” of genes that carry out key cellular processes.</p>
+					
+				
+			
+			
+		
+	
+
+	
+</ul>
+
+
+
+
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -9526,8 +9599,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9544,6 +9615,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -9558,6 +9630,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9935,7 +10010,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9948,7 +10022,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9973,10 +10046,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/" title="Docs"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/" title="Zoo animals"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/" title="Zoo animals" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/comm/condor/" title="CONDOR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10008,4 +10081,3 @@
 
   </body>
 </html>
-

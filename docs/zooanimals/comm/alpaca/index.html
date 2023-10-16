@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="Network biology packages">
+    <meta name="description" content="ALPACA is a method for differential network analysis that is based on a novel approach to comparison of network community structures. Comparisons of community structure have typically been accomplished by assessing which nodes switch community membership between networks (community comparison) or by computing the edge weight differences by subtracting the adjacency matrices of two networks and then performing community detection on the resulting differential network (edge subtraction). Both these approaches have important limitations. Community comparison is subject to a resolution limit and cannot detect differences smaller than the average community size in a network. Edge subtraction transfers noise from both of the original networks to the differential network, leading to an imprecise estimator. Moreover, positive and negative edge differences cannot be distinguished in the subsequent community detection performed on the differential network. In contrast to community comparison and edge subtraction, ALPACA compares the community structure of two networks by optimizing a new metric: differential modularity. In the ALPACA algorithm, one network is defined as the reference network and the second is defined as the perturbed network. The differential modularity metric measures the extent to which edges in a community in the perturbed network differ from those that would be expected by random chance according to a null distribution based on the reference network. Community structure of the perturbed network is determined by maximizing this differential modularity. The resulting communities are differential modules that show how the perturbed network differs from the reference network at the community level.">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>List :: The network zoo</title>
+    <title>ALPACA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1697429417" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/docs/docs/">
+  <body class="" data-url="/zooanimals/comm/alpaca/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8659,7 +8659,7 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        
+        parent
         
         
         ">
@@ -8714,8 +8714,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/alpaca/" title="ALPACA" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/comm/alpaca/">
@@ -9270,7 +9270,7 @@
   
     
     <li data-nav-id="/docs/" title="Docs" class="dd-item
-        parent
+        
         
         
         ">
@@ -9296,7 +9296,7 @@
  
   
     
-      <li data-nav-id="/docs/docs/" title="List" class="dd-item active">
+      <li data-nav-id="/docs/docs/" title="List" class="dd-item ">
         <a href="/docs/docs/">
         List
         
@@ -9444,7 +9444,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/docs/'>Docs</a> > List
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/comm/'>Community detection</a> > ALPACA
+          
+         
           
          
           
@@ -9457,7 +9463,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -9473,7 +9490,7 @@
           
             <h1>
               
-              List
+              ALPACA
             </h1>
           
 
@@ -9481,17 +9498,47 @@
 
 
 
+
+	<p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41540-018-0052-5" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>Detecting phenotype-driven transitions in regulatory network structure.</p>
+<p>Megha Padi and John Quackenbush.</p>
+<p>npj Systems biology and applications</p>
+<p><a href="https://www.nature.com/articles/s41540-018-0052-5">doi:10.1038/s41540-018-0052-5</a>.</p>
+<h3 id="abstract">Abstract</h3>
+<p>Complex traits and diseases like human height or cancer are often not caused by a single mutation or genetic variant, but instead arise from functional changes in the underlying molecular network. Biological networks are known to be highly modular and contain dense “communities” of genes that carry out cellular processes, but these structures change between tissues, during development, and in disease. While many methods exist for inferring networks and analyzing their topologies separately, there is a lack of robust methods for quantifying differences in network structure. Here, we describe ALPACA (ALtered Partitions Across Community Architectures), a method for comparing two genome-scale networks derived from different phenotypic states to identify condition-specific modules. In simulations, ALPACA leads to more nuanced, sensitive, and robust module discovery than currently available network comparison methods. As an application, we use ALPACA to compare transcriptional networks in three contexts: angiogenic and non-angiogenic subtypes of ovarian cancer, human fibroblasts expressing transforming viral oncogenes, and sexual dimorphism in human breast tissue. In each case, ALPACA identifies modules enriched for processes relevant to the phenotype. For example, modules specific to angiogenic ovarian tumors are enriched for genes associated with blood vessel development, and modules found in female breast tissue are enriched for genes involved in estrogen receptor and ERK signaling. The functional relevance of these new modules suggests that not only can ALPACA identify structural changes in complex networks, but also that these changes may be relevant for characterizing biological phenotypes.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
+<h3 id="netbook-tutorials">Netbook tutorials</h3>
+<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use ALPACA:</p>
+<ul>
+<li>
 <p>netZooR:</p>
-<p>      <a href="https://netzoo.github.io/netZooR/">Link</a> to the dedicated documentation website.</p>
-<p>netZooPy:</p>
-<p>      <a href="https://netzoopy.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooM:</p>
-<p>      <a href="https://netzoom.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
-<p>netZooC:</p>
-<p>      <a href="https://netzooc.readthedocs.io/en/latest/?badge=latest">Link</a> to the dedicated documentation website.</p>
+<ul>
+<li>
+<p>Gene regulatory network analysis in Glioblastoma</p>
+</li>
+<li>
+<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
+</li>
+</ul>
+</li>
+</ul>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -9526,8 +9573,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9544,6 +9589,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -9558,6 +9604,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9575,55 +9624,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -9641,53 +9641,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -9713,27 +9668,10 @@
 
                     
                     
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -9831,6 +9769,121 @@
                     
 
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -9935,7 +9988,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9948,7 +10000,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -9973,10 +10024,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/" title="Docs"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/comm/condor/" title="CONDOR"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/" title="Zoo animals" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/comm/crane/" title="CRANE" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10008,4 +10059,3 @@
 
   </body>
 </html>
-

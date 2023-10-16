@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>https://netZoo.github.io/zooanimals/comm/</loc>
+  </url>
+  
+  <url>
     <loc>https://netZoo.github.io/zooanimals/panda/</loc>
   </url>
   
@@ -72,7 +76,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/condor/</loc>
+    <loc>https://netZoo.github.io/zooanimals/comm/condor/</loc>
     <lastmod>2019-05-02T08:50:52-04:00</lastmod>
   </url>
   
@@ -82,7 +86,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/alpaca/</loc>
+    <loc>https://netZoo.github.io/zooanimals/comm/alpaca/</loc>
     <lastmod>2019-03-02T08:50:52-04:00</lastmod>
   </url>
   
@@ -102,7 +106,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/crane/</loc>
+    <loc>https://netZoo.github.io/zooanimals/comm/crane/</loc>
     <lastmod>2018-10-02T08:50:52-04:00</lastmod>
   </url>
   
