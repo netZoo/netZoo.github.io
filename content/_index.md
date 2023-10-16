@@ -23,7 +23,7 @@ netZoo{R,Py,M,C} is a network biology package for the inference and analysis of 
 
 If you use netZoo, please cite us using the following format:
 
-> We used DRAGON (Shutta et al, 2023) as implemented in netZooPy v 1.5 (Ben Guebila et al, 2023) and R v 4.2.
+> We used DRAGON (Shutta, Weighill et al, 2023) as implemented in netZooPy v 1.5 (Ben Guebila et al, 2023) and R v 4.2.
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
