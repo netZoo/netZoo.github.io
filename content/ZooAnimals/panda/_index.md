@@ -6,6 +6,6 @@ weight: 1
 
 # PANDA & co
 
-### PANDA and similar methods that use the same computational backend
+### PANDA and similar methods that use the same conceptual or computational backend
 
 {{% children description="true" %}}
