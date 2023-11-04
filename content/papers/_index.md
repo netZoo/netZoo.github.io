@@ -1,9 +1,9 @@
 ---
-title: Papers
+title: Publications
 weight: 7
 chapter: true
 ---
 
-# Papers
+# Publications
 
 ### A list of publications that develop/reference the netZoo
