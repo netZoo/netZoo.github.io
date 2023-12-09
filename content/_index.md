@@ -27,7 +27,7 @@ If you use netZoo, please cite us using the following format:
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
-A collection of tutorials hosted on the cloud allows you to get up and running without hardware requirement and without installing any depedency. netZoo R and Python tutorials are available on [Netbooks](http://netbooks.networkmedicine.org/). Otherwise, you can run the tutorials on your computer using  [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
+A collection of tutorials hosted on the cloud is available without the need to install any depedency on [Netbooks](http://netbooks.networkmedicine.org/). It is possible to  run these tutorials on a local computer using [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
 
 ### netZoo ecosystem
 
