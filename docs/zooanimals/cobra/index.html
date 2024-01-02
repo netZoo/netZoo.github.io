@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="CONDOR is a tool for community detection in bipartite networks. Many community detection methods for unipartite networks are based on the concept of maximizing a modularity metric that compares the weight of edges within communities to the weight of edges between communities, prioritizing community assignments with higher values of the former relative to the latter. CONDOR extends this concept to bipartite networks by optimizing a bipartite version of modularity defined by Barber (2007). To enable bipartite community detection on large networks such gene regulatory networks, CONDOR uses a fast unipartite modularity maximization method on one of the two unipartite projections of the bipartite network. In Platig et al. (2016), CONDOR is applied to bipartite networks of single nucleotide polymorphisms (SNPs) and gene expression, where a network edge from a SNP node to a gene node is indicative of an association between the SNP and the gene expression level, commonly known as an expression quantitative trait locus (eQTL). Communities detected with CONDOR contained local hub nodes (core SNPs) enriched for association with disease, suggesting that functional eQTL relationships are encoded at the community level.">
+    <meta name="description" content="Network biology packages">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>CONDOR :: The network zoo</title>
+    <title>COBRA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1704211536" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/comm/condor/">
+  <body class="" data-url="/zooanimals/cobra/">
     <nav id="sidebar" class="">
 
 
@@ -8827,7 +8827,7 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        parent
+        
         
         
         ">
@@ -8856,8 +8856,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/condor/" title="CONDOR" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/zooanimals/comm/condor/">
@@ -9089,7 +9089,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/cobra/" title="COBRA" class="dd-item ">
+      <li data-nav-id="/zooanimals/cobra/" title="COBRA" class="dd-item active">
         <a href="/zooanimals/cobra/">
         COBRA
         
@@ -9465,13 +9465,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/comm/'>Community detection</a> > CONDOR
-          
-         
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > COBRA
           
          
           
@@ -9491,7 +9485,6 @@
         <li><a href="#reference">Reference</a></li>
         <li><a href="#abstract">Abstract</a></li>
         <li><a href="#implementation">Implementation</a></li>
-        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9511,7 +9504,7 @@
           
             <h1>
               
-              CONDOR
+              COBRA
             </h1>
           
 
@@ -9519,53 +9512,29 @@
 
 
 
-
-	<p>
+<p>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pcbi.1005033" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2023.12.28.573533" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Bipartite Community Structure of eQTLs.</p>
-<p>John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.</p>
-<p>Plos computational biology</p>
-<p><a href="https://pubmed.ncbi.nlm.nih.gov/27618581/">doi.org/10.1371/journal.pcbi.1005033</a>.</p>
+<p>Higher-order correction of persistent batch effects in correlation networks</p>
+<p>Soel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2023.12.28.573533v1.abstract">doi.org/10.1101/2023.12.28.573533</a></p>
 <h3 id="abstract">Abstract</h3>
-<p>Genome Wide Association Studies (GWAS) and expression quantitative trait locus (eQTL) analyses have identified genetic associations with a wide range of human phenotypes. However, many of these variants have weak effects and understanding their combined effect remains a challenge. One hypothesis is that multiple SNPs interact in complex networks to influence functional processes that ultimately lead to complex phenotypes, including disease states. Here we present CONDOR, a method that represents both cis- and trans-acting SNPs and the genes with which they are associated as a bipartite graph and then uses the modular structure of that graph to place SNPs into a functional context. In applying CONDOR to eQTLs in chronic obstructive pulmonary disease (COPD), we found the global network &ldquo;hub&rdquo; SNPs were devoid of disease associations through GWAS. However, the network was organized into 52 communities of SNPs and genes, many of which were enriched for genes in specific functional classes. We identified local hubs within each community (&ldquo;core SNPs&rdquo;) and these were enriched for GWAS SNPs for COPD and many other diseases. These results speak to our intuition: rather than single SNPs influencing single genes, we see groups of SNPs associated with the expression of families of functionally related genes and that disease SNPs are associated with the perturbation of those functions. These methods are not limited in their application to COPD and can be used in the analysis of a wide variety of disease processes and other phenotypic traits.</p>
+<p>Systems biology methods often rely on correlations in gene expression profiles to infer co-expression networks, commonly used as input for gene regulatory network inference or to identify functional modules of co-expressed or co-regulated genes. While systematic biases, including batch effects, are known to induce spurious associations and confound differential gene expression analyses (DE), the impact of batch effects on gene co-expression has not been fully explored. Methods have been developed to adjust expression values, ensuring conditional independence of mean and variance from batch or other covariates for each gene. These adjustments have been shown to improve the fidelity of DE analysis. However, these methods do not address the potential for spurious differential co-expression (DC) between groups. Consequently, uncorrected, artifactual DC can skew the correlation structure, leading network inference methods that use gene co-expression to identify false, nonbiological associations, even when the input data is corrected using standard batch correction.</p>
+<p>In this work, we demonstrate the persistence of confounders in covariance after standard batch correction using synthetic and real-world gene expression data examples. Subsequently, we introduce Co-expression Batch Reduction Adjustment (COBRA), a method for computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters expressing the co-expression matrix as a function of the sample covariates, allowing control for continuous and categorical covariates. COBRA is computationally efficient, leveraging the inherently modular structure of genomic data to estimate accurate gene regulatory associations and facilitate functional analysis for high-dimensional genomic data.</p>
 <h3 id="implementation">Implementation</h3>
 <p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
-<h3 id="netbook-tutorials">Netbook tutorials</h3>
-<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use CONDOR:</p>
-<ul>
-<li>
-<p>netZooR:</p>
-<ul>
-<li>
-<p>Exploring eQTL tissue regulation with CONDOR</p>
-</li>
-<li>
-<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
-</li>
-</ul>
-</li>
-<li>
-<p>netZooPy:</p>
-<ul>
-<li>Benchmarking motif networks for the reconstruction of kidney cancer regulatory network</li>
-</ul>
-</li>
-</ul>
 
 
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -9717,7 +9686,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -9732,26 +9700,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -9780,9 +9728,6 @@
             
         
                     
-            
-        
-                    
                         
             
             
@@ -9795,6 +9740,9 @@
                     
                     
 
+                    
+            
+        
                     
             
         
@@ -9911,6 +9859,23 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -9918,6 +9883,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -10067,10 +10035,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/comm/" title="Community detection"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/tiger/" title="TIGER"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/comm/alpaca/" title="ALPACA" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/contribute/" title="Contribution guide" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10102,3 +10070,4 @@
 
   </body>
 </html>
+
