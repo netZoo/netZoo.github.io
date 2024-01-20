@@ -27,7 +27,7 @@ If you use netZoo, please cite us using the following format:
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
-A collection of tutorials hosted on the cloud is available without the need to install any depedency on [Netbooks](http://netbooks.networkmedicine.org/). It is possible to  run these tutorials on a local computer using [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
+A collection of tutorials hosted on the cloud is available without the need to install any depedency on [Netbooks](https://netbooks.networkmedicine.org/). It is possible to  run these tutorials on a local computer using [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
 
 ### netZoo ecosystem
 
@@ -37,7 +37,7 @@ A collection of tutorials hosted on the cloud is available without the need to i
 
 - A set of networks generated using netZoo tools are hosted in [GRAND](https://grand.networkmedicine.org) database. [Publication](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab778/6368528). 
 
-- netZoo tutorials are distributed through bundled hardware and software environments using [Netbooks](http://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2).
+- netZoo tutorials are distributed through bundled hardware and software environments using [Netbooks](https://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2).
 
 - To ask questions or to provide feedback or ideas, please use our community channel for [discussions](https://github.com/netZoo/netZooR/discussions).
 

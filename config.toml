@@ -20,7 +20,7 @@ weight = 10
 [[menu.shortcuts]]
 name = "<i class='fas fa-fw fa-book-reader'></i> Netbooks"
 identifier = "dde"
-url = "http://netbooks.networkmedicine.org/"
+url = "https://netbooks.networkmedicine.org/"
 weight = 11
 
 [[menu.shortcuts]]
