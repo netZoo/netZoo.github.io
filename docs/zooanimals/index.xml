@@ -6,23 +6,10 @@
     <description>Recent content in Zoo animals on The network zoo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 08:50:52 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 08:50:52 -0400</lastBuildDate>
     
 	<atom:link href="https://netZoo.github.io/zooanimals/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>LIONESS</title>
-      <link>https://netZoo.github.io/zooanimals/lioness/</link>
-      <pubDate>Sun, 02 Jun 2019 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/lioness/</guid>
-      <description>Reference Estimating Sample-Specific Regulatory Networks.
-Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.
-iScience
-doi.org/10.1016/j.isci.2019.03.021.
-Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network.</description>
-    </item>
     
     <item>
       <title>MONSTER</title>

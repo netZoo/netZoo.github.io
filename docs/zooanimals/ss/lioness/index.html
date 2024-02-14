@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Getting help :: The network zoo</title>
+    <title>LIONESS :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1707926034" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/contribute/issues/">
+  <body class="" data-url="/zooanimals/ss/lioness/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8943,7 +8943,7 @@
   
     
     <li data-nav-id="/zooanimals/ss/" title="Single sample networks" class="dd-item
-        
+        parent
         
         
         ">
@@ -8969,7 +8969,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/ss/lioness/" title="LIONESS" class="dd-item ">
+      <li data-nav-id="/zooanimals/ss/lioness/" title="LIONESS" class="dd-item active">
         <a href="/zooanimals/ss/lioness/">
         LIONESS
         
@@ -9175,7 +9175,7 @@
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item
-        parent
+        
         
         
         ">
@@ -9264,7 +9264,7 @@
  
   
     
-      <li data-nav-id="/contribute/issues/" title="Getting help" class="dd-item active">
+      <li data-nav-id="/contribute/issues/" title="Getting help" class="dd-item ">
         <a href="/contribute/issues/">
         Getting help
         
@@ -9522,7 +9522,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > Getting help
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/ss/'>Single sample networks</a> > LIONESS
+          
+         
           
          
           
@@ -9539,10 +9545,10 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#issues">Issues</a></li>
-        <li><a href="#tutorials">Tutorials</a></li>
-        <li><a href="#abbreviations">Abbreviations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#netbook-tutorials">Netbook tutorials</a></li>
       </ul>
     </li>
   </ul>
@@ -9562,7 +9568,7 @@
           
             <h1>
               
-              Getting help
+              LIONESS
             </h1>
           
 
@@ -9570,26 +9576,46 @@
 
 
 
-<h3 id="issues">Issues</h3>
-<p>If you need help or if you have any question about netZoo, please check <a href="https://github.com/netZoo/netZooR/discussions">discussions</a>.</p>
-<p>If you would like to report a bug in the netZoo, please open an issue in the <a href="https://github.com/netZoo/netZooM/issues">issues tab</a> of the corresponding netZoo{R,Py,M,C} github.</p>
-<h3 id="tutorials">Tutorials</h3>
-<p>Check the tutorials in the github repo for a basic application of the network tools.</p>
-<p>netZooPy: Jupyter Notebook <a href="https://netzoopy.readthedocs.io/en/latest/tutos/index.html">Tutorials</a>.</p>
-<p>netZooM: LiveScript <a href="https://netzoom.readthedocs.io/en/latest/tutos/index.html">Tutorials</a>.</p>
-<p>netZooR: R markdown <a href="https://github.com/netZoo/netZooR/tree/master/vignettes">Tutorials</a>.</p>
-<h3 id="abbreviations">Abbreviations</h3>
-<p>The Network Zoo ecosystem tools are abbreviated as follows:</p>
-<p>The Network Zoo: netZoo</p>
-<p>Python Network Zoo: netZooPy</p>
-<p>Jupyter Notebook server: Netbooks</p>
-<p>Gene Regulatory Network Database: GRAND</p>
-<p>CLUE gene regulation (webserver for drug repurposing): CLUEreg</p>
-<p>Cloud Network Zoo: netZooCloud</p>
-<p>Continuous integration system: ZooKeeper</p>
-<p>GPU Network Zoo: gpuZoo</p>
-<h3 id="contact">Contact</h3>
-<p>Drop us an <a href="mailto:benguebila@hsph.harvard.edu">email</a> if you have any question.</p>
+<p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.isci.2019.03.021" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>Estimating Sample-Specific Regulatory Networks.</p>
+<p>Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.</p>
+<p>iScience</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2589004219300872">doi.org/10.1016/j.isci.2019.03.021</a>.</p>
+<h3 id="abstract">Abstract</h3>
+<p>Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network. Although informative, aggregate models fail to capture population heterogeneity. Here we propose a method to reverse engineer sample-specific networks from aggregate networks. We demonstrate our approach in several contexts, including simulated, yeast microarray, and human lymphoblastoid cell line RNA sequencing data. We use these sample-specific networks to study changes in network topology across time and to characterize shifts in gene regulation that were not apparent in the expression data. We believe that generating sample-specific networks will greatly facilitate the application of network methods to large, complex, and heterogeneous multi-omic datasets, supporting the emerging field of precision network medicine.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a>, <a href="https://github.com/netZoo/netZooM">netZooM</a></p>
+<h3 id="netbook-tutorials">Netbook tutorials</h3>
+<p>The following <a href="http://netbooks.networkmedicine.org">netbooks</a> use LIONESS:</p>
+<ul>
+<li>
+<p>netZooR:</p>
+<ul>
+<li>
+<p>Building PANDA and LIONESS Regulatory Networks from GTEx Gene Expression Data in R</p>
+</li>
+<li>
+<p>Comparing LIONESS Regulatory Networks using limma</p>
+</li>
+<li>
+<p>Differential gene targeting of pancreatic cancer subtypes</p>
+</li>
+<li>
+<p>Building and analyzing enhancer-driven TF-gene regulatory networks PANDA and LIONESS</p>
+</li>
+</ul>
+</li>
+</ul>
 
 
 <footer class="footline">
@@ -9627,8 +9653,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -9644,6 +9668,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -9809,6 +9836,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -9821,6 +9849,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -9838,24 +9867,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -9867,19 +9880,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
             
         
@@ -9964,42 +9964,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -10032,11 +9996,74 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -10056,9 +10083,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -10128,10 +10152,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/contribute/install/" title="How to install"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/ss/" title="Single sample networks"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/papers/" title="Publications" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/ss/bonobo/" title="BONOBO" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
