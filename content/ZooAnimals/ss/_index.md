@@ -1,5 +1,5 @@
 ---
-title: Single sample networks
+title: Single-sample networks
 chapter: true
 weight: 3
 ---
