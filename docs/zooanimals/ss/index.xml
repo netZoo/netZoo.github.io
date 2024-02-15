@@ -18,7 +18,7 @@
       
       <guid>https://netZoo.github.io/zooanimals/ss/lioness/</guid>
       <description>Reference Estimating Sample-Specific Regulatory Networks.
-Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.
+Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass
 iScience
 doi.org/10.1016/j.isci.2019.03.021.
 Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network.</description>

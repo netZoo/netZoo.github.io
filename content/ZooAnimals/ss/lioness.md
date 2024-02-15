@@ -14,7 +14,7 @@ draft: false
 
 Estimating Sample-Specific Regulatory Networks. 
 
-Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass.
+Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass
 
 iScience
 
