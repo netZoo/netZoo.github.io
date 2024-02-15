@@ -2,6 +2,7 @@
 title: "BONOBO"
 date: 2019-06-01T08:50:52-04:00
 draft: false
+description: "BONOBO is a scalable Bayesian model for deriving individual sample-specific co-expression networks by recognizing variations in molecular interactions across individuals. For every sample, BONOBO assumes a Gaussian distribution on the log-transformed centered gene expression and a conjugate prior distribution on the sample-specific co-expression matrix constructed from all other samples in the data. Combining the sample-specific gene expression with the prior distribution, BONOBO yields a closed-form solution for the posterior distribution of the sample-specific co-expression matrices."
 ---
 
 {{< rawhtml >}}

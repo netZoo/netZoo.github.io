@@ -2,6 +2,9 @@
 title: "LIONESS"
 date: 2019-06-02T08:50:52-04:00
 draft: false
+description: "LIONESS is a flexible method for single-sample network integration. The machinery behind LIONESS is a leave-one-out approach. To construct a single-sample network for sample 
+, a first network is estimated on the full dataset and a second network is estimated on the dataset with sample 
+ withheld. The single-sample network is then estimated based on the difference between these two networks. Any method that can be used to estimate a network can be used with LIONESS to estimate single-sample networks. Two common use cases are the use of LIONESS to generate single-sample GRNs based on PANDA and the use of LIONESS to generate single-sample Pearson correlation networks."
 ---
 
 {{< rawhtml >}}
