@@ -31,7 +31,7 @@ Abstract Background: Specific cellular states are often associated with distinct
       
       <guid>https://netZoo.github.io/zooanimals/sambar/</guid>
       <description>Reference Cancer subtype identification using somatic mutation data.
-Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush.
+Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush
 British Journal of Cancer
 doi.org/10.1038/s41416-018-0109-7.
 Abstract Background: With the onset of next-generation sequencing technologies, we have made great progress in identifying recurrent mutational drivers of cancer. As cancer tissues are now frequently screened for specific sets of mutations, a large amount of samples has become available for analysis.</description>

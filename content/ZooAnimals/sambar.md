@@ -14,7 +14,7 @@ draft: false
 
 Cancer subtype identification using somatic mutation data. 
 
-Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush. 
+Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and John Quackenbush
 
 British Journal of Cancer
 
