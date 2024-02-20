@@ -2,6 +2,7 @@
 title: "YARN"
 date: 2018-06-02T08:50:52-04:00
 draft: false
+description: "YARN is a package that combines quality control, gene filtering, and normalization steps to streamline the preprocessing of large-scale, multi-tissue gene expression data from resources such as the Genotype-Tissue Expression (GTEx) project. Among other steps, YARN uses principal coordinate analysis (PCoA) to determine if samples collected from different sites on the same tissue (for example, transverse and sigmoid colon) can be treated as "transcriptionally indistinguishable" and grouped together to increase power for downstream analyses. Paulsson et al. (2017) demonstrate the use of YARN to develop a pan-cancer RNA-seq dataset for 30,333 genes from 9435 samples across 38 tissues from the GTEx dataset."
 ---
 
 {{< rawhtml >}}
@@ -24,7 +25,7 @@ BMC Bioinformatics
 
 Background
 
-Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies. However, projects are generating ever-larger data sets comprising RNA-Seq data from hundreds or thousands of samples, often collected at multiple centers and from diverse tissues. These complex data sets present significant analytical challenges due to batch and tissue effects, but provide the opportunity to revisit the assumptions and methods that we use to preprocess, normalize, and filter RNA-Seq data – critical first steps for any subsequent analysis.
+Although ultra high-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies. However, projects are generating ever-larger data sets comprising RNA-Seq data from hundreds or thousands of samples, often collected at multiple centers and from diverse tissues. These complex data sets present significant analytical challenges due to batch and tissue effects, but provide the opportunity to revisit the assumptions and methods that we use to preprocess, normalize, and filter RNA-Seq data – critical first steps for any subsequent analysis.
 
 Results
 
