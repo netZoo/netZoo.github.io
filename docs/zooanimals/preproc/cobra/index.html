@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="Network biology packages">
+    <meta name="description" content="COBRA is method for correction of high-order batch effects such as those that persist in co-expression networks. Batch effects and other covariates are known to induce spurious associations in co-expression networks and confound differential gene expression analyses. These effects are corrected for using various methods prior to downstream analyses such as the inference of co-expression networks and computing differences between them. In differential co-expression analysis, the pairwise joint distribution of genes is considered rather than independently analyzing the distribution of expression levels for each individual gene. Computing co-expression matrices after standard batch correction on gene expression data is not sufficient to account for the possibility of batch-induced changes in the correlation between genes as existing batch correction methods act solely on the marginal distribution of each gene. Consequently, uncorrected, artifactual differential co-expression can skew the correlation structure such that network-based methods that use gene co-expression can produce false, nonbiological associations even using data corrected using standard batch correction. Co-expression Batch Reduction Adjustment (COBRA) addresses this question by computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters that express the co-expression matrix as a function of the sample covariates and can be used to control for continuous and categorical covariates. The method is computationally fast and makes use of the inherently modular structure of genomic data to estimate accurate gene regulatory associations and enable functional analysis for high-dimensional genomic data.">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
@@ -12,17 +12,17 @@
     <title>COBRA :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1708449254" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1708449254" rel="stylesheet">
-    <link href="/css/hybrid.css?1708449254" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1708449254" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1708449254" rel="stylesheet">
-    <link href="/css/auto-complete.css?1708449254" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1708449254" rel="stylesheet">
-    <link href="/css/theme.css?1708449254" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1708449254" rel="stylesheet">
+    <link href="/css/nucleus.css?1708456306" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708456306" rel="stylesheet">
+    <link href="/css/hybrid.css?1708456306" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708456306" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708456306" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708456306" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708456306" rel="stylesheet">
+    <link href="/css/theme.css?1708456306" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708456306" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1708449254" rel="stylesheet">
+      <link href="/css/theme-red.css?1708456306" rel="stylesheet">
     
 
 
@@ -35,7 +35,7 @@
   gtag('config', 'G-TRXH486JVZ');
 </script>
 
-    <script src="/js/jquery-3.3.1.min.js?1708449254"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708456306"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8595,14 +8595,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1708449254"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1708449254"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708456306"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708456306"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1708449254"></script>
+<script type="text/javascript" src="/js/search.js?1708456306"></script>
 
     
   </div>
@@ -8672,6 +8672,8 @@
         <ul>
           
           
+            
+          
           
 
         
@@ -8685,13 +8687,18 @@
  
   
     
-      <li data-nav-id="/zooanimals/preproc/yarn/" title="YARN" class="dd-item ">
-        <a href="/zooanimals/preproc/yarn/">
-        YARN
+    <li data-nav-id="/zooanimals/preproc/yarn/" title="YARN" class="dd-item
         
-        </a>
+        
+        
+        ">
+      <a href="/zooanimals/preproc/yarn/">
+          YARN
+          
+      </a>
+      
+      
     </li>
-     
   
  
 
@@ -8706,13 +8713,18 @@
  
   
     
-      <li data-nav-id="/zooanimals/preproc/cobra/" title="COBRA" class="dd-item active">
-        <a href="/zooanimals/preproc/cobra/">
-        COBRA
+    <li data-nav-id="/zooanimals/preproc/cobra/" title="COBRA" class="dd-item
+        parent
+        active
         
-        </a>
+        ">
+      <a href="/zooanimals/preproc/cobra/">
+          COBRA
+          
+      </a>
+      
+      
     </li>
-     
   
  
 
@@ -9611,7 +9623,8 @@
 
 
 
-<p>
+
+	<p>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
@@ -9633,7 +9646,10 @@
 <p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -9689,6 +9705,8 @@
                 
 
                     
+                    
+                        
                     
                     
 
@@ -10196,19 +10214,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1708449254"></script>
-    <script src="/js/perfect-scrollbar.min.js?1708449254"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1708449254"></script>
-    <script src="/js/jquery.sticky.js?1708449254"></script>
-    <script src="/js/featherlight.min.js?1708449254"></script>
-    <script src="/js/highlight.pack.js?1708449254"></script>
+    <script src="/js/clipboard.min.js?1708456306"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708456306"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708456306"></script>
+    <script src="/js/jquery.sticky.js?1708456306"></script>
+    <script src="/js/featherlight.min.js?1708456306"></script>
+    <script src="/js/highlight.pack.js?1708456306"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1708449254"></script>
-    <script src="/js/learn.js?1708449254"></script>
-    <script src="/js/hugo-learn.js?1708449254"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708456306"></script>
+    <script src="/js/learn.js?1708456306"></script>
+    <script src="/js/hugo-learn.js?1708456306"></script>
     
         
-            <script src="/mermaid/mermaid.js?1708449254"></script>
+            <script src="/mermaid/mermaid.js?1708456306"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
@@ -10218,4 +10236,3 @@
 
   </body>
 </html>
-

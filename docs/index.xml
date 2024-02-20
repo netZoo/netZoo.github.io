@@ -171,20 +171,6 @@ Abstract The increasing quantity of multi-omic data, such as methylomic and tran
     </item>
     
     <item>
-      <title>YARN</title>
-      <link>https://netZoo.github.io/zooanimals/preproc/yarn/</link>
-      <pubDate>Sat, 02 Jun 2018 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/preproc/yarn/</guid>
-      <description>Reference Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data
-Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp;amp; John Quackenbush
-BMC Bioinformatics
-doi.org/10.1186/s12859-017-1847-x
-Abstract Background
-Although ultrahigh-throughput RNA-Sequencing has become the dominant technology for genome-wide transcriptional profiling, the vast majority of RNA-Seq studies typically profile only tens of samples, and most analytical pipelines are optimized for these smaller studies.</description>
-    </item>
-    
-    <item>
       <title>TIGER</title>
       <link>https://netZoo.github.io/zooanimals/tiger/</link>
       <pubDate>Wed, 02 May 2018 08:50:52 -0400</pubDate>
@@ -195,19 +181,6 @@ Chen Chen, Megha Padi
 bioRxiv
 doi.org/10.1101/2022.12.12.520141
 Abstract Transcriptional regulation is a critical process that determines cell fate and disease. One of the challenges in understanding transcriptional regulation is that there is no easy way to infer the main regulators from gene expression data. Many existing methods focus on estimating the activity of individual transcription factors (TFs) using static TF-gene interaction databases, but regulomes are often altered in different cell types and disease conditions.</description>
-    </item>
-    
-    <item>
-      <title>COBRA</title>
-      <link>https://netZoo.github.io/zooanimals/preproc/cobra/</link>
-      <pubDate>Mon, 02 Apr 2018 08:50:52 -0400</pubDate>
-      
-      <guid>https://netZoo.github.io/zooanimals/preproc/cobra/</guid>
-      <description>Reference Higher-order correction of persistent batch effects in correlation networks
-Soel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila
-bioRxiv
-doi.org/10.1101/2023.12.28.573533
-Abstract Systems biology methods often rely on correlations in gene expression profiles to infer co-expression networks, commonly used as input for gene regulatory network inference or to identify functional modules of co-expressed or co-regulated genes. While systematic biases, including batch effects, are known to induce spurious associations and confound differential gene expression analyses (DE), the impact of batch effects on gene co-expression has not been fully explored.</description>
     </item>
     
   </channel>

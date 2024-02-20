@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YARN on The network zoo</title>
+    <link>https://netZoo.github.io/zooanimals/preproc/yarn/</link>
+    <description>Recent content in YARN on The network zoo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jun 2018 08:50:52 -0400</lastBuildDate>
+    
+	<atom:link href="https://netZoo.github.io/zooanimals/preproc/yarn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
