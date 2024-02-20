@@ -1,7 +1,7 @@
 ---
 title: PANDA & co
 chapter: true
-weight: 1
+weight: 2
 ---
 
 # PANDA & co

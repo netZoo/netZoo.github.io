@@ -1,7 +1,7 @@
 ---
 title: Network pre-processing
 chapter: true
-weight: 2
+weight: 1
 ---
 
 # Network pre-processing 
