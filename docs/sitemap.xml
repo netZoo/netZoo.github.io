@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>https://netZoo.github.io/zooanimals/preproc/</loc>
+    <lastmod>2018-06-02T08:50:52-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://netZoo.github.io/zooanimals/comm/</loc>
   </url>
   
@@ -141,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/yarn/</loc>
+    <loc>https://netZoo.github.io/zooanimals/preproc/yarn/</loc>
     <lastmod>2018-06-02T08:50:52-04:00</lastmod>
   </url>
   
@@ -151,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://netZoo.github.io/zooanimals/cobra/</loc>
+    <loc>https://netZoo.github.io/zooanimals/preproc/cobra/</loc>
     <lastmod>2018-04-02T08:50:52-04:00</lastmod>
   </url>
   

@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>How to contribute :: The network zoo</title>
+    <title>COBRA :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1708449033" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/contribute/contribute/">
+  <body class="" data-url="/zooanimals/preproc/cobra/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        
+        parent
         
         
         ">
@@ -8827,7 +8827,7 @@
   
     
     <li data-nav-id="/zooanimals/preproc/" title="Network pre-processing" class="dd-item
-        
+        parent
         
         
         ">
@@ -8874,7 +8874,7 @@
  
   
     
-      <li data-nav-id="/zooanimals/preproc/cobra/" title="COBRA" class="dd-item ">
+      <li data-nav-id="/zooanimals/preproc/cobra/" title="COBRA" class="dd-item active">
         <a href="/zooanimals/preproc/cobra/">
         COBRA
         
@@ -9211,7 +9211,7 @@
   
     
     <li data-nav-id="/contribute/" title="Contribution guide" class="dd-item
-        parent
+        
         
         
         ">
@@ -9237,7 +9237,7 @@
  
   
     
-      <li data-nav-id="/contribute/contribute/" title="How to contribute" class="dd-item active">
+      <li data-nav-id="/contribute/contribute/" title="How to contribute" class="dd-item ">
         <a href="/contribute/contribute/">
         How to contribute
         
@@ -9558,7 +9558,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/contribute/'>Contribution guide</a> > How to contribute
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/preproc/'>Network pre-processing</a> > COBRA
+          
+         
           
          
           
@@ -9573,10 +9579,11 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#contribution-guide">Contribution guide</a>
+    <li>
       <ul>
-        <li><a href="#preparing-the-contribution">Preparing the contribution</a></li>
-        <li><a href="#pull-requests-to-netzoo">Pull requests to netZoo</a></li>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
       </ul>
     </li>
   </ul>
@@ -9596,7 +9603,7 @@
           
             <h1>
               
-              How to contribute
+              COBRA
             </h1>
           
 
@@ -9604,102 +9611,26 @@
 
 
 
-<h2 id="contribution-guide">Contribution guide</h2>
-<p>The netZoo is an open-source software suite of network biology methods in R, Python, MATLAB, and C. Contributions to the netZoo can be in the form of 1) bug fixing, 2) performance
-improvment, and 3) new functions.</p>
-<p>Each language repository has a master and a devel branch. The master branch contains the stable code of the netZoo, and the devel branch contains the code with the new features
-that gets periodically merged into the master branch. New contributions of type 1) and 2) have to go through automatic tests before being integrated into the package. Contributions of
-type 3) have to be submitted with unit tests and tutorials to explain how the new function works.</p>
-<h3 id="preparing-the-contribution">Preparing the contribution</h3>
-<p>If you are new to GitHub, check our <a href="http://netbooks.networkmedicine.org/">Git tutorial</a> to learn about  basic commands. Then, to increase the chances of including a contribution to netZoo, please follow the instructions for the contribution model below.</p>
-<h4 id="new-functions">New functions</h4>
-<p>New functions have to include a header that will server as documentation. Headers include a general description, description of inputs, ouputs, any notes, the authors list, the date, and
-a reference to the publication. Please follow this <a href="https://github.com/netZoo/netZooM/blob/master/netZooM/panda/panda_run.m">example</a>.</p>
-<p>To add a unit test, please include all the edge cases and the expected behavior of the function and ground truth dataset to test against. The tests should run ideally on several small examples to test several edge cases in a limited
-runtime. If a function is submitted in more than one language or if the function is a new implementation of a function that already exists in another language, there should be only one ground truth
-dataset across platform. This will ensure that the behavior of the function is the same across platforms. For example, if you're contirbuting a MATLAB implementation of PANDA, and there is an R implementation
-of PANDA, you should use the ground truth from netZooR for your test. Please check the <a href="https://github.com/netZoo/netZooPy/tree/master/tests">tests</a> folder of each repo for examples.</p>
+<p>
 
-<div class="notices tip" ><p>Please update your repo and make sure the tests pass locally before creating a PR. In R, please refer to the netZooR <a href="https://github.com/netZoo/netZooR#contribution-and-development">contribution guide</a>.
-In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, you can run the tests in the <a href="https://github.com/netZoo/netZooM/tree/master/tests">tests</a> folder manually.</p>
-</div>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
-<h4 id="bug-fixes">Bug fixes</h4>
-<p>To fix a bug in a function, please create a new pull request with a description of the fix, and a new ground truth dataset if this relevant for the unit test.</p>
-<h4 id="performance-improvement">Performance improvement</h4>
-<p>To improve the speed/memory usage of a function, please create a new pull request with a description of the addition and its impact on memory/speed.</p>
-<h3 id="pull-requests-to-netzoo">Pull requests to netZoo</h3>
-<p>The contribution model follows the standard fork-branch model on the devel branch. Contributions are submitted as pull requests (PRs).</p>
-<ol>
-<li>
-<p>fork the netZoo repo to your github</p>
-</li>
-<li>
-<p>clone the forked repo to your computer</p>
-<p><code>git clone https://github.com/&lt;your_github_name&gt;/netZoo{R,Py,M,C}.git</code></p>
-</li>
-<li>
-<p>access netZoo local folder <code>cd netZoo{R,Py,M,C}</code></p>
-</li>
-<li>
-<p>add a new remote typically called &lsquo;upstream&rsquo; that points to the source of netZoo</p>
-<p><code>git remote add upstream https://github.com/netZoo/netZoo{R,Py,M,C}.git</code></p>
-</li>
-<li>
-<p>switch to the devel branch, because your PR will target the devel branch</p>
-<p><code>git checkout devel</code></p>
-</li>
-<li>
-<p>create a new branch called new-feature off of the devel branch</p>
-<p><code>git checkout -b new-feature</code></p>
-</li>
-<li>
-<p>make the changes/additions to netZoo</p>
-</li>
-<li>
-<p>add your changes</p>
-<p><code>git add .</code></p>
-</li>
-<li>
-<p>commit your changes</p>
-<p><code>git commit -m 'commit message'</code></p>
-</li>
-<li>
-<p>push your PR</p>
-<p><code>git push origin new-feature</code></p>
-</li>
-<li>
-<p>go the netZoo website <a href="https://github.com/netZoo/netZoo">https://github.com/netZoo/netZoo</a>{R, Py, M, C}</p>
-</li>
-<li>
-<p>create a pull request through the pop-up</p>
-</li>
-<li>
-<p>make sure to change the target to devel branch not the master branch</p>
-</li>
-<li>
-<p>the PR will go through automatic tests and it will be accepted by the moderators if it passes the tests</p>
-</li>
-<li>
-<p>If more than one commit are made in the same PR, then it is strongly recommended to &lsquo;squash&rsquo; them into a single commit</p>
-</li>
-<li>
-<p>if the PR does not pass the test, further changes need to be made (step 8-10)</p>
-</li>
-<li>
-<p>once the PR integrated in the devel branch, you can delete new-feature, switch back to devel branch and update it with the new branch through</p>
-<p><code>git checkout devel</code></p>
-<p><code>git fetch upstream</code></p>
-<p><code>git merge upstream/devel</code></p>
-</li>
-<li>
-<p>you can do the same for the master branch to update it .</p>
-</li>
-</ol>
 
-<div class="notices tip" ><p>Delete the merged feature branch both locally and remotely.</p>
-</div>
 
+
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2023.12.28.573533" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
+</p>
+<h3 id="reference">Reference</h3>
+<p>Higher-order correction of persistent batch effects in correlation networks</p>
+<p>Soel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2023.12.28.573533v1.abstract">doi.org/10.1101/2023.12.28.573533</a></p>
+<h3 id="abstract">Abstract</h3>
+<p>Systems biology methods often rely on correlations in gene expression profiles to infer co-expression networks, commonly used as input for gene regulatory network inference or to identify functional modules of co-expressed or co-regulated genes. While systematic biases, including batch effects, are known to induce spurious associations and confound differential gene expression analyses (DE), the impact of batch effects on gene co-expression has not been fully explored. Methods have been developed to adjust expression values, ensuring conditional independence of mean and variance from batch or other covariates for each gene. These adjustments have been shown to improve the fidelity of DE analysis. However, these methods do not address the potential for spurious differential co-expression (DC) between groups. Consequently, uncorrected, artifactual DC can skew the correlation structure, leading network inference methods that use gene co-expression to identify false, nonbiological associations, even when the input data is corrected using standard batch correction.</p>
+<p>In this work, we demonstrate the persistence of confounders in covariance after standard batch correction using synthetic and real-world gene expression data examples. Subsequently, we introduce Co-expression Batch Reduction Adjustment (COBRA), a method for computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters expressing the co-expression matrix as a function of the sample covariates, allowing control for continuous and categorical covariates. COBRA is computationally efficient, leveraging the inherently modular structure of genomic data to estimate accurate gene regulatory associations and facilitate functional analysis for high-dimensional genomic data.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a>, <a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
 
 
 <footer class="footline">
@@ -9737,6 +9668,22 @@ In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, yo
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -9760,10 +9707,248 @@ In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, yo
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
                     
                         
             
@@ -9881,256 +10066,6 @@ In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, yo
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -10251,10 +10186,10 @@ In Python, please run <code>pytest</code> in the root of netZooPy. In Matlab, yo
 	 
 	 
 		
-			<a class="nav nav-prev" href="/contribute/" title="Contribution guide"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/preproc/yarn/" title="YARN"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/contribute/contributenetbooks/" title="How to contribute to Netbooks" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/comm/" title="Community detection" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

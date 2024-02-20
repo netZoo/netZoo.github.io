@@ -172,10 +172,10 @@ Abstract The increasing quantity of multi-omic data, such as methylomic and tran
     
     <item>
       <title>YARN</title>
-      <link>https://netZoo.github.io/zooanimals/yarn/</link>
+      <link>https://netZoo.github.io/zooanimals/preproc/yarn/</link>
       <pubDate>Sat, 02 Jun 2018 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/yarn/</guid>
+      <guid>https://netZoo.github.io/zooanimals/preproc/yarn/</guid>
       <description>Reference Tissue-aware RNA-Seq processing and normalization for heterogeneous and sparse data
 Joseph N. Paulson, Cho-Yi Chen, Camila M. Lopes-Ramos, Marieke L. Kuijjer, John Platig, Abhijeet R. Sonawane, Maud Fagny, Kimberly Glass &amp;amp; John Quackenbush
 BMC Bioinformatics
@@ -199,10 +199,10 @@ Abstract Transcriptional regulation is a critical process that determines cell f
     
     <item>
       <title>COBRA</title>
-      <link>https://netZoo.github.io/zooanimals/cobra/</link>
+      <link>https://netZoo.github.io/zooanimals/preproc/cobra/</link>
       <pubDate>Mon, 02 Apr 2018 08:50:52 -0400</pubDate>
       
-      <guid>https://netZoo.github.io/zooanimals/cobra/</guid>
+      <guid>https://netZoo.github.io/zooanimals/preproc/cobra/</guid>
       <description>Reference Higher-order correction of persistent batch effects in correlation networks
 Soel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila
 bioRxiv
