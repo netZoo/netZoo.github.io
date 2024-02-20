@@ -1,7 +1,7 @@
 ---
 title: Single-sample networks
 chapter: true
-weight: 3
+weight: 4
 ---
 
 # Single sample networks

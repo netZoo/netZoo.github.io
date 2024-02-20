@@ -1,7 +1,7 @@
 ---
 title: Community detection
 chapter: true
-weight: 2
+weight: 3
 ---
 
 # Community detection methods
