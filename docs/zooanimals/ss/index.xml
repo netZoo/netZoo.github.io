@@ -20,7 +20,7 @@
       <description>Reference Estimating Sample-Specific Regulatory Networks.
 Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Kimberly Glass
 iScience
-doi.org/10.1016/j.isci.2019.03.021.
+doi.org/10.1016/j.isci.2019.03.021
 Abstract Biological systems are driven by intricate interactions among molecules. Many methods have been developed that draw on large numbers of expression samples to infer connections between genes (or their products). The result is an aggregate network representing a single estimate for the likelihood of each interaction, or “edge,” in the network.</description>
     </item>
     
@@ -33,7 +33,7 @@ Abstract Biological systems are driven by intricate interactions among molecules
       <description>Reference Bayesian Optimized sample-specific Networks Obtained By Omics data (BONOBO)
 Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben-Guebila, Jonas Fischer, Katherine Hoff-Shutta, Kimberly Glass, Dawn Lisa DeMeo, Camila Lopes-Ramos, John Quackenbush
 bioRxiv
-doi.org/10.1101/2023.11.16.567119.
+doi.org/10.1101/2023.11.16.567119
 Abstract Gene regulatory networks (GRNs) are effective tools for inferring complex interactions between molecules that regulate biological processes and hence can provide insights into drivers of biological systems. Inferring co-expression networks is a critical element of GRN inference as the correlation between expression patterns may indicate that genes are coregulated by common factors.</description>
     </item>
     

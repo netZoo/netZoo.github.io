@@ -20,7 +20,7 @@ Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glas
 
 OUP Bioinformatics
 
-[doi.org/10.1093/bioinformatics/btaa571](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977).
+[doi.org/10.1093/bioinformatics/btaa571](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btaa571/5858977)
 
 ### Abstract
 

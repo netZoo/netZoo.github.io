@@ -20,7 +20,7 @@ John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
 
 Plos computational biology
 
-[doi.org/10.1371/journal.pcbi.1005033](https://pubmed.ncbi.nlm.nih.gov/27618581/).
+[doi.org/10.1371/journal.pcbi.1005033](https://pubmed.ncbi.nlm.nih.gov/27618581/)
 
 ### Abstract
 

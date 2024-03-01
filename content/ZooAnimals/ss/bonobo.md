@@ -19,7 +19,7 @@ Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben-Guebila, Jonas Fisc
 
 bioRxiv
 
-[doi.org/10.1101/2023.11.16.567119](https://www.biorxiv.org/content/10.1101/2023.11.16.567119v1.abstract).
+[doi.org/10.1101/2023.11.16.567119](https://www.biorxiv.org/content/10.1101/2023.11.16.567119v1.abstract)
 
 ### Abstract
 

@@ -20,7 +20,7 @@ Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.
 
 bioRxiv
 
-[doi.org/10.1101/2020.10.19.345827](https://www.biorxiv.org/content/10.1101/2020.10.19.345827v1.abstract).
+[doi.org/10.1101/2020.10.19.345827](https://www.biorxiv.org/content/10.1101/2020.10.19.345827v1.abstract)
 
 ### Abstract
 

@@ -20,7 +20,7 @@ Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
 
 Plos One
 
-[doi.org/10.1371/journal.pone.0064832](https://www.ncbi.nlm.nih.gov/pubmed/23741402).
+[doi.org/10.1371/journal.pone.0064832](https://www.ncbi.nlm.nih.gov/pubmed/23741402)
 
 ### Abstract
 

@@ -20,7 +20,7 @@ Megha Padi and John Quackenbush.
 
 npj Systems biology and applications
 
-[doi:10.1038/s41540-018-0052-5](https://www.nature.com/articles/s41540-018-0052-5).
+[doi:10.1038/s41540-018-0052-5](https://www.nature.com/articles/s41540-018-0052-5)
 
 ### Abstract
 

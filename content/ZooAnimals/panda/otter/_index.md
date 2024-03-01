@@ -21,7 +21,7 @@ Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John 
 
 Proceedings of the AAAI Conference on Artificial Intelligence
 
-[doi.org/10.1101/2020.06.23.167999](https://ojs.aaai.org/index.php/AAAI/article/view/17230).
+[doi.org/10.1101/2020.06.23.167999](https://ojs.aaai.org/index.php/AAAI/article/view/17230)
 
 ### Abstract
 

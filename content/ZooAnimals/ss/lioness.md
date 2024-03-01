@@ -21,7 +21,7 @@ Marieke Lydia Kuijjer, Matthew George Tung, Guo Cheng Yuan, John Quackenbush, Ki
 
 iScience
 
-[doi.org/10.1016/j.isci.2019.03.021](https://www.sciencedirect.com/science/article/pii/S2589004219300872).
+[doi.org/10.1016/j.isci.2019.03.021](https://www.sciencedirect.com/science/article/pii/S2589004219300872)
 
 ### Abstract
 

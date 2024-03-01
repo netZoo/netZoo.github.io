@@ -19,7 +19,7 @@ James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
 
 Frontiers in Genetics
 
-[doi.org/10.3389/fgene.2020.603264](https://www.frontiersin.org/articles/10.3389/fgene.2020.603264/full).
+[doi.org/10.3389/fgene.2020.603264](https://www.frontiersin.org/articles/10.3389/fgene.2020.603264/full)
 
 ### Abstract
 
