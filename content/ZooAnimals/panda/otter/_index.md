@@ -10,7 +10,7 @@ description: "OTTER is a GRN inference method based on the idea that observed bi
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {{< /rawhtml >}}
 {{< rawhtml >}}
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2020.06.23.167999" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1609/aaai.v35i11.17230" data-hide-no-mentions="true" class="altmetric-embed"></div>
 {{< /rawhtml >}}
 
 ### Reference
@@ -21,7 +21,7 @@ Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John 
 
 Proceedings of the AAAI Conference on Artificial Intelligence
 
-[doi.org/10.1101/2020.06.23.167999](https://ojs.aaai.org/index.php/AAAI/article/view/17230)
+[doi.org/10.1609/aaai.v35i11.17230](https://ojs.aaai.org/index.php/AAAI/article/view/17230)
 
 ### Abstract
 
