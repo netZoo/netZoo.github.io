@@ -18,7 +18,7 @@ Marieke Lydia Kuijjer, Joseph Nathaniel Paulson, Peter Salzman, Wei Ding, and Jo
 
 British Journal of Cancer
 
-[doi.org/10.1038/s41416-018-0109-7](https://www.nature.com/articles/s41416-018-0109-7).
+[doi.org/10.1038/s41416-018-0109-7](https://www.nature.com/articles/s41416-018-0109-7)
 
 ### Abstract
 

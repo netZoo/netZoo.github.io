@@ -18,7 +18,7 @@ Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenb
 
 BMC Systems Biology
 
-[doi.org/10.1186/s12918-017-0517-y](https://pubmed.ncbi.nlm.nih.gov/29237467/).
+[doi.org/10.1186/s12918-017-0517-y](https://pubmed.ncbi.nlm.nih.gov/29237467/)
 
 ### Abstract
 

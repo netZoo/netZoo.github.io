@@ -18,7 +18,7 @@ Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L
 
 NAR Genomics and Bioinformatics
 
-[doi.org/10.1093/nargab/lqac002](https://academic.oup.com/nargab/article/4/1/lqac002/6524305?login=false).
+[doi.org/10.1093/nargab/lqac002](https://academic.oup.com/nargab/article/4/1/lqac002/6524305?login=false)
 
 ### Abstract
 
