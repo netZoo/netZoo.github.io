@@ -125,7 +125,7 @@ Abstract Gene regulatory networks (GRNs) are effective tools for inferring compl
       
       <guid>https://netZoo.github.io/zooanimals/monster/</guid>
       <description>Reference Estimating drivers of cell state transitions using gene regulatory network models.
-Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush.
+Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush
 BMC Systems Biology
 doi.org/10.1186/s12918-017-0517-y
 Abstract Background: Specific cellular states are often associated with distinct gene expression patterns. These states are plastic, changing during development, or in the transition from health to disease. One relatively simple extension of this concept is to recognize that we can classify different cell-types by their active gene regulatory networks and that, consequently, transitions between cellular states can be modeled by changes in these underlying regulatory networks.</description>
@@ -151,7 +151,7 @@ Abstract Background: With the onset of next-generation sequencing technologies, 
       
       <guid>https://netZoo.github.io/zooanimals/gpuzoo/</guid>
       <description>Reference gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
-Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
+Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush
 NAR Genomics and Bioinformatics
 doi.org/10.1093/nargab/lqac002
 Abstract Gene regulatory network inference allows for the modeling of genome-scale regulatory processes that are altered during development, in disease, and in response to perturbations. Our group has developed a collection of tools to model various regulatory processes, including transcriptional (PANDA, SPIDER) and post-transcriptional (PUMA) gene regulation, as well as gene regulation in individual samples (LIONESS).</description>

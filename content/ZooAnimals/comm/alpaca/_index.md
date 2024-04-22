@@ -16,7 +16,7 @@ description: "ALPACA is a method for differential network analysis that is based
 
 Detecting phenotype-driven transitions in regulatory network structure. 
 
-Megha Padi and John Quackenbush.
+Megha Padi and John Quackenbush
 
 npj Systems biology and applications
 

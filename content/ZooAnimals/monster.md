@@ -14,7 +14,7 @@ draft: false
 
 Estimating drivers of cell state transitions using gene regulatory network models. 
 
-Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush.
+Daniel Schlauch, Kimberly Glass, Craig P Hersh, Edwin K Silverman, John Quackenbush
 
 BMC Systems Biology
 

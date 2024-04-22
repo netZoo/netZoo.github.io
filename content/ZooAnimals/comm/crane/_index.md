@@ -15,7 +15,7 @@ description: "CRANE is a method for determining statistical significance of stru
 
 Generating Ensembles of Gene Regulatory Networks to Assess Robustness of Disease Modules. 
 
-James T. Lim, Chen Chen, Adam D. Grant, Megha Padi.
+James T. Lim, Chen Chen, Adam D. Grant, Megha Padi
 
 Frontiers in Genetics
 

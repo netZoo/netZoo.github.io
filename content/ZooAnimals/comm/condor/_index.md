@@ -16,7 +16,7 @@ description: "CONDOR is a tool for community detection in bipartite networks. Ma
 
 Bipartite Community Structure of eQTLs. 
 
-John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush.
+John Platig, Peter J. Castaldi, Dawn DeMeo, John Quackenbush
 
 Plos computational biology
 

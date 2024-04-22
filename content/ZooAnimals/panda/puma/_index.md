@@ -16,7 +16,7 @@ description: PUMA extends the PANDA framework to model how microRNAs (miRNAs) pa
 
 PUMA: PANDA Using MicroRNA Associations. 
 
-Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass.
+Marieke L Kuijjer, Maud Fagny, Alessandro Marin, John Quackenbush, Kimberly Glass
 
 OUP Bioinformatics
 

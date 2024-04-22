@@ -16,7 +16,7 @@ description: 'PANDA is a method for estimating bipartite gene regulatory network
 
 Passing Messages between Biological Networks to Refine Predicted Interactions. 
 
-Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan.
+Kimberly Glass, Curtis Huttenhower, John Quackenbush, Guo-Cheng Yuan
 
 Plos One
 

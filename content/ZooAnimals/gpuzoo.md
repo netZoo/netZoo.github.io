@@ -14,7 +14,7 @@ draft: false
 
 gpuZoo: Cost-effective estimation of gene regulatory networks using the Graphics Processing Unit.
 
-Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush.
+Marouen Ben Guebila, Daniel C Morgan, Kimberly Glass, Marieke L. Kuijjer, Dawn L. DeMeo, John Quackenbush
 
 NAR Genomics and Bioinformatics
 

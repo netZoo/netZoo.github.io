@@ -17,7 +17,7 @@ description: "OTTER is a GRN inference method based on the idea that observed bi
 
 Gene Regulatory Network Inference as Relaxed Graph Matching. 
 
-Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz.
+Deborah Weighill, Marouen Ben Guebila, Camila Lopes-Ramos, Kimberly Glass, John Quackenbush, John Platig, Rebekka Burkholz
 
 Proceedings of the AAAI Conference on Artificial Intelligence
 

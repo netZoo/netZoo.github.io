@@ -16,7 +16,7 @@ description: SPIDER extends the PANDA framework by incorporating DNase-Seq data 
 
 Constructing Gene Regulatory Networks using Epigenetic Data
 
-Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass.
+Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass
 
 bioRxiv
 
