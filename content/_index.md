@@ -39,7 +39,7 @@ A collection of tutorials hosted on the cloud is available without the need to i
 
 - netZoo tutorials are distributed through bundled hardware and software environments using [Netbooks](https://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2)
 
-- Methods are also available through a web interface through [netzoocloud](https://netzoocloud.networkmedicine.org/) (beta)
+- Methods are also available as a web interface through [netZooCloud](https://netzoocloud.networkmedicine.org/) (beta).
 
 - To ask questions or to provide feedback or ideas, please use our community channel for [discussions](https://github.com/netZoo/netZooR/discussions).
 
