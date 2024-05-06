@@ -35,7 +35,7 @@ A collection of tutorials hosted on the cloud is available without the need to i
 
 - Continuous integration is enabled through [ZooKeeper](https://github.com/netZoo/netZooR/actions) (Travis-CI and GitHub actions). 
 
-- A set of networks generated using netZoo tools are hosted in [GRAND](https://grand.networkmedicine.org) database. [Publication](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab778/6368528) 
+- A set of networks generated using netZoo methods are hosted in [GRAND](https://grand.networkmedicine.org) database. [Publication](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab778/6368528) 
 
 - netZoo tutorials are distributed through bundled hardware and software environments using [Netbooks](https://netbooks.networkmedicine.org). [Publication](https://www.nature.com/articles/s41592-022-01479-2)
 
