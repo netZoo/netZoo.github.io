@@ -17,7 +17,7 @@ title = "The network zoo"
 </div>
 {{< /rawhtml >}}
 
-netZoo{R,Py,M,C} is a menagerie of network biology methods for the inference and analysis of gene regulatory networks. Implementation details and use cases in 
+netZoo{R,Py,M,C} is a menagerie of network biology methods. Implementation details and use cases in 
 
 > The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks. Ben Guebila et al, 2023. Genome Biology. [doi:10.1186/s13059-023-02877-1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02877-1)
 
