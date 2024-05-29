@@ -8,22 +8,21 @@ draft: false
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {{< /rawhtml >}}
 {{< rawhtml >}}
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2022.12.12.520141" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41540-024-00386-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
 {{< /rawhtml >}}
 ### Reference
 
-Joint inference of transcription factor activity and context-specific regulatory networks
+Flexible modeling of regulatory networksimproves transcription factor activity estimation
 
 Chen Chen, Megha Padi
 
-bioRxiv
+npj Systems Biology and Applications
 
-[doi.org/10.1101/2022.12.12.520141](https://www.biorxiv.org/content/10.1101/2022.12.12.520141v1)
+[doi.org/10.1038/s41540-024-00386-w](https://www.nature.com/articles/s41540-024-00386-w)
 
 ### Abstract
 
-
-Transcriptional regulation is a critical process that determines cell fate and disease. One of the challenges in understanding transcriptional regulation is that there is no easy way to infer the main regulators from gene expression data. Many existing methods focus on estimating the activity of individual transcription factors (TFs) using static TF-gene interaction databases, but regulomes are often altered in different cell types and disease conditions. To address this problem, we developed a new algorithm – Transcriptional Inference using Gene Expression and Regulatory data (TIGER) – that leverages Bayesian matrix factorization to simultaneously infer TF regulomes and transcription factor (TF) activities from RNA-seq data. We show that, when applied to yeast, A375, and MCF7 TF knock-out datasets, TIGER can provide more accurate predictions than comparable methods. The application to single-cell RNA-seq data reveals TIGER’s potential for uncovering cell differentiation mechanisms. Our results reinforce the importance of incorporating context-specific regulation when studying the mechanisms driving disease in different cell types.
+Transcriptional regulation plays a crucial role in determining cell fate and disease, yet inferring the key regulators from gene expression data remains a significant challenge. Existing methods for estimating transcription factor (TF) activity often rely on static TF-gene interaction databases and cannot adapt to changes in regulatory mechanisms across different cell types and disease conditions. Here, we present a new algorithm - Transcriptional Inference using Gene Expression and Regulatory data (TIGER) - that overcomes these limitations by flexibly modeling activation and inhibition events, up-weighting essential edges, shrinking irrelevant edges towards zero through a sparse Bayesian prior, and simultaneously estimating both TF activity levels and changes in the underlying regulatory network. When applied to yeast and cancer TF knock-out datasets, TIGER outperforms comparable methods in terms of prediction accuracy. Moreover, our application of TIGER to tissue- and cell-type-specific RNA-seq data demonstrates its ability to uncover differences in regulatory mechanisms. Collectively, our findings highlight the utility of modeling context-specific regulation when inferring transcription factor activities.
 
 ### Implementation
 

@@ -176,11 +176,11 @@ Abstract The increasing quantity of multi-omic data, such as methylomic and tran
       <pubDate>Wed, 02 May 2018 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/tiger/</guid>
-      <description>Reference Joint inference of transcription factor activity and context-specific regulatory networks
+      <description>Reference Flexible modeling of regulatory networksimproves transcription factor activity estimation
 Chen Chen, Megha Padi
-bioRxiv
-doi.org/10.1101/2022.12.12.520141
-Abstract Transcriptional regulation is a critical process that determines cell fate and disease. One of the challenges in understanding transcriptional regulation is that there is no easy way to infer the main regulators from gene expression data. Many existing methods focus on estimating the activity of individual transcription factors (TFs) using static TF-gene interaction databases, but regulomes are often altered in different cell types and disease conditions.</description>
+npj Systems Biology and Applications
+doi.org/10.1038/s41540-024-00386-w
+Abstract Transcriptional regulation plays a crucial role in determining cell fate and disease, yet inferring the key regulators from gene expression data remains a significant challenge. Existing methods for estimating transcription factor (TF) activity often rely on static TF-gene interaction databases and cannot adapt to changes in regulatory mechanisms across different cell types and disease conditions.</description>
     </item>
     
   </channel>
