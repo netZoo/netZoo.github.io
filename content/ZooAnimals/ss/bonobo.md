@@ -27,8 +27,4 @@ Gene regulatory networks (GRNs) are effective tools for inferring complex intera
 
 ### Implementation
 
-[netZooR](https://github.com/netZoo/netZooR)
-
-### Netbook tutorials
-
-The following [netbooks](http://netbooks.networkmedicine.org) use BONOBO:
+[netZooPy](https://github.com/netZoo/netZooPy)
