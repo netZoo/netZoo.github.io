@@ -12,7 +12,7 @@ draft: false
 {{< /rawhtml >}}
 ### Reference
 
-Flexible modeling of regulatory networksimproves transcription factor activity estimation
+Flexible modeling of regulatory networks improves transcription factor activity estimation
 
 Chen Chen, Megha Padi
 
