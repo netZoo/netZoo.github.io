@@ -30,11 +30,11 @@ Abstract Biological systems are driven by intricate interactions among molecules
       <pubDate>Sat, 01 Jun 2019 08:50:52 -0400</pubDate>
       
       <guid>https://netZoo.github.io/zooanimals/ss/bonobo/</guid>
-      <description>Reference Bayesian Optimized sample-specific Networks Obtained By Omics data (BONOBO)
-Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben-Guebila, Jonas Fischer, Katherine Hoff-Shutta, Kimberly Glass, Dawn Lisa DeMeo, Camila Lopes-Ramos, John Quackenbush
-bioRxiv
-doi.org/10.1101/2023.11.16.567119
-Abstract Gene regulatory networks (GRNs) are effective tools for inferring complex interactions between molecules that regulate biological processes and hence can provide insights into drivers of biological systems. Inferring co-expression networks is a critical element of GRN inference as the correlation between expression patterns may indicate that genes are coregulated by common factors.</description>
+      <description>Reference Bayesian inference of sample-specific coexpression networks
+Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben Guebila, Jonas Fischer, Katherine Hoff-Shutta, Dawn Lisa DeMeo, Camila Lopes-Ramos, John Quackenbush
+Genome Research
+doi.org/10.1101/gr.279117.124
+Abstract Gene regulatory networks (GRNs) are effective tools for inferring complex interactions between molecules that regulate biological processes and hence can provide insights into drivers of biological systems. Inferring coexpression networks is a critical element of GRN inference, as the correlation between expression patterns may indicate that genes are coregulated by common factors.</description>
     </item>
     
   </channel>

@@ -12,17 +12,17 @@
     <title>BONOBO :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1721314194" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1721314194" rel="stylesheet">
-    <link href="/css/hybrid.css?1721314194" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1721314194" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1721314194" rel="stylesheet">
-    <link href="/css/auto-complete.css?1721314194" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1721314194" rel="stylesheet">
-    <link href="/css/theme.css?1721314194" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1721314194" rel="stylesheet">
+    <link href="/css/nucleus.css?1724617287" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1724617287" rel="stylesheet">
+    <link href="/css/hybrid.css?1724617287" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1724617287" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1724617287" rel="stylesheet">
+    <link href="/css/auto-complete.css?1724617287" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1724617287" rel="stylesheet">
+    <link href="/css/theme.css?1724617287" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1724617287" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1721314194" rel="stylesheet">
+      <link href="/css/theme-red.css?1724617287" rel="stylesheet">
     
 
 
@@ -35,7 +35,7 @@
   gtag('config', 'G-TRXH486JVZ');
 </script>
 
-    <script src="/js/jquery-3.3.1.min.js?1721314194"></script>
+    <script src="/js/jquery-3.3.1.min.js?1724617287"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8595,14 +8595,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1721314194"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1721314194"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1724617287"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1724617287"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1721314194"></script>
+<script type="text/javascript" src="/js/search.js?1724617287"></script>
 
     
   </div>
@@ -9630,16 +9630,16 @@
 
 
 
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2023.11.16.567119" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/gr.279117.124" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </p>
 <h3 id="reference">Reference</h3>
-<p>Bayesian Optimized sample-specific Networks Obtained By Omics data (BONOBO)</p>
-<p>Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben-Guebila, Jonas Fischer, Katherine Hoff-Shutta, Kimberly Glass, Dawn Lisa DeMeo, Camila Lopes-Ramos, John Quackenbush</p>
-<p>bioRxiv</p>
-<p><a href="https://www.biorxiv.org/content/10.1101/2023.11.16.567119v1.abstract">doi.org/10.1101/2023.11.16.567119</a></p>
+<p>Bayesian inference of sample-specific coexpression networks</p>
+<p>Enakshi Saha, Viola Fanfani, Panagiotis Mandros, Marouen Ben Guebila, Jonas Fischer, Katherine Hoff-Shutta, Dawn Lisa DeMeo, Camila Lopes-Ramos, John Quackenbush</p>
+<p>Genome Research</p>
+<p><a href="https://genome.cshlp.org/content/early/2024/08/10/gr.279117.124.abstract">doi.org/10.1101/gr.279117.124</a></p>
 <h3 id="abstract">Abstract</h3>
-<p>Gene regulatory networks (GRNs) are effective tools for inferring complex interactions between molecules that regulate biological processes and hence can provide insights into drivers of biological systems. Inferring co-expression networks is a critical element of GRN inference as the correlation between expression patterns may indicate that genes are coregulated by common factors. However, methods that estimate co-expression networks generally derive an aggregate network representing the mean regulatory properties of the population and so fail to fully capture population heterogeneity. To address these concerns, we introduce BONOBO (Bayesian Optimized Networks Obtained By assimilating Omics data), a scalable Bayesian model for deriving individual sample-specific co-expression networks by recognizing variations in molecular interactions across individuals. For every sample, BONOBO assumes a Gaussian distribution on the log-transformed centered gene expression and a conjugate prior distribution on the sample-specific co-expression matrix constructed from all other samples in the data. Combining the sample-specific gene expression with the prior distribution, BONOBO yields a closed-form solution for the posterior distribution of the sample-specific co-expression matrices, thus making the method extremely scalable. We demonstrate the utility of BONOBO in several contexts, including analyzing gene regulation in yeast transcription factor knockout studies, prognostic significance of miRNA-mRNA interaction in human breast cancer subtypes, and sex differences in gene regulation within human thyroid tissue. We find that BONOBO outperforms other sample-specific co-expression network inference methods and provides insight into individual differences in the drivers of biological processes.</p>
+<p>Gene regulatory networks (GRNs) are effective tools for inferring complex interactions between molecules that regulate biological processes and hence can provide insights into drivers of biological systems. Inferring coexpression networks is a critical element of GRN inference, as the correlation between expression patterns may indicate that genes are coregulated by common factors. However, methods that estimate coexpression networks generally derive an aggregate network representing the mean regulatory properties of the population and so fail to fully capture population heterogeneity. BONOBO (Bayesian Optimized Networks Obtained By assimilating Omics data) is a scalable Bayesian model for deriving individual sample-specific coexpression matrices that recognizes variations in molecular interactions across individuals. For each sample, BONOBO assumes a Gaussian distribution on the log-transformed centered gene expression and a conjugate prior distribution on the sample-specific coexpression matrix constructed from all other samples in the data. Combining the sample-specific gene coexpression with the prior distribution, BONOBO yields a closed-form solution for the posterior distribution of the sample-specific coexpression matrices, thus allowing the analysis of large datasets. We demonstrate BONOBO's utility in several contexts, including analyzing gene regulation in yeast transcription factor knockout studies, the prognostic significance of miRNA-mRNA interaction in human breast cancer subtypes, and sex differences in gene regulation within human thyroid tissue. We find that BONOBO outperforms other methods that have been used for sample-specific coexpression network inference and provides insight into individual differences in the drivers of biological processes.</p>
 <h3 id="implementation">Implementation</h3>
 <p><a href="https://github.com/netZoo/netZooPy">netZooPy</a></p>
 
@@ -10212,19 +10212,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1721314194"></script>
-    <script src="/js/perfect-scrollbar.min.js?1721314194"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1721314194"></script>
-    <script src="/js/jquery.sticky.js?1721314194"></script>
-    <script src="/js/featherlight.min.js?1721314194"></script>
-    <script src="/js/highlight.pack.js?1721314194"></script>
+    <script src="/js/clipboard.min.js?1724617287"></script>
+    <script src="/js/perfect-scrollbar.min.js?1724617287"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1724617287"></script>
+    <script src="/js/jquery.sticky.js?1724617287"></script>
+    <script src="/js/featherlight.min.js?1724617287"></script>
+    <script src="/js/highlight.pack.js?1724617287"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1721314194"></script>
-    <script src="/js/learn.js?1721314194"></script>
-    <script src="/js/hugo-learn.js?1721314194"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1724617287"></script>
+    <script src="/js/learn.js?1724617287"></script>
+    <script src="/js/hugo-learn.js?1724617287"></script>
     
         
-            <script src="/mermaid/mermaid.js?1721314194"></script>
+            <script src="/mermaid/mermaid.js?1724617287"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
