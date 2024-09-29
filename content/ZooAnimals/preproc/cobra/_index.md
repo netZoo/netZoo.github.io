@@ -9,7 +9,7 @@ description: COBRA is method for correction of high-order batch effects such as 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 {{< /rawhtml >}}
 {{< rawhtml >}}
-<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1101/2023.12.28.573533" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<div data-badge-popover="right" data-badge-type="donut" data-doi="10.1093/bioinformatics/btae531" data-hide-no-mentions="true" class="altmetric-embed"></div>
 {{< /rawhtml >}}
 ### Reference
 
@@ -17,9 +17,9 @@ Higher-order correction of persistent batch effects in correlation networks
 
 Soel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila
 
-bioRxiv
+OUP Bioinformatics
 
-[doi.org/10.1101/2023.12.28.573533](https://www.biorxiv.org/content/10.1101/2023.12.28.573533v1.abstract)
+[doi.org/10.1093/bioinformatics/btae531](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae531/7748404?login=false)
 
 ### Abstract
 
