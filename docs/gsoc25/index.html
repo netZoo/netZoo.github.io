@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="SPIDER extends the PANDA framework by incorporating DNase-Seq data to account for chromatin state for the prediction of TF binding sites. The method consists of processing DNase-Seq data to find open chromatin regions and build a “mask” matrix that is then overlaid on the TF-gene motif network to select binding sites that are available fro TF binding. This method can be applied for various biological contexts such as cell lines and tissues. Sonawane and colleagues have employed their method to model cell- type specific GRNs using DNase-Seq data from ENCODE and showed that integrating epigenetic data in SPIDER networks allows building more accurate networks.">
+    <meta name="description" content="Network biology packages">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>SPIDER :: The network zoo</title>
+    <title> :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1738372670" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/panda/spider/">
+  <body class="" data-url="/gsoc25/">
     <nav id="sidebar" class="">
 
 
@@ -8630,7 +8630,7 @@
   
     
     <li data-nav-id="/zooanimals/" title="Zoo animals" class="dd-item
-        parent
+        
         
         
         ">
@@ -8749,7 +8749,7 @@
   
     
     <li data-nav-id="/zooanimals/panda/" title="PANDA &amp; co" class="dd-item
-        parent
+        
         
         
         ">
@@ -8856,8 +8856,8 @@
   
     
     <li data-nav-id="/zooanimals/panda/spider/" title="SPIDER" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/zooanimals/panda/spider/">
@@ -9566,19 +9566,7 @@
             
           
           
-            
-            
-          
-          
-            
-            
-          
-          
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/panda/'>PANDA & co</a> > SPIDER
-          
-         
-          
-         
+            <a href='/'>The network zoo</a> > 
           
          
           
@@ -9589,17 +9577,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#reference">Reference</a></li>
-        <li><a href="#abstract">Abstract</a></li>
-        <li><a href="#implementation">Implementation</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -9615,7 +9593,7 @@
           
             <h1>
               
-              SPIDER
+              
             </h1>
           
 
@@ -9623,32 +9601,10 @@
 
 
 
-
-	<p>
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<p>Hello World!</p>
 
 
-
-
-<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/10.1101/2020.10.19.345827" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
-</p>
-<h3 id="reference">Reference</h3>
-<p>Constructing Gene Regulatory Networks using Epigenetic Data</p>
-<p>Abhijeet Rajendra Sonawane, Dawn L. DeMeo, John Quackenbush, Kimberly Glass</p>
-<p>bioRxiv</p>
-<p><a href="https://www.biorxiv.org/content/10.1101/2020.10.19.345827v1.abstract">doi.org/10.1101/2020.10.19.345827</a></p>
-<h3 id="abstract">Abstract</h3>
-<p>The biological processes that drive cellular function can be represented by a complex network of interactions between regulators (transcription factors) and their targets (genes). A cell’s epigenetic state plays an important role in mediating these interactions, primarily by influencing chromatin accessibility. However, effectively leveraging epigenetic information when constructing regulatory networks remains a challenge. We developed SPIDER, which incorporates epigenetic information (DNase-Seq) into a message passing framework in order to estimate gene regulatory networks. We validated SPIDER’s predictions using ChlP-Seq data from ENCODE and found that SPIDER networks were more accurate than other publicly available, epigenetically informed regulatory networks as well as networks based on methods that leverage epigenetic data to predict transcription factor binding sites. SPIDER was also able to improve the detection of cell line specific regulatory interactions. Notably, SPIDER can recover ChlP-seq verified transcription factor binding events in the regulatory regions of genes that do not have a corresponding sequence motif. Constructing biologically interpretable, epigenetically informed networks using SPIDER will allow us to better understand gene regulation as well as aid in the identification of cell-specific drivers and biomarkers of cellular phenotypes.</p>
-<h3 id="implementation">Implementation</h3>
-<p><a href="https://github.com/netZoo/netZooM">netZooM</a>, <a href="https://github.com/netZoo/netZooR">netZooR</a></p>
-
-
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -9683,6 +9639,8 @@
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -9699,8 +9657,55 @@
             
                 
                     
+                
+                
+
+                    
+                    
                         
+                    
+                    
+
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -9744,44 +9749,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -9818,26 +9785,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -10203,10 +10150,8 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/panda/otter/" title="OTTER"> <i class="fa fa-chevron-left"></i></a>
 		
-		
-			<a class="nav nav-next" href="/zooanimals/panda/egret/" title="EGRET" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/" title="Zoo animals" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -10238,3 +10183,4 @@
 
   </body>
 </html>
+

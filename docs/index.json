@@ -224,6 +224,13 @@
 	"content": "   Reference Higher-order correction of persistent batch effects in correlation networks\nSoel Micheletti, Daniel Schlauch, John Quackenbush, Marouen Ben Guebila\nOUP Bioinformatics\ndoi.org/10.1093/bioinformatics/btae531\nAbstract Motivation: Systems biology analyses often use correlations in gene expression profiles to infer co-expression networks that are then used as input for gene regulatory network inference or to identify functional modules of co-expressed or putatively co-regulated genes. While systematic biases, including batch effects, are known to induce spurious associations and confound differential gene expression analyses (DE), the impact of batch effects on gene co-expression has not been fully explored. Methods have been developed to adjust expression values, ensuring conditional independence of mean and variance from batch or other covariates for each gene, resulting in improved fidelity of DE analysis. However, such adjustments do not address the potential for spurious differential co-expression (DC) between groups. Consequently, uncorrected, artifactual DC can skew the correlation structure, leading to the identification of false, non-biological associations, even when the input data is corrected using standard batch correction.\nResults: In this work, we demonstrate the persistence of confounders in covariance after standard batch correction using synthetic and real-world gene expression data examples. We then introduce Co-expression Batch Reduction Adjustment (COBRA), a method for computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters expressing the co-expression matrix as a function of the sample covariates, allowing control for continuous and categorical covariates. COBRA is computationally efficient, leveraging the inherently modular structure of genomic data to estimate accurate gene regulatory associations and facilitate functional analysis for high-dimensional genomic data.\nAvailability and Implementation: COBRA is available under the GLP3 open source license in R and Python in netZoo (https://netzoo.github.io)\nImplementation netZooR, netZooPy\n"
 },
 {
+	"uri": "https://netZoo.github.io/gsoc25/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Hello World!\n"
+},
+{
 	"uri": "https://netZoo.github.io/categories/",
 	"title": "Categories",
 	"tags": [],

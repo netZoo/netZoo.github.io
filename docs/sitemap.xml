@@ -160,6 +160,11 @@
   </url>
   
   <url>
+    <loc>https://netZoo.github.io/gsoc25/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://netZoo.github.io/categories/</loc>
   </url>
   
