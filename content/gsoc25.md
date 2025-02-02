@@ -51,7 +51,8 @@ of the various analysis steps.
 
 ## Idea #1: Refactor code 
 
-Description
+We need a programmer who would clean all I/O functions of netZooPy and/or netZooR, 
+reconciling the different input formats and 
 
 **Time allocation**: ~90 hour, ~175 hours or ~350 
 **Prerequisites**: ~90 hour, ~175 hours or ~350
@@ -69,12 +70,23 @@ Description
 
 ## Idea #3: Unit tests
 
+Both netZooR and netZooPy include unit tests in their CI, however in both cases the tests do not include all 
+functions and should be expanded and refined. For this project you could do one or multiple of the following
+(depending on time committment and skill set of the contributor):
+- Write tests for all animals' IO
+- Write tests for all internal functions, which are the animals' engines
+- Write both R and Python tests, also cross-language, when the animals are present in both repos
+
+Also, we would also like to include testing for stochastic functions, which is, for instance, the case of this
+igraph-related [active issue]()https://github.com/netZoo/netZooPy/issues/320.
+
 Description
 
 **Time allocation**: ~90 hour, ~175 hours or ~350 
-**Prerequisites**: ~90 hour, ~175 hours or ~350
-**Programming skills**: ~90 hour, ~175 hours or ~350 
-**Difficulty**: easy medium hard
+**Prerequisites**: Python and/or R, unit tests
+**Programming skills**: easy
+**Difficulty**: easy
+**Mentors**: 
 
 
 ## Idea #4: Implement graph visualization strategies for inferred networks
