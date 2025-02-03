@@ -12,17 +12,17 @@
     <title> :: The network zoo</title>
 
     
-    <link href="/css/nucleus.css?1738372670" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1738372670" rel="stylesheet">
-    <link href="/css/hybrid.css?1738372670" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1738372670" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1738372670" rel="stylesheet">
-    <link href="/css/auto-complete.css?1738372670" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1738372670" rel="stylesheet">
-    <link href="/css/theme.css?1738372670" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1738372670" rel="stylesheet">
+    <link href="/css/nucleus.css?1738559026" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1738559026" rel="stylesheet">
+    <link href="/css/hybrid.css?1738559026" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1738559026" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1738559026" rel="stylesheet">
+    <link href="/css/auto-complete.css?1738559026" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1738559026" rel="stylesheet">
+    <link href="/css/theme.css?1738559026" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1738559026" rel="stylesheet">
     
-      <link href="/css/theme-red.css?1738372670" rel="stylesheet">
+      <link href="/css/theme-red.css?1738559026" rel="stylesheet">
     
 
 
@@ -35,7 +35,7 @@
   gtag('config', 'G-TRXH486JVZ');
 </script>
 
-    <script src="/js/jquery-3.3.1.min.js?1738372670"></script>
+    <script src="/js/jquery-3.3.1.min.js?1738559026"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8595,14 +8595,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1738372670"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1738372670"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1738559026"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1738559026"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netZoo.github.io";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1738372670"></script>
+<script type="text/javascript" src="/js/search.js?1738559026"></script>
 
     
   </div>
@@ -9577,7 +9577,14 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#idea-1-refactor-code">Idea #1: Refactor code</a></li>
+    <li><a href="#idea-2-unit-tests">Idea #2: Unit tests</a></li>
+    <li><a href="#idea-3-unit-tests">Idea #3: Unit tests</a></li>
+    <li><a href="#idea-4-implement-graph-visualization-strategies-for-inferred-networks">Idea #4: Implement graph visualization strategies for inferred networks</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -9601,7 +9608,97 @@
 
 
 
-<p>Hello World!</p>
+<p>Clicking this willclosethe sidebar.Sidebar Open
+Your Library Harvard logo</p>
+<p>On
+Home
+Settings
+Close popup
+Institution Logo
+Get this article in your inbox
+We don't have this article, but we'd be happy to get it for you.</p>
+<p>Request</p>
+<p>Allow popups on this domain
+This extension is brought to you by Harvard Library. If you have any questions, please contact us.</p>
+<p>Citation modal closed</p>
+<h1 id="ideas-list-google-summer-of-code-2025">Ideas List, Google Summer of Code 2025</h1>
+<p>Welcome to the Ideas Page for the GSoC 2025, here you will find a list of possible GSoC projects for the netZoo
+organization.</p>
+<p><strong>What is the netZoo project?</strong></p>
+<p>The Network Zoo (netZoo) is a project spearheaded by the team of Prof. John Quackenbush at the Harvard T. Chan School of
+Public Health.  The lab focuses on computational methods and analyses of how transcription factors (TFs) and genes
+interact to regulate homeostasis and are disrupted in complex diseases, such as cancer or COPD. The netZoo is a
+collection of open-source methods to infer gene regulatory network, conduct differential network analyses, estimate
+community structure, and explore the transitions between biological states. The methods hosted in the netZoo have been
+developed by the lab or close collaborators during the years and have been used in dozens of scientific publications.
+The software is mostly written in R (netZooR) and Python  (netZooPy), with some exceptions in C++ and Matlab, and
+it is maintained by the lab with the goal of allowing dissemination, reproducibility, and educational purposes.</p>
+<p>To have an idea of what is in the netZoo you can check the main paper:</p>
+<blockquote>
+<p>The Network Zoo: a multilingual package for the inference and analysis of gene regulatory networks. Ben Guebila et al, 2023. Genome Biology. <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02877-1">doi:10.1186/s13059-023-02877-1</a></p>
+</blockquote>
+<p>To look into the code you can refer to the main GitHub <a href="https://github.com/netZoo">netZoo page</a>, and navigate into the
+<a href="https://github.com/netZoo/netZooR">netZooR</a> and <a href="https://github.com/netZoo/netZooPy">netZooPy</a> repos.</p>
+<p><strong>Who should apply to be a contributor?</strong></p>
+<p>We welcome all types of contributors, with a preference for students who want to dive into the computational biology
+field with a hands on approach. Working on the netZoo software requires
+at least a basic level of interest and curiosity for biological questions, such that all methods are still relevant
+and helpful for anyone who wants to run graph analysis on patient molecular biology data.</p>
+<p><strong>Who is gonna mentor the project?</strong></p>
+<p>Each project will be mentored by one of the maintainers of the netZoo packages and supervised by Prof. Quackenbush.
+On top of direct mentoring, the contributor will have access to a cutting-edge learning environment at the Harvard
+Biostatistics department. The Quackenbush lab is a highly collaborative environment that has hosted multiple highschool, undergraduate, and
+graduate students during the years. We hold weekly lab meetings where you will hear from all students and postdocs and
+will be able to ask questions and give updates on your progress.</p>
+<p><strong>How have we chosen these projects?</strong></p>
+<p>We have looked into issues and enhancement features that have come up while developing the software.
+The network zoo has started as a harmonization project, where many individual computational methods have been
+grouped under R or Python packages. Hence, project #1 and #2 will focus on refactoring and reorganizing code
+to make it more efficient and less redundant. Secondly, we recognize that scientific software, while addressing novel
+and important questions, is often lacking of the robustness of properly developed packages. With project #3 we
+encourage contributors who are interested in writing unit tests and CI scripts.
+Finally, to those who are more interested in working on graph inference and visualization, we suggest to look into
+project #4. Indeed, we would like to expand and improve the used experience, with more meaningful and helpful
+visualization methods, more appropriate IO interfaces, and animal-to-animal interfaces that allow seamless integration
+of the various analysis steps.</p>
+<h2 id="idea-1-refactor-code">Idea #1: Refactor code</h2>
+<p>We need a programmer who would clean all I/O functions of netZooPy and/or netZooR,
+reconciling the different input formats and</p>
+<p><strong>Time allocation</strong>: ~90 hour, ~175 hours or ~350
+<strong>Prerequisites</strong>: ~90 hour, ~175 hours or ~350
+<strong>Programming skills</strong>: ~90 hour, ~175 hours or ~350
+<strong>Difficulty</strong>: easy medium hard</p>
+<h2 id="idea-2-unit-tests">Idea #2: Unit tests</h2>
+<p>Description</p>
+<p><strong>Time allocation</strong>: ~90 hour, ~175 hours or ~350
+<strong>Prerequisites</strong>: ~90 hour, ~175 hours or ~350
+<strong>Programming skills</strong>: ~90 hour, ~175 hours or ~350
+<strong>Difficulty</strong>: easy medium hard</p>
+<h2 id="idea-3-unit-tests">Idea #3: Unit tests</h2>
+<p>Both netZooR and netZooPy include unit tests in their CI, however in both cases the tests do not include all
+functions and should be expanded and refined. For this project you could do one or multiple of the following
+(depending on time committment and skill set of the contributor):</p>
+<ul>
+<li>Write tests for all animals&rsquo; IO</li>
+<li>Write tests for all internal functions, which are the animals&rsquo; engines</li>
+<li>Write both R and Python tests, also cross-language, when the animals are present in both repos</li>
+</ul>
+<p>Also, we would also like to include testing for stochastic functions, which is, for instance, the case of this
+igraph-related <a href="">active issue</a><a href="https://github.com/netZoo/netZooPy/issues/320">https://github.com/netZoo/netZooPy/issues/320</a>.</p>
+<p>Description</p>
+<p><strong>Time allocation</strong>: ~90 hour, ~175 hours or ~350
+<strong>Prerequisites</strong>: Python and/or R, unit tests
+<strong>Programming skills</strong>: easy
+<strong>Difficulty</strong>: easy
+<strong>Mentors</strong>:</p>
+<h2 id="idea-4-implement-graph-visualization-strategies-for-inferred-networks">Idea #4: Implement graph visualization strategies for inferred networks</h2>
+<p>Description</p>
+<p><strong>Time allocation</strong>: ~90 hour, ~175 hours or ~350
+<strong>Prerequisites</strong>: ~90 hour, ~175 hours or ~350
+<strong>Programming skills</strong>: ~90 hour, ~175 hours or ~350
+<strong>Difficulty</strong>: easy medium hard</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 
 <footer class="footline">
@@ -10161,19 +10258,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1738372670"></script>
-    <script src="/js/perfect-scrollbar.min.js?1738372670"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1738372670"></script>
-    <script src="/js/jquery.sticky.js?1738372670"></script>
-    <script src="/js/featherlight.min.js?1738372670"></script>
-    <script src="/js/highlight.pack.js?1738372670"></script>
+    <script src="/js/clipboard.min.js?1738559026"></script>
+    <script src="/js/perfect-scrollbar.min.js?1738559026"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1738559026"></script>
+    <script src="/js/jquery.sticky.js?1738559026"></script>
+    <script src="/js/featherlight.min.js?1738559026"></script>
+    <script src="/js/highlight.pack.js?1738559026"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1738372670"></script>
-    <script src="/js/learn.js?1738372670"></script>
-    <script src="/js/hugo-learn.js?1738372670"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1738559026"></script>
+    <script src="/js/learn.js?1738559026"></script>
+    <script src="/js/hugo-learn.js?1738559026"></script>
     
         
-            <script src="/mermaid/mermaid.js?1738372670"></script>
+            <script src="/mermaid/mermaid.js?1738559026"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
