@@ -1,20 +1,3 @@
-Clicking this willclosethe sidebar.Sidebar Open
-Your Library Harvard logo
-
-On
-Home
-Settings
-Close popup
-Institution Logo
-Get this article in your inbox
-We don't have this article, but we'd be happy to get it for you.
-
-Request
-
-Allow popups on this domain
-This extension is brought to you by Harvard Library. If you have any questions, please contact us.
-
-Citation modal closed
 # Ideas List, Google Summer of Code 2025 
 
 
