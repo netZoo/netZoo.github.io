@@ -65,7 +65,8 @@ visualization methods, more appropriate IO interfaces, and animal-to-animal inte
 of the various analysis steps.
 
 While we already have a plan on how to carry out each of these projects, we welcome any expertise that could
-help and enable us to improve the code and platform. 
+help and enable us to improve the code and platform. So, if you have some ideas on how to do this, we welcome your input
+and would love to hear more about it!
 
 ## Ideas
 
@@ -81,8 +82,8 @@ For this reason, we need a programmer who would clean all I/O functions of netZo
 different input/output formats and all interfaces. This way we not only lower the risk for errors, but we also simplify
 the user experience and the ability to extend and improve methods in the future.
 
-- **Time allocation**: 175 (~90 hour, ~175 hours or ~350)
-- **Prerequisites**: R/
+- **Time allocation**: 175 
+- **Prerequisites**: OOP and functional programming
 - **Programming skills**: R and/or Python
 - **Difficulty**: easy
 - **Mentors**: Viola Fanfani, Tara Eicher, Derrick DeConti, Marouen Ben Guebila
@@ -121,7 +122,7 @@ infrastructure. For this reason, we created
 cancer, cell lines, and small molecule drugs that was originally intended to share
 networks generated with the netZoo tools. GRAND has now grown into a vast repository containing over 200,000 networks
 and associated sample metadata and since the server infrastructure was originally built for a smaller scale, it has now become
-overburdened. 
+overburdened. Also, the NIH does not currently offer infrastructure for labs to outsource publicly available storage of gene regulatory networks.
 
 We
 plan to redesign the GRAND webserver and we would need help implementing a newer and more secure version of the
