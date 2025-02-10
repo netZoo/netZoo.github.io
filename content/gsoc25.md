@@ -131,7 +131,7 @@ database. We would like to move this SQLite locally developed database to a more
 
 
 - **Time allocation**: 350
-- **Prerequisites**: Databases, 
+- **Prerequisites**: databases, cloud storage, managed relational databases
 - **Programming skills**: Python, SQL
 - **Difficulty**: hard
 - **Mentors**: Derrick DeConti, Marouen Ben Guebila, Viola Fanfani
