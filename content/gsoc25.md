@@ -1,5 +1,6 @@
 # Ideas List, Google Summer of Code 2025 
 
+
 - [Ideas List, Google Summer of Code 2025](#ideas-list-google-summer-of-code-2025)
   - [FAQ](#faq)
     - [What is the netZoo project?](#what-is-the-netzoo-project)
@@ -22,6 +23,7 @@ Welcome to the Ideas Page for the GSoC 2025, here you will find a list of possib
 
 The **Network Zoo (netZoo)** is a project spearheaded by the team of **Prof. John Quackenbush** at the **Harvard T. Chan School of
 Public Health**.  The lab focuses on computational methods and analyses of how transcription factors (TFs) and genes
+
 interact to regulate homeostasis and are disrupted in complex diseases, such as cancer or COPD. The netZoo is a
 collection of open-source methods to infer gene regulatory network, conduct differential network analyses, estimate
 community structure, and explore the transitions between biological states. The methods hosted in the netZoo have been
@@ -150,9 +152,11 @@ We would like to build an appropriate interface to interrogate and visualize the
 - **Difficulty**: medium
 - **Mentors**: Viola Fanfani, Tara Eicher, Derrick DeConti
 
+
 <!-- 
 Brief descriptions of projects that can be completed in ~90 hour, ~175 hours or ~350 hours of your GSoC contributor’s time (and labeled appropriately).
 For each project, a list of prerequisites, description of programming skills needed and estimation of difficulty level (easy, medium, hard).
 If your organization plans to focus on mostly student level potential GSoC contributors for all projects that is fine, but please state it explicitly on your Ideas Page. Or if a given project idea is geared more toward a student level or a more advanced developer please state it clearly in the project idea so there is no confusion for applicants.
 A list of potential mentors.
 It must NOT be a link to your bug tracker. -->
+
