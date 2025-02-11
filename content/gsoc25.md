@@ -12,12 +12,13 @@
     - [Idea #3: Migrate GRAND database to secure and updated technology stacks.](#idea-3-migrate-grand-database-to-secure-and-updated-technology-stacks)
     - [Idea #4: Implement graph visualization strategies for inferred networks](#idea-4-implement-graph-visualization-strategies-for-inferred-networks)
 
-
 Welcome to the Ideas Page for the GSoC 2025, here you will find a list of possible GSoC projects for the netZoo project.
 
 ## FAQ
 
 ### What is the netZoo project?
+
+
 
 The **Network Zoo (netZoo)** is a project spearheaded by the team of **Prof. John Quackenbush** at the **Harvard T. Chan School of
 Public Health**.  The lab focuses on computational methods and analyses of how transcription factors (TFs) and genes
@@ -40,7 +41,6 @@ To look into the **code** you can refer to the main GitHub [netZoo page](https:/
 field** with a hands on approach. Working on the netZoo software requires 
 at least a basic level of interest and curiosity for biological questions, such that all methods are still relevant 
 and helpful for anyone who wants to run graph analysis on patient molecular biology data.
-
 
 ### Who is gonna mentor the project?
 
@@ -72,11 +72,12 @@ and would love to hear more about it!
 
 ### Idea #1: Standardization of interfaces, inputs and outputs
 
-The network zoo has started as a harmonization project, where many individual computational methods have been 
-collected under the same R or Python packages. 
-NetZoo's fragmented history has resulted in a diverse range of file formats for both input data and output networks. Not
-only different methods require the same dataset in different format styles, but also they generate output files that
-cannot be readily fed to another method in multistep analysis. Similarly, all interfaces are not standardized creating problems for usability, interoperability, and documentation.
+The network zoo has started as a harmonization project to bring together tools that were developed around a common
+conceptual framework, but were written and maintained by different individuals. These methods can use
+different file formats for both input data and output networks. As a result, not only this increases the risk of errors
+for the users, but also serial analyses are hampered in some cases because output files from one method cannot be readily fed to
+another. Similarly, the interfaces are not standardized and minor inconsistencies can lead to problems with usability,
+interoperability, and documentation.
 
 For this reason, we need a programmer who would clean all I/O functions of netZooPy and/or netZooR, reconciling the
 different input/output formats and all interfaces. This way we not only lower the risk for errors, but we also simplify
@@ -115,39 +116,33 @@ Description
 
 ### Idea #3: Migrate GRAND database to secure and updated technology stacks.
 
-The Quackenbush Lab has dedicated a lot of effort and resources to reproducible science. While hosting, sharing, and maintaining
-code online is relatively easy and inexpensive, sharing large datasets and networks requires an appropriate space and
-infrastructure. For this reason, we created
-[GRAND](https://grand.networkmedicine.org/), a collection of gene regulatory networks derived from human tissues,
-cancer, cell lines, and small molecule drugs that was originally intended to share
-networks generated with the netZoo tools. GRAND has now grown into a vast repository containing over 200,000 networks
-and associated sample metadata and since the server infrastructure was originally built for a smaller scale, it has now become
-overburdened. Also, the NIH does not currently offer infrastructure for labs to outsource publicly available storage of gene regulatory networks.
+Our research team is dedicated to reproducible science. While hosting, sharing, and maintaining code online is
+relatively easy and inexpensive, sharing large datasets and networks requires an appropriate space and infrastructure.
+Much of our work involves creating large-scale networks for modeling the process of gene regulation, but there are no
+national databases for storing such networks, rendering much of our work potentially difficult to reproduce. To overcome
+the limitations of public databases, we created [GRAND](https://grand.networkmedicine.org/), an online repository of
+gene regulatory networks that have been derived from human tissues, cancer, and cell lines, as well as networks that
+capture cellular response to small molecule drugs. GRAND has grown into a vast repository containing over 200,000
+networks and associated sample metadata, operating on a server infrastructure originally built for a much smaller scale.
+As we continue to grow our analyses and expand the data we make available to other researchers, there is a critical need
+to refactor the code and improve our the architecture supporting this important project.
 
-We
-plan to redesign the GRAND webserver and we would need help implementing a newer and more secure version of the
-database. We would like to move this SQLite locally developed database to a more robust managed relational database, allowing us to increase security, encryption, backups, and uptime reliability.
-
-
+We plan to redesign the GRAND webserver and resource and we would need help implementing a newer and more secure version of the database. We would like to move this locally developed SQLite database to a more robust managed relational database, allowing us to increase security, encryption, backups, and uptime reliability.
 
 - **Time allocation**: 350
-- **Prerequisites**: databases, cloud storage, managed relational databases
-- **Programming skills**: Python, SQL
+- **Prerequisites**: databases, cloud storage, managed relational databases`*`
+- **Programming skills**: Python, SQL, MongoDB`*`
 - **Difficulty**: hard
 - **Mentors**: Derrick DeConti, Marouen Ben Guebila, Viola Fanfani
+
+`*`Preferred but not required.
 
 
 ### Idea #4: Implement graph visualization strategies for inferred networks
 
-Each netZoo method deals with gene regulatory networks, hence they use, manipulate, or infer weighted graphs with more than 10,000
-nodes. In many occasions, visually representing these networks could be beneficical to understand their
-general structure, to investigate specific links, or to show differences between graphs. The effective visualization of
-large graphs is often challenging and so far the netZoo doesn't have a dedicated interface, but it is relying on ad-hoc
-scripts and functions. 
+The netZoo methods infer or analyze gene regulatory networks that are represented by weighted graphs with more than 20,000 nodes and many more edges. For many analyses, visually representing these networks (and color-coding the nodes based on the properties of the genes) can provide new insights into the processes driving health and disease and comparing graphs between conditions or over time can lead to a deeper understanding of how diseases develop and progress.  Effective visualization of such large graphs can be challenging and netZoo does not yet have a dedicated interface or tools for creating robust, scalable visualizations. 
 
-We would like to build an appropriate interface to interrogate and visualize the output of the netZoo methods. First,
-one would need to refactor and standardize the outputs of all animals. Then we would like to have programmatic access to
-graph visualization, that would include sub-setting the nodes/edge and appropriately group or color entities.
+We would like to build an appropriate interface to interrogate and visualize the output of the netZoo methods. First, one would need to refactor and standardize the outputs of all the individual methods (see Idea #1). Then one would have to develop graph visualization that address key questions, including sub-setting the nodes/edge and appropriately grouping or coloingr entities.
 
 - **Time allocation**: 350 
 - **Prerequisites**: Data viz
