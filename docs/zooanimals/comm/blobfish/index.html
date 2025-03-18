@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.61.0" />
-    <meta name="description" content="Network biology packages">
+    <meta name="description" content="BLOBFISH is a method to obtain a subnetwork connecting nodes of interest across observation-specific biological networks. Many biological networks are bipartite, such as expression quantitative trait loci (eQTL) networks, gene regulatory networks, and multi-omic partial correlation networks. However, the size of omics-scale bipartite networks can make them difficult to interpret as a whole; motivating the development of tools that evaluate connectivity between a subset of nodes. In addition, observation-specific networks (i.e., sample-specific or subject-specific networks) introduce the possibility of subsetting robust edges that are consistent across observations. BLOBFISH evaluates connectivity between a subset of nodes in a set of observation-specific bipartite networks by first finding significant edges across observations in comparison to a null distribution, and then using a breadth-first-search to uncover paths between seed nodes limited to a prespecified number of hops.">
 
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Network pre-processing :: The network zoo</title>
+    <title>BLOBFISH :: The network zoo</title>
 
     
     <link href="/css/nucleus.css?1742335651" rel="stylesheet">
@@ -47,7 +47,7 @@
     
   
   </head>
-  <body class="" data-url="/zooanimals/preproc/">
+  <body class="" data-url="/zooanimals/comm/blobfish/">
     <nav id="sidebar" class="">
 
 
@@ -8659,8 +8659,8 @@
   
     
     <li data-nav-id="/zooanimals/preproc/" title="Network pre-processing" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/zooanimals/preproc/">
@@ -8917,7 +8917,7 @@
   
     
     <li data-nav-id="/zooanimals/comm/" title="Community detection" class="dd-item
-        
+        parent
         
         
         ">
@@ -8998,8 +8998,8 @@
   
     
     <li data-nav-id="/zooanimals/comm/blobfish/" title="BLOBFISH" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/zooanimals/comm/blobfish/">
@@ -9580,6 +9580,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -9594,7 +9596,13 @@
             
           
           
-            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > Network pre-processing
+            
+            
+          
+          
+            <a href='/'>The network zoo</a> > <a href='/zooanimals/'>Zoo animals</a> > <a href='/zooanimals/comm/'>Community detection</a> > BLOBFISH
+          
+         
           
          
           
@@ -9605,6 +9613,23 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reference">Reference</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -9612,9 +9637,12 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              BLOBFISH
+            </h1>
           
 
         
@@ -9622,68 +9650,25 @@
 
 
 
-	<h1 id="network-pre-processing">Network pre-processing</h1>
-<h3 id="gene-expression-data-processing-for-network-inference">Gene expression data processing for network inference</h3>
+	<p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
 
 
 
+<div data-badge-popover="right" data-badge-type="donut" data-doi="doi.org/2025.03.11.642378" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
-
-
-<ul class="children children-li">
-	
-
-	
-		
-			
-		
-	
-
-	
-
-	
-		
-	
-		
-			
-				
-<li>
-<a href="/zooanimals/preproc/yarn/" >YARN</a>
-</li>
-				
-
-				
-					
-<p>YARN is a package that combines quality control, gene filtering, and normalization steps to streamline the preprocessing of large-scale, multi-tissue gene expression data from resources such as the Genotype-Tissue Expression (GTEx) project. Among other steps, YARN uses principal coordinate analysis (PCoA) to determine if samples collected from different sites on the same tissue (for example, transverse and sigmoid colon) can be treated as &#34;transcriptionally indistinguishable&#34; and grouped together to increase power for downstream analyses. Paulsson et al. (2017) demonstrate the use of YARN to develop a pan-cancer RNA-seq dataset for 30,333 genes from 9435 samples across 38 tissues from the GTEx dataset.</p>
-					
-				
-			
-			
-		
-	
-		
-			
-				
-<li>
-<a href="/zooanimals/preproc/cobra/" >COBRA</a>
-</li>
-				
-
-				
-					
-<p>COBRA is method for correction of high-order batch effects such as those that persist in co-expression networks. Batch effects and other covariates are known to induce spurious associations in co-expression networks and confound differential gene expression analyses. These effects are corrected for using various methods prior to downstream analyses such as the inference of co-expression networks and computing differences between them. In differential co-expression analysis, the pairwise joint distribution of genes is considered rather than independently analyzing the distribution of expression levels for each individual gene. Computing co-expression matrices after standard batch correction on gene expression data is not sufficient to account for the possibility of batch-induced changes in the correlation between genes as existing batch correction methods act solely on the marginal distribution of each gene. Consequently, uncorrected, artifactual differential co-expression can skew the correlation structure such that network-based methods that use gene co-expression can produce false, nonbiological associations even using data corrected using standard batch correction. Co-expression Batch Reduction Adjustment (COBRA) addresses this question by computing a batch-corrected gene co-expression matrix based on estimating a conditional covariance matrix. COBRA estimates a reduced set of parameters that express the co-expression matrix as a function of the sample covariates and can be used to control for continuous and categorical covariates. The method is computationally fast and makes use of the inherently modular structure of genomic data to estimate accurate gene regulatory associations and enable functional analysis for high-dimensional genomic data.</p>
-					
-				
-			
-			
-		
-	
-
-	
-</ul>
-
-
+</p>
+<h3 id="reference">Reference</h3>
+<p>BLOBFISH: Bipartite Limited Subnetworks from Multiple Observations using Breadth-First Search with Constrained Hops</p>
+<p>Tara Eicher, Marouen Ben Guebila, John Quackenbush</p>
+<p>bioRxiv</p>
+<p><a href="https://www.biorxiv.org/content/10.1101/2025.03.11.642378v1.abstract">doi.org/10.1101/2025.03.11.642378</a></p>
+<h3 id="abstract">Abstract</h3>
+<p>In analyzing gene regulatory network models, a common question is how members of a particular set of genes are connected. For example, one might want to explore network relationship between a set of differentially expressed genes, a gene set previously reported in the literature, or elements of one or more pathways. BLOBFISH uses a breadth-first search algorithm adapted to bipartite graphs to identify a compact subnetwork connecting the members of a pre-specified set of genes, providing a regulatory context that can shed light on specific mechanisms involved in a phenotype and its development. We demonstrate the use of BLOBFISH to extract gene regulatory subnetworks reflecting tissue specificity using publicly available data from the Genotype Tissue Expression (GTEx) project.</p>
+<h3 id="implementation">Implementation</h3>
+<p><a href="https://github.com/netZoo/netZooR">netZooR</a></p>
 
 
 
@@ -9693,8 +9678,6 @@
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -9742,6 +9725,8 @@
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -9752,107 +9737,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -9956,6 +9840,112 @@
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -10255,10 +10245,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/zooanimals/" title="Zoo animals"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/zooanimals/comm/alpaca/" title="ALPACA"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/zooanimals/preproc/yarn/" title="YARN" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/zooanimals/comm/crane/" title="CRANE" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
