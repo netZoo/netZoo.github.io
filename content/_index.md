@@ -23,7 +23,7 @@ netZoo{R,Py,M,C} is a menagerie of network biology methods. Implementation detai
 
 If you use netZoo, please cite us using the following format:
 
-> We used TIGER (Chen and Padi, 2024) as implemented in netZooR v 1.4 (Ben Guebila et al, 2023) and R v 4.2.
+> We used BLOBFISH (Eicher et al, 2025) as implemented in netZooR v 1.6.1 (Ben Guebila et al, 2023) and R v 4.3.1.
 
 See the following citation [example](https://www.sciencedirect.com/science/article/pii/S2211124720307762) for reference.
 
