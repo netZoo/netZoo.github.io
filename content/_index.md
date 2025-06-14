@@ -69,7 +69,7 @@ prior.
 
 Continuous integration (ZooKeeper) is enabled for netZoo using [Travis](https://travis-ci.com/github/netZoo) for netZooC and netZooM,  and [GitHub actions](https://github.com/netZoo/netZooR/actions) for netZooR and netZooPy.
 
-R &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](http://zookeeper.networkmedicine.org/job/netZooR_Ubuntu18.04/lastBuild/) ([Ubuntu](https://github.com/netZoo/netZooR/actions), [Macos](https://github.com/netZoo/netZooR/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooR)
+R &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [build status](https://github.com/netZoo/netZooR/actions) ([Ubuntu](https://github.com/netZoo/netZooR/actions), [Macos](https://github.com/netZoo/netZooR/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooR)
 
 Python &nbsp; - [build status](https://github.com/netZoo/netZooPy/actions) ([Ubuntu](https://github.com/netZoo/netZooPy/actions), [Macos](https://github.com/netZoo/netZooPy/actions)) - [coverage](https://codecov.io/gh/netZoo/netZooPy)
 
