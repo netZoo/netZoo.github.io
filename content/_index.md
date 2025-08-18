@@ -29,6 +29,8 @@ See the following citation [example](https://www.sciencedirect.com/science/artic
 
 A collection of tutorials is hosted on [Netbooks](https://netbooks.networkmedicine.org/), a cloud server that allows to run code without installing dependencies. It is possible to  run these tutorials locally on a computer using [R markdown](https://netzoo.github.io/netZooR/), [Jupyter notebooks](https://netzoopy.readthedocs.io/en/latest/tutos/index.html), and [LiveScript](https://netzoom.readthedocs.io/en/latest/tutos/index.html).
 
+Seahorse, A new resource for gene expression is available in https://seahorse.tm4.org
+
 ### netZoo ecosystem
 
 - Methods are available as a web interface through [netZooCloud](https://netzoocloud.networkmedicine.org/) {{% button href="https://netzoocloud.networkmedicine.org/" %}}beta!{{% /button %}}.
