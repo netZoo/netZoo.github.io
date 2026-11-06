@@ -51,6 +51,7 @@
   <body class="" data-url="{{ .RelPermalink }}">
     {{ partial "menu.html" . }}
         <section id="body">
+        {{ partial "migration-banner.html" . }}
         <div id="overlay"></div>
         <div class="padding highlightable">
               {{if not .IsHome}}
